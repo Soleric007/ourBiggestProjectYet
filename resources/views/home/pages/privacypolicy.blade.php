@@ -7,99 +7,112 @@
   <title>StreamIT | Responsive Bootstrap 5 Template</title>
   <!-- Google Font Api KEY-->
   <meta name="google_font_api" content="AIzaSyBG58yNdAjc20_8jAvLNSVi9E4Xhwjau_k">
-  
+
   <!-- Favicon -->
-  <link rel="shortcut icon" href="assets/images/favicon.ico" />
-  
+  <link rel="shortcut icon" href="template/assets/images/favicon.ico" />
+
   <!-- Library / Plugin Css Build -->
-  <link rel="stylesheet" href="assets/css/core/libs.min.css" />
-  
+  <link rel="stylesheet" href="template/assets/css/core/libs.min.css" />
+
   <!-- font-awesome css -->
-  <link rel="stylesheet" href="assets/vendor/font-awesome/css/all.min.css" />
-  
+  <link rel="stylesheet" href="template/assets/vendor/font-awesome/css/all.min.css" />
+
   <!-- Iconly css -->
-  <link rel="stylesheet" href="assets/vendor/iconly/css/style.css" />
-  
+  <link rel="stylesheet" href="template/assets/vendor/iconly/css/style.css" />
+
   <!-- Animate css -->
-  <link rel="stylesheet" href="assets/vendor/animate.min.css" />
-  
-  
-  
-  
-  
-  
+  <link rel="stylesheet" href="template/assets/vendor/animate.min.css" />
+
+
+
+
+
+
   <!-- Streamit Design System Css -->
-  <link rel="stylesheet" href="assets/css/streamit.min%EF%B9%96v=5.2.1.css" />
-  
+  <link rel="stylesheet" href="template/assets/css/streamit.min%EF%B9%96v=5.2.1.css" />
+
   <!-- Custom Css -->
-  <link rel="stylesheet" href="assets/css/custom.min%EF%B9%96v=5.2.1.css" />
-  
+  <link rel="stylesheet" href="template/assets/css/custom.min%EF%B9%96v=5.2.1.css" />
+
   <!-- Rtl Css -->
-  <link rel="stylesheet" href="assets/css/rtl.min%EF%B9%96v=5.2.1.css" />
-  
+  <link rel="stylesheet" href="template/assets/css/rtl.min%EF%B9%96v=5.2.1.css" />
+
   <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&amp;display=swap" rel="stylesheet">
-  
+
 </head>
 
-<body class="  ">
+<body class="">
   <span class="screen-darken"></span>
   <!-- loader Start -->
    <!-- loader Start -->
   <div class="loader simple-loader">
      <div class="loader-body">
-        <img src="assets/images/loader.gif" alt="loader" class="img-fluid " width="300">
+        <img src="template/assets/images/loader.gif" alt="loader" class="img-fluid " width="300">
       </div>
   </div>
   <!-- loader END -->  <!-- loader END -->
   <main class="main-content">
       <!--Nav Start-->
-      <!--Nav End-->
+    <!-- Start Header Section -->
+
+    @include('home.sections.header')
+
+    <!-- End Header Section -->    <!--Nav End-->
 
       <!--bread-crumb-->
-      <!--bread-crumb-->
+      <div class="iq-breadcrumb" style="background-image: url(template/assets/images/pages/01.webp);">
+         <div class="container-fluid">
+            <div class="row align-items-center">
+                  <div class="col-sm-12">
+                      <nav aria-label="breadcrumb" class="text-center">
+                          <h2 class="title">Privacy Policy</h2>
+                          <ol class="breadcrumb justify-content-center">
+                              <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                              <li class="breadcrumb-item active">Privacy Policy</li>
+                          </ol>
+                      </nav>
+                  </div>
+              </div>
+         </div>
+      </div>      <!--bread-crumb-->
 
 
-<div class="vh-100" style="background: url('assets/images/pages/01.webp'); background-size: cover; background-repeat: no-repeat; position: relative;min-height:500px">
-  <div class="container">
-    <div class="row justify-content-center align-items-center height-self-center vh-100">
-        <div class="col-lg-5 col-md-12 align-self-center">
-            <div class="user-login-card bg-body">
-                <p>
-                    Please enter your username or email address. You will receive a link to create a new password via email.
-                </p>
-                <form action="https://templates.iqonic.design/streamit-dist/frontend/html/post">
-                    <div class="mb-5">
-                        <label class="text-white fw-500 mb-2">Username or Email Address</label>
-                        <input type="text" class="form-control rounded-0" required="">
-                    </div>
-                    <div class="iq-button">
-                        <a href="#" class="btn text-uppercase position-relative">
-                            <span class="button-text">Get new password</span>
-                            <i class="fa-solid fa-play"></i>
-                        </a>
-                    </div>
-                    <div class="seperator d-flex justify-content-center align-items-center">
-                        <span class="line"></span>
-                    </div>     
-                    <div class="iq-button">
-                        <a href="login.html" class="btn text-uppercase position-relative">
-                            <span class="button-text">log in</span>
-                            <i class="fa-solid fa-play"></i>
-                        </a>
-                    </div>
-                </form>
-            </div>
+<div class="section-padding">
+    <div class="container">
+        <div class="title-box">
+            <h4 class="mb-4">1. What Personal Information About Users Does streamit Collect?</h4>
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis nisl dignissim, placerat diam ac, egestas ante. Morbi varius quis orci feugiat hendrerit. Morbi ullamcorper consequat justo, in posuere nisi efficitur sed. Vestibulum semper dolor id arcu finibus volutpat. Integer condimentum ex tellus, ac finibus metus sodales in. Proin blandit congue ipsum ac dapibus. Integer blandit eros elit, vel luctus tellus finibus in. Aliquam non urna ut leo vestibulum mattis ac nec dolor. Nulla libero mauris, dapibus non aliquet viverra, elementum eget lorem</p>
+        </div>
+        <div class="title-box">
+            <h4 class="mb-4">2. Cookies and Web Beacons</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis nisl dignissim, placerat diam ac, egestas ante. Morbi varius quis orci feugiat hendrerit. Morbi ullamcorper consequat justo, in posuere nisi efficitur sed.</p>
+            <p class="mb-0">Vestibulum semper dolor id arcu finibus volutpat. Integer condimentum ex tellus, ac finibus metus sodales in. Proin blandit congue ipsum ac dapibus. Integer blandit eros elit, vel luctus tellus finibus in. Aliquam non urna ut leo vestibulum mattis ac nec dolor. Nulla libero mauris, dapibus non aliquet viverra, elementum eget lorem</p>
+        </div>
+        <div class="title-box">
+            <h4 class="mb-4">3. Third Party Payment Gateway – Financial Information</h4>
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis nisl dignissim, placerat diam ac, egestas ante. Morbi varius quis orci feugiat hendrerit. Morbi ullamcorper consequat justo, in posuere nisi efficitur sed. Vestibulum semper dolor id arcu finibus volutpat. Integer condimentum ex tellus, ac finibus metus sodales in. Proin blandit congue ipsum ac dapibus. Integer blandit eros elit, vel luctus tellus finibus in. Aliquam non urna ut leo vestibulum mattis ac nec dolor. Nulla libero mauris, dapibus non aliquet viverra, elementum eget lorem</p>
+        </div>
+        <div class="title-box">
+            <h4 class="mb-4">4. Disclosure Children’s Privacy</h4>
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis nisl dignissim, placerat diam ac, egestas ante. Morbi varius quis orci feugiat hendrerit. Morbi ullamcorper consequat justo, in posuere nisi efficitur sed. Vestibulum semper dolor id arcu finibus volutpat. Integer condimentum ex tellus, ac finibus metus sodales in. Proin blandit congue ipsum ac dapibus. Integer blandit eros elit, vel luctus tellus finibus in. Aliquam non urna ut leo vestibulum mattis ac nec dolor. Nulla libero mauris, dapibus non aliquet viverra, elementum eget lorem</p>
+        </div>
+        <div class="title-box">
+            <h4 class="mb-4">5. Data transfer, storage & processing globally</h4>
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis nisl dignissim, placerat diam ac, egestas ante. Morbi varius quis orci feugiat hendrerit. Morbi ullamcorper consequat justo, in posuere nisi efficitur sed. Vestibulum semper dolor id arcu finibus volutpat. Integer condimentum ex tellus, ac finibus metus sodales in. Proin blandit congue ipsum ac dapibus. Integer blandit eros elit, vel luctus tellus finibus in. Aliquam non urna ut leo vestibulum mattis ac nec dolor. Nulla libero mauris, dapibus non aliquet viverra, elementum eget lorem</p>
         </div>
     </div>
-  </div>
 </div>
 
   </main>
 
+  <!-- Start Footer Section -->
 
+  @include('home.sections.footer')
+
+  <!-- End Footer Section -->
 
   <div class="rtl-box">
       <a class="btn btn-icon btn-setting" id="settingbutton" data-bs-toggle="offcanvas"
@@ -113,22 +126,22 @@
       <div class="offcanvas offcanvas-end live-customizer on-rtl end" tabindex="-1" id="live-customizer"
           data-bs-scroll="true" data-bs-backdrop="false" aria-labelledby="live-customizer-label" aria-modal="true"
           role="dialog">
-          <div class="offcanvas-header gap-3">
+          <div class="gap-3 offcanvas-header">
               <div class="d-flex align-items-center">
                   <h5 class="offcanvas-title text-dark" id="live-customizer-label">Live Customizer</h5>
               </div>
-              <div class="d-flex gap-1 align-items-center">
+              <div class="gap-1 d-flex align-items-center">
                   <button class="btn btn-icon text-primary" data-reset="settings" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Reset All Settings"
                       data-bs-original-title="Reset All Settings">
                       <span class="btn-inner">
                           <i class="fa-solid fa-arrows-rotate"></i>
                       </span>
                   </button>
-                  <button type="button" class="btn btn-icon btn-close px-0 text-reset shadow-none text-dark" data-bs-dismiss="offcanvas" aria-label="Close">
+                  <button type="button" class="px-0 shadow-none btn btn-icon btn-close text-reset text-dark" data-bs-dismiss="offcanvas" aria-label="Close">
                   </button>
-              </div>            
+              </div>
           </div>
-          <div class="offcanvas-body pt-0">
+          <div class="pt-0 offcanvas-body">
               <div class="modes row row-cols-2 gx-2">
                   <div class="col">
                       <div data-setting="attribute" class="text-center w-100">
@@ -149,12 +162,12 @@
                       </div>
                   </div>
               </div>
-              <div class="modes mt-3">
-                  <div class="color-customizer mb-3">
+              <div class="mt-3 modes">
+                  <div class="mb-3 color-customizer">
                       <h6 class="mb-0 title-customizer">Color Customizer</h6>
                   </div>
                   <div class="row row-cols-2 gx-2">
-                      <div class="col mb-3">
+                      <div class="mb-3 col">
                           <div data-setting="attribute" class="text-center w-100">
                               <input type="radio" value="dark" class="btn-check" name="theme_style_appearance"
                                   data-prop="data-bs-theme" id="theme-scheme-color-netflix" data-colors="{&quot;primary&quot;: &quot;#e50914&quot;, &quot;secondary&quot;: &quot;#adafb8&quot;, &quot;tertiray&quot;: &quot;#adafb8&quot;}" checked>
@@ -163,7 +176,7 @@
                               </label>
                           </div>
                       </div>
-                      <div class="col mb-3">
+                      <div class="mb-3 col">
                           <div data-setting="attribute" class="text-center w-100">
                               <input type="radio" value="hotstar" class="btn-check" name="theme_style_appearance"
                                   data-prop="data-bs-theme" id="theme-scheme-color-hotstar" data-colors="{&quot;primary&quot;: &quot;#0959E4&quot;, &quot;secondary&quot;: &quot;#adafb8&quot;, &quot;tertiray&quot;: &quot;#EA4335&quot;}">
@@ -195,34 +208,34 @@
           </div>
       </div>
   </div>  <div id="back-to-top" style="display: none;">
-     <a class="p-0 btn bg-primary btn-sm position-fixed top border-0 rounded-circle text-white" id="top" href="#top">
+     <a class="p-0 text-white border-0 btn bg-primary btn-sm position-fixed top rounded-circle" id="top" href="#top">
         <i class="fa-solid fa-chevron-up"></i>
      </a>
   </div>
   <!-- Wrapper End-->
   <!-- Library Bundle Script -->
-  <script src="assets/js/core/libs.min.js"></script>
+  <script src="template/assets/js/core/libs.min.js"></script>
   <!-- Plugin Scripts -->
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
   <!-- Lodash Utility -->
-  <script src="assets/vendor/lodash/lodash.min.js"></script>
+  <script src="template/assets/vendor/lodash/lodash.min.js"></script>
   <!-- External Library Bundle Script -->
-  <script src="assets/js/core/external.min.js"></script>
+  <script src="template/assets/js/core/external.min.js"></script>
   <!-- countdown Script -->
-  <script src="assets/js/plugins/countdown.js"></script>
+  <script src="template/assets/js/plugins/countdown.js"></script>
   <!-- utility Script -->
-  <script src="assets/js/utility.js"></script>
+  <script src="template/assets/js/utility.js"></script>
   <!-- Setting Script -->
-  <script src="assets/js/setting.js"></script>
-  <script src="assets/js/setting-init.js" defer></script>
+  <script src="template/assets/js/setting.js"></script>
+  <script src="template/assets/js/setting-init.js" defer></script>
   <!-- Streamit Script -->
-  <script src="assets/js/streamit.js" defer></script>
-  <script src="assets/js/swiper.js" defer></script>
+  <script src="template/assets/js/streamit.js" defer></script>
+  <script src="template/assets/js/swiper.js" defer></script>
 </body>
 
 </html>

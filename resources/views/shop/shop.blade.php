@@ -7,45 +7,45 @@
   <title>StreamIT | Responsive Bootstrap 5 Template</title>
   <!-- Google Font Api KEY-->
   <meta name="google_font_api" content="AIzaSyBG58yNdAjc20_8jAvLNSVi9E4Xhwjau_k">
-  
+
   <!-- Favicon -->
-  <link rel="shortcut icon" href="../assets/images/favicon.ico" />
-  
+  <link rel="shortcut icon" href="../template/assets/images/favicon.ico" />
+
   <!-- Library / Plugin Css Build -->
-  <link rel="stylesheet" href="../assets/css/core/libs.min.css" />
-  
+  <link rel="stylesheet" href="../template/assets/css/core/libs.min.css" />
+
   <!-- font-awesome css -->
-  <link rel="stylesheet" href="../assets/vendor/font-awesome/css/all.min.css" />
-  
+  <link rel="stylesheet" href="../template/assets/vendor/font-awesome/css/all.min.css" />
+
   <!-- Iconly css -->
-  <link rel="stylesheet" href="../assets/vendor/iconly/css/style.css" />
-  
+  <link rel="stylesheet" href="../template/assets/vendor/iconly/css/style.css" />
+
   <!-- Animate css -->
-  <link rel="stylesheet" href="../assets/vendor/animate.min.css" />
-  
-  
-  
+  <link rel="stylesheet" href="../template/assets/vendor/animate.min.css" />
+
+
+
   <!-- Sweetlaert2 css -->
-  <link rel="stylesheet" href="../assets/vendor/sweetalert2/sweetalert2.min.css"/>
-  
-  
+  <link rel="stylesheet" href="../template/assets/vendor/sweetalert2/sweetalert2.min.css"/>
+
+
   <!-- NoUI Slider css -->
-  <link rel="stylesheet" href="../assets/vendor/noUiSilder/style/nouislider.min.css">
-  
+  <link rel="stylesheet" href="../template/assets/vendor/noUiSilder/style/nouislider.min.css">
+
   <!-- Streamit Design System Css -->
-  <link rel="stylesheet" href="../assets/css/streamit.min%EF%B9%96v=5.2.1.css" />
-  
+  <link rel="stylesheet" href="../template/assets/css/streamit.min%EF%B9%96v=5.2.1.css" />
+
   <!-- Custom Css -->
-  <link rel="stylesheet" href="../assets/css/custom.min%EF%B9%96v=5.2.1.css" />
-  
+  <link rel="stylesheet" href="../template/assets/css/custom.min%EF%B9%96v=5.2.1.css" />
+
   <!-- Rtl Css -->
-  <link rel="stylesheet" href="../assets/css/rtl.min%EF%B9%96v=5.2.1.css" />
-  
+  <link rel="stylesheet" href="../template/assets/css/rtl.min%EF%B9%96v=5.2.1.css" />
+
   <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&amp;display=swap" rel="stylesheet">
-  
+
 </head>
 
 <body class="  ">
@@ -54,7 +54,7 @@
    <!-- loader Start -->
   <div class="loader simple-loader">
      <div class="loader-body">
-        <img src="../assets/images/loader.gif" alt="loader" class="img-fluid " width="300">
+        <img src="../template/assets/images/loader.gif" alt="loader" class="img-fluid " width="300">
       </div>
   </div>
   <!-- loader END -->  <!-- loader END -->
@@ -67,23 +67,23 @@
                       <div class="col-md-3">
                           <!--Logo -->
                           <div class="logo-default">
-                              <a class="navbar-brand text-primary" href="../index.html"> 
-                                  <img class="img-fluid logo" src="../assets/images/logo.webp" loading="lazy" alt="streamit" />
+                              <a class="navbar-brand text-primary" href="../index.html">
+                                  <img class="img-fluid logo" src="../template/assets/images/logo.webp" loading="lazy" alt="streamit" />
                               </a>
                           </div>
                           <div class="logo-hotstar">
-                              <a class="navbar-brand text-primary" href="../index.html"> 
-                                  <img class="img-fluid logo" src="../assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
+                              <a class="navbar-brand text-primary" href="../index.html">
+                                  <img class="img-fluid logo" src="../template/assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
                               </a>
-                          </div> 
+                          </div>
                           <div class="logo-prime">
-                              <a class="navbar-brand text-primary" href="../index.html"> 
-                                  <img class="img-fluid logo" src="../assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
+                              <a class="navbar-brand text-primary" href="../index.html">
+                                  <img class="img-fluid logo" src="../template/assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
                               </a>
-                          </div> 
+                          </div>
                           <div class="logo-hulu">
-                              <a class="navbar-brand text-primary" href="../index.html"> 
-                                  <img class="img-fluid logo" src="../assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
+                              <a class="navbar-brand text-primary" href="../index.html">
+                                  <img class="img-fluid logo" src="../template/assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
                               </a>
                           </div>
                       </div>
@@ -154,7 +154,7 @@
                                   <ul class="dropdown-menu dropdown-menu-end dropdown-user border-0 p-0 m-0"
                                       aria-labelledby="navbarDropdown">
                                       <li class="user-info d-flex align-items-center gap-3 mb-3">
-                                          <img src="../assets/images/user/user1.webp" class="img-fluid" alt=""
+                                          <img src="../template/assets/images/user/user1.webp" class="img-fluid" alt=""
                                               loading="lazy">
                                           <span class="font-size-14 fw-500 text-capitalize text-white">Jenny</span>
                                       </li>
@@ -220,23 +220,23 @@
                               </div>
                              <!--Logo -->
                               <div class="logo-default">
-                                  <a class="navbar-brand text-primary" href="../index.html"> 
-                                      <img class="img-fluid logo" src="../assets/images/logo.webp" loading="lazy" alt="streamit" />
+                                  <a class="navbar-brand text-primary" href="../index.html">
+                                      <img class="img-fluid logo" src="../template/assets/images/logo.webp" loading="lazy" alt="streamit" />
                                   </a>
                               </div>
                               <div class="logo-hotstar">
-                                  <a class="navbar-brand text-primary" href="../index.html"> 
-                                      <img class="img-fluid logo" src="../assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
+                                  <a class="navbar-brand text-primary" href="../index.html">
+                                      <img class="img-fluid logo" src="../template/assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
                                   </a>
-                              </div> 
+                              </div>
                               <div class="logo-prime">
-                                  <a class="navbar-brand text-primary" href="../index.html"> 
-                                      <img class="img-fluid logo" src="../assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
+                                  <a class="navbar-brand text-primary" href="../index.html">
+                                      <img class="img-fluid logo" src="../template/assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
                                   </a>
-                              </div> 
+                              </div>
                               <div class="logo-hulu">
-                                  <a class="navbar-brand text-primary" href="../index.html"> 
-                                      <img class="img-fluid logo" src="../assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
+                                  <a class="navbar-brand text-primary" href="../index.html">
+                                      <img class="img-fluid logo" src="../template/assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
                                   </a>
                               </div>
                           </div>
@@ -247,23 +247,23 @@
                                 <div class="navbar-brand ms-3">
                                   <!--Logo -->
                                   <div class="logo-default">
-                                      <a class="navbar-brand text-primary" href="../index.html"> 
-                                          <img class="img-fluid logo" src="../assets/images/logo.webp" loading="lazy" alt="streamit" />
+                                      <a class="navbar-brand text-primary" href="../index.html">
+                                          <img class="img-fluid logo" src="../template/assets/images/logo.webp" loading="lazy" alt="streamit" />
                                       </a>
                                   </div>
                                   <div class="logo-hotstar">
-                                      <a class="navbar-brand text-primary" href="../index.html"> 
-                                          <img class="img-fluid logo" src="../assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
+                                      <a class="navbar-brand text-primary" href="../index.html">
+                                          <img class="img-fluid logo" src="../template/assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
                                       </a>
-                                  </div> 
+                                  </div>
                                   <div class="logo-prime">
-                                      <a class="navbar-brand text-primary" href="../index.html"> 
-                                          <img class="img-fluid logo" src="../assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
+                                      <a class="navbar-brand text-primary" href="../index.html">
+                                          <img class="img-fluid logo" src="../template/assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
                                       </a>
-                                  </div> 
+                                  </div>
                                   <div class="logo-hulu">
-                                      <a class="navbar-brand text-primary" href="../index.html"> 
-                                          <img class="img-fluid logo" src="../assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
+                                      <a class="navbar-brand text-primary" href="../index.html">
+                                          <img class="img-fluid logo" src="../template/assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
                                       </a>
                                   </div>
                                 </div>
@@ -613,7 +613,7 @@
                                               <div class="dropdown-menu dropdown-menu-end dropdown-user border-0 p-0 m-0"
                                                   aria-labelledby="navbarDropdown2">
                                                   <div class="user-info d-flex align-items-center gap-3 mb-3">
-                                                      <img src="../assets/images/user/user1.webp" class="img-fluid" alt=""
+                                                      <img src="../template/assets/images/user/user1.webp" class="img-fluid" alt=""
                                                           loading="lazy">
                                                       <span
                                                           class="font-size-14 fw-500 text-capitalize text-white">Jenny</span>
@@ -661,7 +661,7 @@
               </nav>
           </div>
       </header>
-      
+
       <!-- ==================
       Cart Sidebar
       ========================= -->
@@ -677,7 +677,7 @@
                           <li class="cart-item mb-4 pb-4 border-bottom">
                               <div class="cart-item-block d-flex gap-3">
                                   <div class="image flex-shrink-0">
-                                      <img src="../assets/images/shop/product/02.webp" width="90" alt="product-image"
+                                      <img src="../template/assets/images/shop/product/02.webp" width="90" alt="product-image"
                                           class="img-fluid object-cover">
                                   </div>
                                   <div class="cart-block-content position-relative flex-grow-1 pe-5">
@@ -717,7 +717,7 @@
                           <li class="cart-item mb-4 pb-4 border-bottom">
                               <div class="cart-item-block d-flex gap-3">
                                   <div class="image flex-shrink-0">
-                                      <img src="../assets/images/shop/product/04.webp" width="90" alt="product-image"
+                                      <img src="../template/assets/images/shop/product/04.webp" width="90" alt="product-image"
                                           class="img-fluid object-cover">
                                   </div>
                                   <div class="cart-block-content position-relative flex-grow-1 pe-5">
@@ -757,7 +757,7 @@
                           <li class="cart-item">
                               <div class="cart-item-block d-flex gap-3">
                                   <div class="image flex-shrink-0">
-                                      <img src="../assets/images/shop/product/05.webp" width="90" alt="product-image"
+                                      <img src="../template/assets/images/shop/product/05.webp" width="90" alt="product-image"
                                           class="img-fluid object-cover">
                                   </div>
                                   <div class="cart-block-content position-relative flex-grow-1 pe-5">
@@ -805,7 +805,7 @@
                           <a href="checkout.html" class="btn bg-primary text-uppercase fw-medium w-100 text-white">
                               <span class="button-text small">checkout</span>
                           </a>
-      
+
                           <a href="cart.html" class="btn bg-light text-uppercase fw-medium w-100 text-dark">
                               <span class="button-text small">view cart</span>
                           </a>
@@ -816,19 +816,19 @@
       </div>      <!--Nav End-->
 
       <!--bread-crumb-->
-      <div class="iq-breadcrumb" style="background-image: url(../assets/images/pages/01.webp);">
+      <div class="iq-breadcrumb" style="background-image: url(../template/assets/images/pages/01.webp);">
          <div class="container-fluid">
             <div class="row align-items-center">
                   <div class="col-sm-12">
                       <nav aria-label="breadcrumb" class="text-center">
                           <h2 class="title">Shop</h2>
                           <ol class="breadcrumb justify-content-center">
-                              <li class="breadcrumb-item"><a href="../index.html">Home</a></li> 
+                              <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
                               <li class="breadcrumb-item active">Shop</li>
                           </ol>
                       </nav>
                   </div>
-              </div> 
+              </div>
          </div>
       </div>      <!--bread-crumb-->
 
@@ -900,7 +900,7 @@
                             <small id="upper-value">&nbsp;$50</small>
                         </div>
                     </div>
-                    
+
                     <div class="shop-box">
                         <h5 class="mb-4">PRODUCT SIZE</h5>
                         <ul class="shop_list_checkbox list-unstyled">
@@ -923,7 +923,7 @@
                         <ul class="list-unstyled m-0 p-0 shop-product">
                             <li class="d-flex align-items-center mb-4">
                                 <div class="top-product-img pe-3">
-                                    <img src="../assets/images/shop/product/01.webp" class="img-fluid" alt="img">
+                                    <img src="../template/assets/images/shop/product/01.webp" class="img-fluid" alt="img">
                                 </div>
                                 <div>
                                     <a href="product-detail.html">Bag Pack</a>
@@ -932,7 +932,7 @@
                             </li>
                             <li class="d-flex align-items-center mb-4">
                                 <div class="top-product-img pe-3">
-                                    <img src="../assets/images/shop/product/30.webp" class="img-fluid" alt="img">
+                                    <img src="../template/assets/images/shop/product/30.webp" class="img-fluid" alt="img">
                                 </div>
                                 <div class="product-detail.html">
                                     <a href="">Green Specs</a>
@@ -943,7 +943,7 @@
                             </li>
                             <li class="d-flex align-items-center">
                                 <div class="top-product-img pe-3">
-                                    <img src="../assets/images/shop/product/07.webp" class="img-fluid" alt="img">
+                                    <img src="../template/assets/images/shop/product/07.webp" class="img-fluid" alt="img">
                                 </div>
                                 <div class="product-detail.html">
                                     <a href="">Cartoon Character</a>
@@ -1095,7 +1095,7 @@
                                       <div class="image-wrap">
                                         <a href="product-detail.html">
                                           <div class="product-image">
-                                            <img src="../assets/images/shop/product/01.webp" class="img-fluid w-100" alt="productImg-"
+                                            <img src="../template/assets/images/shop/product/01.webp" class="img-fluid w-100" alt="productImg-"
                                               loading="lazy" />
                                           </div>
                                         </a>
@@ -1169,7 +1169,7 @@
                                       <div class="image-wrap">
                                         <a href="product-detail.html">
                                           <div class="product-image">
-                                            <img src="../assets/images/shop/product/02.webp" class="img-fluid w-100" alt="productImg-"
+                                            <img src="../template/assets/images/shop/product/02.webp" class="img-fluid w-100" alt="productImg-"
                                               loading="lazy" />
                                           </div>
                                         </a>
@@ -1245,7 +1245,7 @@
                                       <div class="image-wrap">
                                         <a href="product-detail.html">
                                           <div class="product-image">
-                                            <img src="../assets/images/shop/product/03.webp" class="img-fluid w-100" alt="productImg-"
+                                            <img src="../template/assets/images/shop/product/03.webp" class="img-fluid w-100" alt="productImg-"
                                               loading="lazy" />
                                           </div>
                                         </a>
@@ -1322,7 +1322,7 @@
                                       <div class="image-wrap">
                                         <a href="product-detail.html">
                                           <div class="product-image">
-                                            <img src="../assets/images/shop/product/04.webp" class="img-fluid w-100" alt="productImg-"
+                                            <img src="../template/assets/images/shop/product/04.webp" class="img-fluid w-100" alt="productImg-"
                                               loading="lazy" />
                                           </div>
                                         </a>
@@ -1396,7 +1396,7 @@
                                       <div class="image-wrap">
                                         <a href="product-detail.html">
                                           <div class="product-image">
-                                            <img src="../assets/images/shop/product/05.webp" class="img-fluid w-100" alt="productImg-"
+                                            <img src="../template/assets/images/shop/product/05.webp" class="img-fluid w-100" alt="productImg-"
                                               loading="lazy" />
                                           </div>
                                         </a>
@@ -1475,7 +1475,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/01.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/01.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -1534,7 +1534,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/02.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/02.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -1596,7 +1596,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/03.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/03.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -1658,7 +1658,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/04.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/04.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -1717,7 +1717,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/05.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/05.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -1776,7 +1776,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/06.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/06.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -1843,7 +1843,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/01.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/01.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -1902,7 +1902,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/02.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/02.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -1964,7 +1964,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/03.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/03.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -2026,7 +2026,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/04.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/04.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -2085,7 +2085,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/05.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/05.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -2144,7 +2144,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/06.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/06.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -2203,7 +2203,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/07.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/07.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -2262,7 +2262,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/08.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/08.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -2321,7 +2321,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/09.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/09.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -2387,7 +2387,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/01.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/01.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -2446,7 +2446,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/02.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/02.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -2508,7 +2508,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/03.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/03.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -2570,7 +2570,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/04.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/04.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -2629,7 +2629,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/05.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/05.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -2688,7 +2688,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/06.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/06.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -2747,7 +2747,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/07.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/07.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -2806,7 +2806,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/08.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/08.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -2865,7 +2865,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/09.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/09.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -2927,7 +2927,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/10.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/10.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -2986,7 +2986,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/11.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/11.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -3048,7 +3048,7 @@
                                   <div class="image-wrap">
                                     <a href="product-detail.html">
                                       <div class="product-image">
-                                        <img src="../assets/images/shop/product/12.webp" class="img-fluid w-100" alt="productImg-"
+                                        <img src="../template/assets/images/shop/product/12.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
                                       </div>
                                     </a>
@@ -3117,7 +3117,7 @@
                aria-label="Close"></button>
             <div class="row align-items-center">
                <div class="col-md-6">
-                  <img src="../assets/images/shop/product/01.webp" class="object-cover" alt="shop-img">
+                  <img src="../template/assets/images/shop/product/01.webp" class="object-cover" alt="shop-img">
                </div>
                <div class="col-md-6">
                   <div class="entry-summary p-md-4">
@@ -3199,23 +3199,23 @@
             <div class="footer-logo">
                 <!--Logo -->
                  <div class="logo-default">
-                     <a class="navbar-brand text-primary" href="../index.html"> 
-                         <img class="img-fluid logo" src="../assets/images/logo.webp" loading="lazy" alt="streamit" />
+                     <a class="navbar-brand text-primary" href="../index.html">
+                         <img class="img-fluid logo" src="../template/assets/images/logo.webp" loading="lazy" alt="streamit" />
                      </a>
                  </div>
                  <div class="logo-hotstar">
-                     <a class="navbar-brand text-primary" href="../index.html"> 
-                         <img class="img-fluid logo" src="../assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
+                     <a class="navbar-brand text-primary" href="../index.html">
+                         <img class="img-fluid logo" src="../template/assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
                      </a>
-                 </div> 
+                 </div>
                  <div class="logo-prime">
-                     <a class="navbar-brand text-primary" href="../index.html"> 
-                         <img class="img-fluid logo" src="../assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
+                     <a class="navbar-brand text-primary" href="../index.html">
+                         <img class="img-fluid logo" src="../template/assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
                      </a>
-                 </div> 
+                 </div>
                  <div class="logo-hulu">
-                     <a class="navbar-brand text-primary" href="../index.html"> 
-                         <img class="img-fluid logo" src="../assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
+                     <a class="navbar-brand text-primary" href="../index.html">
+                         <img class="img-fluid logo" src="../template/assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
                      </a>
                  </div>
             </div>
@@ -3331,11 +3331,11 @@
             <h6 class="font-size-14 pb-1">Download Streamit Apps </h6>
             <div class="d-flex align-items-center">
               <a class="app-image" href="#">
-                <img src="../assets/images/footer/google-play.webp" loading="lazy" alt="play-store" />
+                <img src="../template/assets/images/footer/google-play.webp" loading="lazy" alt="play-store" />
               </a>
               <br />
               <a class="ms-3 app-image" href="#">
-                <img src="../assets/images/footer/apple.webp" loading="lazy" alt="app-store" />
+                <img src="../template/assets/images/footer/apple.webp" loading="lazy" alt="app-store" />
               </a>
             </div>
           </div>
@@ -3369,7 +3369,7 @@
                   </button>
                   <button type="button" class="btn btn-icon btn-close px-0 text-reset shadow-none text-dark" data-bs-dismiss="offcanvas" aria-label="Close">
                   </button>
-              </div>            
+              </div>
           </div>
           <div class="offcanvas-body pt-0">
               <div class="modes row row-cols-2 gx-2">
@@ -3444,36 +3444,36 @@
   </div>
   <!-- Wrapper End-->
   <!-- Library Bundle Script -->
-  <script src="../assets/js/core/libs.min.js"></script>
+  <script src="../template/assets/js/core/libs.min.js"></script>
   <!-- Plugin Scripts -->
-  
+
   <!-- Sweet-alert Script -->
-  <script src="../assets/vendor/sweetalert2/sweetalert2.min.js" async></script>
-  <script src="../assets/js/plugins/sweet-alert.js" defer></script>
-  
-  
-  
+  <script src="../template/assets/vendor/sweetalert2/sweetalert2.min.js" async></script>
+  <script src="../template/assets/js/plugins/sweet-alert.js" defer></script>
+
+
+
     <!-- Select2 Script -->
-    <script src="../assets/js/plugins/select2.js" defer></script>
-  
+    <script src="../template/assets/js/plugins/select2.js" defer></script>
+
   <!-- NoUI Slider Script -->
-  <script src="../assets/vendor/noUiSilder/script/nouislider.min.js"></script>
-  <script src="../assets/js/plugins/nouslider.js" defer></script>
-  
+  <script src="../template/assets/vendor/noUiSilder/script/nouislider.min.js"></script>
+  <script src="../template/assets/js/plugins/nouslider.js" defer></script>
+
   <!-- Lodash Utility -->
-  <script src="../assets/vendor/lodash/lodash.min.js"></script>
+  <script src="../template/assets/vendor/lodash/lodash.min.js"></script>
   <!-- External Library Bundle Script -->
-  <script src="../assets/js/core/external.min.js"></script>
+  <script src="../template/assets/js/core/external.min.js"></script>
   <!-- countdown Script -->
-  <script src="../assets/js/plugins/countdown.js"></script>
+  <script src="../template/assets/js/plugins/countdown.js"></script>
   <!-- utility Script -->
-  <script src="../assets/js/utility.js"></script>
+  <script src="../template/assets/js/utility.js"></script>
   <!-- Setting Script -->
-  <script src="../assets/js/setting.js"></script>
-  <script src="../assets/js/setting-init.js" defer></script>
+  <script src="../template/assets/js/setting.js"></script>
+  <script src="../template/assets/js/setting-init.js" defer></script>
   <!-- Streamit Script -->
-  <script src="../assets/js/streamit.js" defer></script>
-  <script src="../assets/js/swiper.js" defer></script>
+  <script src="../template/assets/js/streamit.js" defer></script>
+  <script src="../template/assets/js/swiper.js" defer></script>
 </body>
 
 </html>

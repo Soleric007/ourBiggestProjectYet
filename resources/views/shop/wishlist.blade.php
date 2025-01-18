@@ -7,43 +7,43 @@
   <title>StreamIT | Responsive Bootstrap 5 Template</title>
   <!-- Google Font Api KEY-->
   <meta name="google_font_api" content="AIzaSyBG58yNdAjc20_8jAvLNSVi9E4Xhwjau_k">
-  
+
   <!-- Favicon -->
-  <link rel="shortcut icon" href="../assets/images/favicon.ico" />
-  
+  <link rel="shortcut icon" href="../template/assets/images/favicon.ico" />
+
   <!-- Library / Plugin Css Build -->
-  <link rel="stylesheet" href="../assets/css/core/libs.min.css" />
-  
+  <link rel="stylesheet" href="../template/assets/css/core/libs.min.css" />
+
   <!-- font-awesome css -->
-  <link rel="stylesheet" href="../assets/vendor/font-awesome/css/all.min.css" />
-  
+  <link rel="stylesheet" href="../template/assets/vendor/font-awesome/css/all.min.css" />
+
   <!-- Iconly css -->
-  <link rel="stylesheet" href="../assets/vendor/iconly/css/style.css" />
-  
+  <link rel="stylesheet" href="../template/assets/vendor/iconly/css/style.css" />
+
   <!-- Animate css -->
-  <link rel="stylesheet" href="../assets/vendor/animate.min.css" />
-  
-  
-  
+  <link rel="stylesheet" href="../template/assets/vendor/animate.min.css" />
+
+
+
   <!-- Sweetlaert2 css -->
-  <link rel="stylesheet" href="../assets/vendor/sweetalert2/sweetalert2.min.css"/>
-  
-  
-  
+  <link rel="stylesheet" href="../template/assets/vendor/sweetalert2/sweetalert2.min.css"/>
+
+
+
   <!-- Streamit Design System Css -->
-  <link rel="stylesheet" href="../assets/css/streamit.min%EF%B9%96v=5.2.1.css" />
-  
+  <link rel="stylesheet" href="../template/assets/css/streamit.min%EF%B9%96v=5.2.1.css" />
+
   <!-- Custom Css -->
-  <link rel="stylesheet" href="../assets/css/custom.min%EF%B9%96v=5.2.1.css" />
-  
+  <link rel="stylesheet" href="../template/assets/css/custom.min%EF%B9%96v=5.2.1.css" />
+
   <!-- Rtl Css -->
-  <link rel="stylesheet" href="../assets/css/rtl.min%EF%B9%96v=5.2.1.css" />
-  
+  <link rel="stylesheet" href="../template/assets/css/rtl.min%EF%B9%96v=5.2.1.css" />
+
   <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&amp;display=swap" rel="stylesheet">
-  
+
 </head>
 
 <body class="  ">
@@ -52,7 +52,7 @@
    <!-- loader Start -->
   <div class="loader simple-loader">
      <div class="loader-body">
-        <img src="../assets/images/loader.gif" alt="loader" class="img-fluid " width="300">
+        <img src="../template/assets/images/loader.gif" alt="loader" class="img-fluid " width="300">
       </div>
   </div>
   <!-- loader END -->  <!-- loader END -->
@@ -75,26 +75,26 @@
                      </div>
                      <!--Logo -->
                      <div class="logo-default">
-                         <a class="navbar-brand text-primary" href="../index.html"> 
-                             <img class="img-fluid logo" src="../assets/images/logo.webp" loading="lazy" alt="streamit" />
+                         <a class="navbar-brand text-primary" href="../index.html">
+                             <img class="img-fluid logo" src="../template/assets/images/logo.webp" loading="lazy" alt="streamit" />
                          </a>
                      </div>
                      <div class="logo-hotstar">
-                         <a class="navbar-brand text-primary" href="../index.html"> 
-                             <img class="img-fluid logo" src="../assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
-                         </a>
-                     </div> 
-                     <div class="logo-prime">
-                         <a class="navbar-brand text-primary" href="../index.html"> 
-                             <img class="img-fluid logo" src="../assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
-                         </a>
-                     </div> 
-                     <div class="logo-hulu">
-                         <a class="navbar-brand text-primary" href="../index.html"> 
-                             <img class="img-fluid logo" src="../assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
+                         <a class="navbar-brand text-primary" href="../index.html">
+                             <img class="img-fluid logo" src="../template/assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
                          </a>
                      </div>
-      
+                     <div class="logo-prime">
+                         <a class="navbar-brand text-primary" href="../index.html">
+                             <img class="img-fluid logo" src="../template/assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
+                         </a>
+                     </div>
+                     <div class="logo-hulu">
+                         <a class="navbar-brand text-primary" href="../index.html">
+                             <img class="img-fluid logo" src="../template/assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
+                         </a>
+                     </div>
+
                   </div>
                   <!-- Horizontal Menu Start -->
                   <nav id="navbar_main" class="offcanvas mobile-offcanvas nav navbar navbar-expand-xl hover-nav horizontal-nav py-xl-0">
@@ -103,23 +103,23 @@
                         <div class="navbar-brand ms-3">
                           <!--Logo -->
                           <div class="logo-default">
-                              <a class="navbar-brand text-primary" href="../index.html"> 
-                                  <img class="img-fluid logo" src="../assets/images/logo.webp" loading="lazy" alt="streamit" />
+                              <a class="navbar-brand text-primary" href="../index.html">
+                                  <img class="img-fluid logo" src="../template/assets/images/logo.webp" loading="lazy" alt="streamit" />
                               </a>
                           </div>
                           <div class="logo-hotstar">
-                              <a class="navbar-brand text-primary" href="../index.html"> 
-                                  <img class="img-fluid logo" src="../assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
+                              <a class="navbar-brand text-primary" href="../index.html">
+                                  <img class="img-fluid logo" src="../template/assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
                               </a>
-                          </div> 
+                          </div>
                           <div class="logo-prime">
-                              <a class="navbar-brand text-primary" href="../index.html"> 
-                                  <img class="img-fluid logo" src="../assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
+                              <a class="navbar-brand text-primary" href="../index.html">
+                                  <img class="img-fluid logo" src="../template/assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
                               </a>
-                          </div> 
+                          </div>
                           <div class="logo-hulu">
-                              <a class="navbar-brand text-primary" href="../index.html"> 
-                                  <img class="img-fluid logo" src="../assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
+                              <a class="navbar-brand text-primary" href="../index.html">
+                                  <img class="img-fluid logo" src="../template/assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
                               </a>
                           </div>
                         </div>
@@ -449,7 +449,7 @@
                               <ul class="dropdown-menu dropdown-menu-end dropdown-user border-0 p-0 m-0"
                                  aria-labelledby="navbarDropdown">
                                  <li class="user-info d-flex align-items-center gap-3 mb-3">
-                                    <img src="../assets/images/user/user1.webp" class="img-fluid" alt="" loading="lazy">
+                                    <img src="../template/assets/images/user/user1.webp" class="img-fluid" alt="" loading="lazy">
                                     <span class="font-size-14 fw-500 text-capitalize text-white">Jenny</span>
                                  </li>
                                  <li>
@@ -507,19 +507,19 @@
       </header>      <!--Nav End-->
 
       <!--bread-crumb-->
-      <div class="iq-breadcrumb" style="background-image: url(../assets/images/pages/01.webp);">
+      <div class="iq-breadcrumb" style="background-image: url(../template/assets/images/pages/01.webp);">
          <div class="container-fluid">
             <div class="row align-items-center">
                   <div class="col-sm-12">
                       <nav aria-label="breadcrumb" class="text-center">
                           <h2 class="title">Wishlist</h2>
                           <ol class="breadcrumb justify-content-center">
-                              <li class="breadcrumb-item"><a href="../index.html">Home</a></li> 
+                              <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
                               <li class="breadcrumb-item active">Wishlist</li>
                           </ol>
                       </nav>
                   </div>
-              </div> 
+              </div>
          </div>
       </div>      <!--bread-crumb-->
 
@@ -550,7 +550,7 @@
                         <td>
                             <div class="product-thumbnail">
                                 <a class="mb-2 me-3" href="">
-                                    <img class="avatar-80" src="../assets/images/shop/product/01.webp" alt="">
+                                    <img class="avatar-80" src="../template/assets/images/shop/product/01.webp" alt="">
                                 </a>
                                 <span class="mt-2">Bag Pack</span>
                             </div>
@@ -582,7 +582,7 @@
                         <td>
                             <div class="product-thumbnail">
                                 <a class="mb-2 me-3" href="">
-                                    <img class="avatar-80" src="../assets/images/shop/product/02.webp" alt="">
+                                    <img class="avatar-80" src="../template/assets/images/shop/product/02.webp" alt="">
                                 </a>
                                 <span class="mt-2">Believe Mask</span>
                             </div>
@@ -614,7 +614,7 @@
                         <td>
                             <div class="product-thumbnail">
                                 <a class="mb-2 me-3" href="">
-                                    <img class="avatar-80" src="../assets/images/shop/product/03.webp" alt="">
+                                    <img class="avatar-80" src="../template/assets/images/shop/product/03.webp" alt="">
                                 </a>
                                 <span class="mt-2">Black Bow</span>
                             </div>
@@ -689,23 +689,23 @@
             <div class="footer-logo">
                 <!--Logo -->
                  <div class="logo-default">
-                     <a class="navbar-brand text-primary" href="../index.html"> 
-                         <img class="img-fluid logo" src="../assets/images/logo.webp" loading="lazy" alt="streamit" />
+                     <a class="navbar-brand text-primary" href="../index.html">
+                         <img class="img-fluid logo" src="../template/assets/images/logo.webp" loading="lazy" alt="streamit" />
                      </a>
                  </div>
                  <div class="logo-hotstar">
-                     <a class="navbar-brand text-primary" href="../index.html"> 
-                         <img class="img-fluid logo" src="../assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
+                     <a class="navbar-brand text-primary" href="../index.html">
+                         <img class="img-fluid logo" src="../template/assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
                      </a>
-                 </div> 
+                 </div>
                  <div class="logo-prime">
-                     <a class="navbar-brand text-primary" href="../index.html"> 
-                         <img class="img-fluid logo" src="../assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
+                     <a class="navbar-brand text-primary" href="../index.html">
+                         <img class="img-fluid logo" src="../template/assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
                      </a>
-                 </div> 
+                 </div>
                  <div class="logo-hulu">
-                     <a class="navbar-brand text-primary" href="../index.html"> 
-                         <img class="img-fluid logo" src="../assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
+                     <a class="navbar-brand text-primary" href="../index.html">
+                         <img class="img-fluid logo" src="../template/assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
                      </a>
                  </div>
             </div>
@@ -821,11 +821,11 @@
             <h6 class="font-size-14 pb-1">Download Streamit Apps </h6>
             <div class="d-flex align-items-center">
               <a class="app-image" href="#">
-                <img src="../assets/images/footer/google-play.webp" loading="lazy" alt="play-store" />
+                <img src="../template/assets/images/footer/google-play.webp" loading="lazy" alt="play-store" />
               </a>
               <br />
               <a class="ms-3 app-image" href="#">
-                <img src="../assets/images/footer/apple.webp" loading="lazy" alt="app-store" />
+                <img src="../template/assets/images/footer/apple.webp" loading="lazy" alt="app-store" />
               </a>
             </div>
           </div>
@@ -859,7 +859,7 @@
                   </button>
                   <button type="button" class="btn btn-icon btn-close px-0 text-reset shadow-none text-dark" data-bs-dismiss="offcanvas" aria-label="Close">
                   </button>
-              </div>            
+              </div>
           </div>
           <div class="offcanvas-body pt-0">
               <div class="modes row row-cols-2 gx-2">
@@ -934,31 +934,31 @@
   </div>
   <!-- Wrapper End-->
   <!-- Library Bundle Script -->
-  <script src="../assets/js/core/libs.min.js"></script>
+  <script src="../template/assets/js/core/libs.min.js"></script>
   <!-- Plugin Scripts -->
-  
+
   <!-- Sweet-alert Script -->
-  <script src="../assets/vendor/sweetalert2/sweetalert2.min.js" async></script>
-  <script src="../assets/js/plugins/sweet-alert.js" defer></script>
-  
-  
-  
-  
-  
+  <script src="../template/assets/vendor/sweetalert2/sweetalert2.min.js" async></script>
+  <script src="../template/assets/js/plugins/sweet-alert.js" defer></script>
+
+
+
+
+
   <!-- Lodash Utility -->
-  <script src="../assets/vendor/lodash/lodash.min.js"></script>
+  <script src="../template/assets/vendor/lodash/lodash.min.js"></script>
   <!-- External Library Bundle Script -->
-  <script src="../assets/js/core/external.min.js"></script>
+  <script src="../template/assets/js/core/external.min.js"></script>
   <!-- countdown Script -->
-  <script src="../assets/js/plugins/countdown.js"></script>
+  <script src="../template/assets/js/plugins/countdown.js"></script>
   <!-- utility Script -->
-  <script src="../assets/js/utility.js"></script>
+  <script src="../template/assets/js/utility.js"></script>
   <!-- Setting Script -->
-  <script src="../assets/js/setting.js"></script>
-  <script src="../assets/js/setting-init.js" defer></script>
+  <script src="../template/assets/js/setting.js"></script>
+  <script src="../template/assets/js/setting-init.js" defer></script>
   <!-- Streamit Script -->
-  <script src="../assets/js/streamit.js" defer></script>
-  <script src="../assets/js/swiper.js" defer></script>
+  <script src="../template/assets/js/streamit.js" defer></script>
+  <script src="../template/assets/js/swiper.js" defer></script>
 </body>
 
 </html>

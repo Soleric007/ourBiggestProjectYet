@@ -62,62 +62,37 @@
       <!--bread-crumb-->
 
 
-<div class="section-padding height-auto-100 image-flip-rtl" style="background: url('template/assets/images/pages/coming-soon.webp'); background-size: cover; background-repeat: no-repeat; position: relative;min-height:500px">
-  <div class="container h-100">
-    <div class="d-flex flex-column justify-content-center h-100">
-      <h1 class="text-capitalize fw-500 mb-0 text-center text-md-start">we are coming back soon</h1>
-      <ul class="countdown d-flex align-items-center list-inline count-down my-5 py-3" data-date="May 30 2025 20:20:22">
-        <li class="position-relative d-inline-lock">
-          <span data-days class="numberDisplay">0</span>
-          <span class="text-center text-capitalize fw-semibold d-block pt-1 letter-spacing-1">Days</span>
-        </li>
-        <li class="position-relative d-inline-block">
-          <span data-hours class="numberDisplay">0</span>
-          <span class="text-center text-capitalize fw-semibold d-block pt-1 letter-spacing-1">Hours</span>
-        </li>
-        <li class="position-relative d-inline-block">
-          <span data-minutes class="numberDisplay">0</span>
-          <span class="text-center text-capitalize fw-semibold d-block pt-1 letter-spacing-1">Minutes</span>
-        </li>
-        <li class="position-relative d-inline-block">
-          <span data-seconds class="numberDisplay">0</span>
-          <span class="text-center text-capitalize fw-semibold d-block pt-1 letter-spacing-1">Seconds</span>
-        </li>
-      </ul>
-      <div class="mailchimp">
-        <div class="input-group  mail-box-width">
-          <input type="text" class="form-control mb-0 font-size-14" placeholder="Email*" aria-describedby="button-addon2">
-          <div class="iq-button">
-            <button type="submit" class="btn" id="button-addon2">Subscribe</button>
-          </div>
+<div class="vh-100" style="background: url('template/assets/images/pages/01.webp'); background-size: cover; background-repeat: no-repeat; position: relative;min-height:500px">
+  <div class="container">
+    <div class="row justify-content-center align-items-center height-self-center vh-100">
+        <div class="col-lg-5 col-md-12 align-self-center">
+            <div class="user-login-card bg-body">
+                <p>
+                    Please enter your username or email address. You will receive a link to create a new password via email.
+                </p>
+                <form action="https://templates.iqonic.design/streamit-dist/frontend/html/post">
+                    <div class="mb-5">
+                        <label class="text-white fw-500 mb-2">Username or Email Address</label>
+                        <input type="text" class="form-control rounded-0" required="">
+                    </div>
+                    <div class="iq-button">
+                        <a href="#" class="btn text-uppercase position-relative">
+                            <span class="button-text">Get new password</span>
+                            <i class="fa-solid fa-play"></i>
+                        </a>
+                    </div>
+                    <div class="seperator d-flex justify-content-center align-items-center">
+                        <span class="line"></span>
+                    </div>
+                    <div class="iq-button">
+                        <a href="login.html" class="btn text-uppercase position-relative">
+                            <span class="button-text">log in</span>
+                            <i class="fa-solid fa-play"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
         </div>
-      </div>
-      <p class="mt-2 mb-3 text-center text-md-start">We are working very hard on the new version</p>
-      <div class="d-flex align-items-center mt-3 mt-md-5 justify-content-center justify-content-md-start">
-        <span class="font-size-14 me-3">Follow Us:</span>
-        <ul class="p-0 m-0 list-unstyled widget_social_media">
-          <li>
-            <a href="https://www.facebook.com/" class="position-relative">
-              <i class="fab fa-facebook"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/" class="position-relative">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/" class="position-relative">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/" class="position-relative">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
     </div>
   </div>
 </div>

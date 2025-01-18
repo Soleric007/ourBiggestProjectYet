@@ -44,7 +44,7 @@
 
 </head>
 
-<body class="  ">
+<body class="">
   <span class="screen-darken"></span>
   <!-- loader Start -->
    <!-- loader Start -->
@@ -56,75 +56,163 @@
   <!-- loader END -->  <!-- loader END -->
   <main class="main-content">
       <!--Nav Start-->
-      <!--Nav End-->
+      <!-- Start Header Section -->
+
+      @include('home.sections.header')
+
+      <!-- End Header Section -->    <!--Nav End-->
 
       <!--bread-crumb-->
-      <!--bread-crumb-->
+      <div class="iq-breadcrumb" style="background-image: url(template/assets/images/pages/01.webp);">
+         <div class="container-fluid">
+            <div class="row align-items-center">
+                  <div class="col-sm-12">
+                      <nav aria-label="breadcrumb" class="text-center">
+                          <h2 class="title">Pricing Plan</h2>
+                          <ol class="breadcrumb justify-content-center">
+                              <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                              <li class="breadcrumb-item active">Pricing Plan</li>
+                          </ol>
+                      </nav>
+                  </div>
+              </div>
+         </div>
+      </div>      <!--bread-crumb-->
 
 
-<div class="section-padding height-auto-100 image-flip-rtl" style="background: url('template/assets/images/pages/coming-soon.webp'); background-size: cover; background-repeat: no-repeat; position: relative;min-height:500px">
-  <div class="container h-100">
-    <div class="d-flex flex-column justify-content-center h-100">
-      <h1 class="text-capitalize fw-500 mb-0 text-center text-md-start">we are coming back soon</h1>
-      <ul class="countdown d-flex align-items-center list-inline count-down my-5 py-3" data-date="May 30 2025 20:20:22">
-        <li class="position-relative d-inline-lock">
-          <span data-days class="numberDisplay">0</span>
-          <span class="text-center text-capitalize fw-semibold d-block pt-1 letter-spacing-1">Days</span>
-        </li>
-        <li class="position-relative d-inline-block">
-          <span data-hours class="numberDisplay">0</span>
-          <span class="text-center text-capitalize fw-semibold d-block pt-1 letter-spacing-1">Hours</span>
-        </li>
-        <li class="position-relative d-inline-block">
-          <span data-minutes class="numberDisplay">0</span>
-          <span class="text-center text-capitalize fw-semibold d-block pt-1 letter-spacing-1">Minutes</span>
-        </li>
-        <li class="position-relative d-inline-block">
-          <span data-seconds class="numberDisplay">0</span>
-          <span class="text-center text-capitalize fw-semibold d-block pt-1 letter-spacing-1">Seconds</span>
-        </li>
-      </ul>
-      <div class="mailchimp">
-        <div class="input-group  mail-box-width">
-          <input type="text" class="form-control mb-0 font-size-14" placeholder="Email*" aria-describedby="button-addon2">
-          <div class="iq-button">
-            <button type="submit" class="btn" id="button-addon2">Subscribe</button>
-          </div>
+<div class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="mb-3 col-lg-4 col-md-6 mb-lg-0">
+                <div class="pricing-plan-wrapper">
+                    <div class="pricing-plan-header">
+                        <h4 class="mb-0 plan-name text-capitalize text-body">Free</h4>
+                    </div>
+                    <div class="pricing-details">
+                        <div class="pricing-plan-description">
+                            <ul class="p-0 list-inline">
+                                <li>
+                                    <i class="fas fa-check text-primary"></i>
+                                    <span class="font-size-18 fw-500">Ads free movies and shows</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-times"></i>
+                                    <span class="font-size-18 fw-500">Watch on TV or Laptop</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-times"></i>
+                                    <span class="font-size-18 fw-500">Streamit Special</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-times"></i>
+                                    <span class="font-size-18 fw-500">Max video quality</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="pricing-plan-footer">
+                            <div class="iq-button">
+                                <a href="javascript:void(0)" class="btn text-uppercase position-relative">
+                                    <span class="button-text">select free</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3 col-lg-4 col-md-6 mb-lg-0">
+                <div class="pricing-plan-wrapper">
+                    <div class="p-2 text-center pricing-plan-discount bg-primary">
+                        <span class="text-white">Save 20%</span>
+                    </div>
+                    <div class="pricing-plan-header">
+                        <h4 class="plan-name text-capitalize text-body">Premium</h4>
+                        <span class="sale-price text-decoration-line-through">$49</span>
+                        <span class="main-price text-primary">$39</span>
+                        <span class="font-size-18">/ 3 Month</span>
+                    </div>
+                    <div class="pricing-details">
+                        <div class="pricing-plan-description">
+                            <ul class="p-0 list-inline">
+                                <li>
+                                    <i class="fas fa-check text-primary"></i>
+                                    <span class="font-size-18 fw-500">Ads free movies and shows</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check text-primary"></i>
+                                    <span class="font-size-18 fw-500">Watch on TV or Laptop</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check text-primary"></i>
+                                    <span class="font-size-18 fw-500">Streamit Special</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check text-primary"></i>
+                                    <span class="font-size-18 fw-500">Max video quality</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="pricing-plan-footer">
+                            <div class="iq-button">
+                                <a href="javascript:void(0)" class="btn text-uppercase position-relative">
+                                    <span class="button-text">select premium</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="pricing-plan-wrapper">
+                    <div class="pricing-plan-header">
+                        <h4 class="plan-name text-capitalize text-body">Basic</h4>
+                        <span class="main-price text-primary">$19</span>
+                        <span class="font-size-18">/ 1 Month</span>
+                    </div>
+                    <div class="pricing-details">
+                        <div class="pricing-plan-description">
+                            <ul class="p-0 list-inline">
+                                <li>
+                                    <i class="fas fa-times"></i>
+                                    <span class="font-size-18 fw-500">Ads free movies and shows</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check text-primary"></i>
+                                    <span class="font-size-18 fw-500">Watch on TV or Laptop</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check text-primary"></i>
+                                    <span class="font-size-18 fw-500">Streamit Special</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check text-primary"></i>
+                                    <span class="font-size-18 fw-500">Max video quality</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="pricing-plan-footer">
+                            <div class="iq-button">
+                                <a href="javascript:void(0)" class="btn text-uppercase position-relative">
+                                    <span class="button-text">select basic</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <p class="mt-2 mb-3 text-center text-md-start">We are working very hard on the new version</p>
-      <div class="d-flex align-items-center mt-3 mt-md-5 justify-content-center justify-content-md-start">
-        <span class="font-size-14 me-3">Follow Us:</span>
-        <ul class="p-0 m-0 list-unstyled widget_social_media">
-          <li>
-            <a href="https://www.facebook.com/" class="position-relative">
-              <i class="fab fa-facebook"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/" class="position-relative">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/" class="position-relative">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/" class="position-relative">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
     </div>
-  </div>
 </div>
 
   </main>
 
+<!-- Start Footer Section -->
 
+@include('home.sections.footer')
+
+<!-- End Footer Section -->
 
   <div class="rtl-box">
       <a class="btn btn-icon btn-setting" id="settingbutton" data-bs-toggle="offcanvas"
@@ -138,22 +226,22 @@
       <div class="offcanvas offcanvas-end live-customizer on-rtl end" tabindex="-1" id="live-customizer"
           data-bs-scroll="true" data-bs-backdrop="false" aria-labelledby="live-customizer-label" aria-modal="true"
           role="dialog">
-          <div class="offcanvas-header gap-3">
+          <div class="gap-3 offcanvas-header">
               <div class="d-flex align-items-center">
                   <h5 class="offcanvas-title text-dark" id="live-customizer-label">Live Customizer</h5>
               </div>
-              <div class="d-flex gap-1 align-items-center">
+              <div class="gap-1 d-flex align-items-center">
                   <button class="btn btn-icon text-primary" data-reset="settings" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Reset All Settings"
                       data-bs-original-title="Reset All Settings">
                       <span class="btn-inner">
                           <i class="fa-solid fa-arrows-rotate"></i>
                       </span>
                   </button>
-                  <button type="button" class="btn btn-icon btn-close px-0 text-reset shadow-none text-dark" data-bs-dismiss="offcanvas" aria-label="Close">
+                  <button type="button" class="px-0 shadow-none btn btn-icon btn-close text-reset text-dark" data-bs-dismiss="offcanvas" aria-label="Close">
                   </button>
               </div>
           </div>
-          <div class="offcanvas-body pt-0">
+          <div class="pt-0 offcanvas-body">
               <div class="modes row row-cols-2 gx-2">
                   <div class="col">
                       <div data-setting="attribute" class="text-center w-100">
@@ -174,12 +262,12 @@
                       </div>
                   </div>
               </div>
-              <div class="modes mt-3">
-                  <div class="color-customizer mb-3">
+              <div class="mt-3 modes">
+                  <div class="mb-3 color-customizer">
                       <h6 class="mb-0 title-customizer">Color Customizer</h6>
                   </div>
                   <div class="row row-cols-2 gx-2">
-                      <div class="col mb-3">
+                      <div class="mb-3 col">
                           <div data-setting="attribute" class="text-center w-100">
                               <input type="radio" value="dark" class="btn-check" name="theme_style_appearance"
                                   data-prop="data-bs-theme" id="theme-scheme-color-netflix" data-colors="{&quot;primary&quot;: &quot;#e50914&quot;, &quot;secondary&quot;: &quot;#adafb8&quot;, &quot;tertiray&quot;: &quot;#adafb8&quot;}" checked>
@@ -188,7 +276,7 @@
                               </label>
                           </div>
                       </div>
-                      <div class="col mb-3">
+                      <div class="mb-3 col">
                           <div data-setting="attribute" class="text-center w-100">
                               <input type="radio" value="hotstar" class="btn-check" name="theme_style_appearance"
                                   data-prop="data-bs-theme" id="theme-scheme-color-hotstar" data-colors="{&quot;primary&quot;: &quot;#0959E4&quot;, &quot;secondary&quot;: &quot;#adafb8&quot;, &quot;tertiray&quot;: &quot;#EA4335&quot;}">
@@ -220,7 +308,7 @@
           </div>
       </div>
   </div>  <div id="back-to-top" style="display: none;">
-     <a class="p-0 btn bg-primary btn-sm position-fixed top border-0 rounded-circle text-white" id="top" href="#top">
+     <a class="p-0 text-white border-0 btn bg-primary btn-sm position-fixed top rounded-circle" id="top" href="#top">
         <i class="fa-solid fa-chevron-up"></i>
      </a>
   </div>
