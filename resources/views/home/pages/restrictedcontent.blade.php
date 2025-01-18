@@ -118,9 +118,9 @@
                 </div>
               </div>
               <ul class="flex-wrap p-0 mt-2 list-inline d-flex movie-tag">
-                <li class="trending-list"><a class="text-primary" href="view-all-movie.html">Action</a></li>
-                <li class="trending-list"><a class="text-primary" href="view-all-movie.html">Adventure</a></li>
-                <li class="trending-list"><a class="text-primary" href="view-all-movie.html">Drama</a></li>
+                <li class="trending-list"><a class="text-primary" href="view-all-{{ route('movie') }}">Action</a></li>
+                <li class="trending-list"><a class="text-primary" href="view-all-{{ route('movie') }}">Adventure</a></li>
+                <li class="trending-list"><a class="text-primary" href="view-all-{{ route('movie') }}">Drama</a></li>
               </ul>
               <div class="flex-wrap mb-4 text-white d-flex align-items-center text-detail">
                 <span class="badge bg-secondary">Horror</span>
@@ -166,9 +166,9 @@
                   <i class="fa fa-tags" aria-hidden="true"></i>
                   Tags:
                 </li>
-                <li><a class="title" href="view-all-movie.html">Action</a><span class="text-secondary">,</span></li>
-                <li><a class="title" href="view-all-movie.html">Adventure</a><span class="text-secondary">,</span></li>
-                <li><a class="title" href="view-all-movie.html">Drama</a><span class="text-secondary">,</span></li>
+                <li><a class="title" href="view-all-{{ route('movie') }}">Action</a><span class="text-secondary">,</span></li>
+                <li><a class="title" href="view-all-{{ route('movie') }}">Adventure</a><span class="text-secondary">,</span></li>
+                <li><a class="title" href="view-all-{{ route('movie') }}">Drama</a><span class="text-secondary">,</span></li>
               </ul>
             </div>
             <div class="mt-4 mb-1 trailor-video col-md-3 col-12 mt-lg-0 mb-md-0 text-lg-right">
@@ -334,7 +334,7 @@
                     <tr>
                       <td>
                         <div class="iq-button">
-                          <a href="movie-detail.html"
+                          <a href="{{ route('moviedetail') }}"
                             class="btn text-uppercase position-relative">
                             <span class="button-text"> Play Now</span>
                             <i class="fa-solid fa-play"></i>
@@ -357,7 +357,7 @@
                     <tr>
                       <td>
                         <div class="iq-button">
-                          <a href="movie-detail.html"
+                          <a href="{{ route('moviedetail') }}"
                             class="btn text-uppercase position-relative">
                             <span class="button-text"> Play Now</span>
                             <i class="fa-solid fa-play"></i>
@@ -380,7 +380,7 @@
                     <tr>
                       <td>
                         <div class="iq-button">
-                          <a href="movie-detail.html"
+                          <a href="{{ route('moviedetail') }}"
                             class="btn text-uppercase position-relative">
                             <span class="button-text"> Play Now</span>
                             <i class="fa-solid fa-play"></i>
@@ -434,7 +434,7 @@
                   </div>
                   <div class="col-8 block-description">
                     <h6 class="iq-title">
-                      <a href="person-detail.html" tabindex="0">James Chinlund </a>
+                      <a href="{{ route('persondetail') }}" tabindex="0">James Chinlund </a>
                     </h6>
                     <div class="my-2 video-time d-flex align-items-center">
                       <small class="text-white">As James</small>
@@ -449,7 +449,7 @@
                   </div>
                   <div class="col-8 block-description">
                     <h6 class="iq-title">
-                      <a href="person-detail.html" tabindex="0">James Earl Jones </a>
+                      <a href="{{ route('persondetail') }}" tabindex="0">James Earl Jones </a>
                     </h6>
                     <div class="my-2 video-time d-flex align-items-center">
                       <small class="text-white">As Jones</small>
@@ -471,7 +471,7 @@
                   </div>
                   <div class="col-8 block-description starring-desc ">
                     <h6 class="iq-title">
-                      <a href="person-detail.html" tabindex="0"> Jeff Nathanson </a>
+                      <a href="{{ route('persondetail') }}" tabindex="0"> Jeff Nathanson </a>
                     </h6>
                     <div class="my-2 video-time d-flex align-items-center">
                       <small class="text-white">Writing</small>
@@ -487,7 +487,7 @@
                   </div>
                   <div class="col-8 block-description starring-desc ">
                     <h6 class="iq-title">
-                      <a href="person-detail.html" tabindex="0"> Irene Mecchi </a>
+                      <a href="{{ route('persondetail') }}" tabindex="0"> Irene Mecchi </a>
                     </h6>
                     <div class="my-2 video-time d-flex align-items-center">
                       <small class="text-white">Writing</small>
@@ -503,7 +503,7 @@
                   </div>
                   <div class="col-8 block-description starring-desc ">
                     <h6 class="iq-title">
-                      <a href="person-detail.html" tabindex="0"> Karen Gilchrist </a>
+                      <a href="{{ route('persondetail') }}" tabindex="0"> Karen Gilchrist </a>
                     </h6>
                     <div class="my-2 video-time d-flex align-items-center">
                       <small class="text-white">Production</small>
@@ -533,21 +533,21 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/recommended/01.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">Giikre</a>
+                            <a href="{{ route('moviedetail') }}">Giikre</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">2hr : 12mins</span>
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -598,7 +598,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -612,21 +612,21 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/recommended/02.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">Arrival</a>
+                            <a href="{{ route('moviedetail') }}">Arrival</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">1hr : 22mins</span>
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -677,7 +677,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -691,21 +691,21 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/recommended/03.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">Pricess</a>
+                            <a href="{{ route('moviedetail') }}">Pricess</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">1hr : 30mins</span>
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -756,7 +756,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -770,21 +770,21 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/recommended/04.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">Soull Meate</a>
+                            <a href="{{ route('moviedetail') }}">Soull Meate</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">2hr : 30mins</span>
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -835,7 +835,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -849,21 +849,21 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/recommended/05.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">Dangacg</a>
+                            <a href="{{ route('moviedetail') }}">Dangacg</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">1hr : 45mins</span>
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -914,7 +914,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -928,21 +928,21 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/recommended/06.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">crcikeft</a>
+                            <a href="{{ route('moviedetail') }}">crcikeft</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">2hr : 25mins</span>
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -993,7 +993,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -1007,21 +1007,21 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/recommended/07.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">Avengrs</a>
+                            <a href="{{ route('moviedetail') }}">Avengrs</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">1hr : 45mins</span>
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -1072,7 +1072,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -1105,14 +1105,14 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/related/01.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">giikre</a>
+                            <a href="{{ route('moviedetail') }}">giikre</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">2hr :
@@ -1120,7 +1120,7 @@
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -1171,7 +1171,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -1185,14 +1185,14 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/related/02.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">YoShi</a>
+                            <a href="{{ route('moviedetail') }}">YoShi</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">1hr :
@@ -1200,7 +1200,7 @@
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -1251,7 +1251,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -1265,14 +1265,14 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/related/03.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">We Gare</a>
+                            <a href="{{ route('moviedetail') }}">We Gare</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">1hr
@@ -1280,7 +1280,7 @@
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -1331,7 +1331,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -1345,14 +1345,14 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/related/04.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">Avengers</a>
+                            <a href="{{ route('moviedetail') }}">Avengers</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">1hr
@@ -1360,7 +1360,7 @@
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -1411,7 +1411,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -1425,14 +1425,14 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/related/05.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">Chosfies</a>
+                            <a href="{{ route('moviedetail') }}">Chosfies</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">1hr
@@ -1440,7 +1440,7 @@
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -1491,7 +1491,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -1505,14 +1505,14 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/related/06.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">Tf Oaler</a>
+                            <a href="{{ route('moviedetail') }}">Tf Oaler</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">1hr
@@ -1520,7 +1520,7 @@
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -1571,7 +1571,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -1585,21 +1585,21 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/related/07.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">Another Danger</a>
+                            <a href="{{ route('moviedetail') }}">Another Danger</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">1hr : 30mins</span>
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -1650,7 +1650,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -1683,14 +1683,14 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/related/01.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">giikre</a>
+                            <a href="{{ route('moviedetail') }}">giikre</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">2hr :
@@ -1698,7 +1698,7 @@
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -1749,7 +1749,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -1763,14 +1763,14 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/related/02.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">YoShi</a>
+                            <a href="{{ route('moviedetail') }}">YoShi</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">1hr :
@@ -1778,7 +1778,7 @@
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -1829,7 +1829,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -1843,14 +1843,14 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/related/03.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">We Gare</a>
+                            <a href="{{ route('moviedetail') }}">We Gare</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">1hr
@@ -1858,7 +1858,7 @@
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -1909,7 +1909,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -1923,14 +1923,14 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/related/04.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">Avengers</a>
+                            <a href="{{ route('moviedetail') }}">Avengers</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">1hr
@@ -1938,7 +1938,7 @@
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -1989,7 +1989,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -2003,14 +2003,14 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/related/05.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">Chosfies</a>
+                            <a href="{{ route('moviedetail') }}">Chosfies</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">1hr
@@ -2018,7 +2018,7 @@
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -2069,7 +2069,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -2083,14 +2083,14 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/related/06.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">Tf Oaler</a>
+                            <a href="{{ route('moviedetail') }}">Tf Oaler</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">1hr
@@ -2098,7 +2098,7 @@
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -2149,7 +2149,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -2163,21 +2163,21 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/related/07.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">Another Danger</a>
+                            <a href="{{ route('moviedetail') }}">Another Danger</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">1hr : 30mins</span>
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -2228,7 +2228,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -2262,21 +2262,21 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/upcoming/01.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">dinoosaur</a>
+                            <a href="{{ route('moviedetail') }}">dinoosaur</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">2hr : 12mins</span>
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -2327,7 +2327,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -2341,14 +2341,14 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/upcoming/02.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">godilla</a>
+                            <a href="{{ route('moviedetail') }}">godilla</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">1hr
@@ -2356,7 +2356,7 @@
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -2407,7 +2407,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -2421,21 +2421,21 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/upcoming/03.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">batter caill</a>
+                            <a href="{{ route('moviedetail') }}">batter caill</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">1hr : 55mins</span>
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -2486,7 +2486,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -2500,21 +2500,21 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/upcoming/04.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">the co nouerllng</a>
+                            <a href="{{ route('moviedetail') }}">the co nouerllng</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">1hr : 30mins</span>
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -2565,7 +2565,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -2579,21 +2579,21 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/upcoming/05.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">fast furious</a>
+                            <a href="{{ route('moviedetail') }}">fast furious</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">2hr : 45mins</span>
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -2644,7 +2644,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -2658,21 +2658,21 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/upcoming/06.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">spiderman</a>
+                            <a href="{{ route('moviedetail') }}">spiderman</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">1hr : 45mins</span>
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -2723,7 +2723,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>
@@ -2737,14 +2737,14 @@
                 <div class="iq-card card-hover">
                   <div class="block-images position-relative w-100">
                     <div class="img-box w-100">
-                      <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                      <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                       <img src="template/assets/images/movies/upcoming/07.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                     </div>
                     <div class="card-description with-transition">
                       <div class="cart-content">
                         <div class="content-left">
                           <h5 class="iq-title text-capitalize">
-                            <a href="movie-detail.html">onepeoc</a>
+                            <a href="{{ route('moviedetail') }}">onepeoc</a>
                           </h5>
                           <div class="my-2 movie-time d-flex align-items-center">
                             <span class="font-normal movie-time-text">2hr
@@ -2752,7 +2752,7 @@
                           </div>
                         </div>
                         <div class="watchlist">
-                          <a class="watch-list-not" href="playlist.html">
+                          <a class="watch-list-not" href="{{ route('playlist') }}">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                               <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
@@ -2803,7 +2803,7 @@
                         </li>
                       </ul>
                       <div class="iq-button">
-                        <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                        <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                           <i class="fa-solid fa-play ms-0"></i>
                         </a>
                     </div>

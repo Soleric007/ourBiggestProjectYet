@@ -72,7 +72,7 @@
         <p class="text-center">we are sorry, but the page you are looking for doesn’t exist.</p>
         <div class="text-center mt-4 pt-3">
           <div class="iq-button">
-              <a href="index.html" class="btn text-uppercase position-relative">
+              <a href="{{ route('index') }}" class="btn text-uppercase position-relative">
                   <span class="button-text">Back to home</span>
                   <i class="fa-solid fa-play"></i>
               </a>

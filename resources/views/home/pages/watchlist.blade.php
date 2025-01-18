@@ -71,7 +71,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-5">
                 <div class="playlist-main-banner position-relative">
-                    <a href="video-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0 z-1"></a>
+                    <a href="{{ route('videodetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0 z-1"></a>
                     <div class="img-box">
                         <img src="template/assets/images/movies/ott2.webp" alt="movie-card" class="object-cover img-fluid d-block">
                     </div>
@@ -105,7 +105,7 @@
                             <div class="watchlist-warpper card-style-two">
                                 <div class="flex-wrap gap-2 block-images d-flex align-items-center gap-md-3">
                                     <div class="img-box">
-                                        <a href="video-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                        <a href="{{ route('videodetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                         <img src="template/assets/images/movies/latest/01.webp" alt="movie-card" class="object-cover border-0 img-fluid d-block">
                                     </div>
                                     <div class="card-description">
@@ -123,7 +123,7 @@
                             <div class="watchlist-warpper card-style-two">
                                 <div class="flex-wrap gap-2 block-images d-flex align-items-center gap-md-3">
                                     <div class="img-box">
-                                        <a href="video-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                        <a href="{{ route('videodetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                         <img src="template/assets/images/movies/latest/02.webp" alt="movie-card" class="object-cover border-0 img-fluid d-block">
                                     </div>
                                     <div class="card-description">
@@ -141,7 +141,7 @@
                             <div class="watchlist-warpper card-style-two">
                                 <div class="flex-wrap gap-2 block-images d-flex align-items-center gap-md-3">
                                     <div class="img-box">
-                                        <a href="video-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                        <a href="{{ route('videodetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                         <img src="template/assets/images/movies/latest/03.webp" alt="movie-card" class="object-cover border-0 img-fluid d-block">
                                     </div>
                                     <div class="card-description">
@@ -159,7 +159,7 @@
                             <div class="watchlist-warpper card-style-two">
                                 <div class="flex-wrap gap-2 block-images d-flex align-items-center gap-md-3">
                                     <div class="img-box">
-                                        <a href="video-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                        <a href="{{ route('videodetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                         <img src="template/assets/images/movies/latest/04.webp" alt="movie-card" class="object-cover border-0 img-fluid d-block">
                                     </div>
                                     <div class="card-description">

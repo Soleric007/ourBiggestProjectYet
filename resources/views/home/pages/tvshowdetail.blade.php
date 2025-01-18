@@ -94,9 +94,9 @@
                 </div>
                 <ul class="flex-wrap p-0 mt-2 list-inline d-flex movie-tag">
                     <li class="trending-list"><a class="text-primary text-uppercase font-size-18"
-                        href="view-all-movie.html">Comedy</a></li>
+                        href="view-all-{{ route('movie') }}">Comedy</a></li>
                     <li class="trending-list"><a class="text-primary text-uppercase font-size-18"
-                        href="view-all-movie.html">Drama</a></li>
+                        href="view-all-{{ route('movie') }}">Drama</a></li>
                 </ul>
                 <div class="flex-wrap gap-3 mb-3 text-white d-flex align-items-center font-size-20 fw-500">
                     <span>Seasons 1 </span>
@@ -107,7 +107,7 @@
                 </p>
             </div>
             <div class="my-4 position-relative">
-               <a href="episode.html" class="gap-3 d-flex align-items-center">
+               <a href="{{ route('episode') }}" class="gap-3 d-flex align-items-center">
                   <div class="play-button">
                      <i class="fa-solid fa-play"></i>
                   </div>
@@ -149,15 +149,15 @@
                 <i class="fa fa-tags" aria-hidden="true"></i>
                 Tags:
                 </li>
-                <li><a class="title" href="view-all-movie.html">4K Ultra </a><span
+                <li><a class="title" href="view-all-{{ route('movie') }}">4K Ultra </a><span
                     class="text-secondary">,</span></li>
-                <li><a class="title" href="view-all-movie.html">Brother</a><span
+                <li><a class="title" href="view-all-{{ route('movie') }}">Brother</a><span
                     class="text-secondary">,</span></li>
-                <li><a class="title" href="view-all-movie.html">Brother Relationship</a><span
+                <li><a class="title" href="view-all-{{ route('movie') }}">Brother Relationship</a><span
                     class="text-secondary">,</span></li>
-                <li><a class="title" href="view-all-movie.html">Kings</a><span
+                <li><a class="title" href="view-all-{{ route('movie') }}">Kings</a><span
                     class="text-secondary">,</span></li>
-                <li><a class="title" href="view-all-movie.html">Vikings</a></li>
+                <li><a class="title" href="view-all-{{ route('movie') }}">Vikings</a></li>
             </ul>
          </div>
       </div>
@@ -196,12 +196,12 @@
                             <div class="col-lg-3 col-sm-12 col-md-6">
                                 <div class="episode-block">
                                     <div class="block-image position-relative">
-                                        <a href="episode.html">
+                                        <a href="{{ route('episode') }}">
                                             <img src="template/assets/images/tv-show/episodes/01.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                         </a>
                                         <div class="episode-number">S01E01</div>
                                         <div class="episode-play">
-                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                         </div>
                                     </div>
                                     <div class="p-3 epi-desc">
@@ -209,7 +209,7 @@
                                             <span class="text-white border-gredient-left rel-date">October 1, 2020</span>
                                             <span class="text-primary run-time">45min</span>
                                         </div>
-                                        <a href="episode.html">
+                                        <a href="{{ route('episode') }}">
                                             <h5 class="mb-0 text-white epi-name"> Zombie
                                                                 Island 1 </h5>
                                         </a>
@@ -219,12 +219,12 @@
                             <div class="col-lg-3 col-sm-12 col-md-6">
                                 <div class="episode-block">
                                     <div class="block-image position-relative">
-                                        <a href="episode.html">
+                                        <a href="{{ route('episode') }}">
                                             <img src="template/assets/images/tv-show/episodes/02.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                         </a>
                                         <div class="episode-number">S01E02</div>
                                         <div class="episode-play">
-                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                         </div>
                                     </div>
                                     <div class="p-3 epi-desc">
@@ -232,7 +232,7 @@
                                             <span class="text-white border-gredient-left rel-date">October 8, 2020</span>
                                             <span class="text-primary run-time">35min</span>
                                         </div>
-                                        <a href="episode.html">
+                                        <a href="{{ route('episode') }}">
                                             <h5 class="mb-0 text-white epi-name"> Zombie
                                                                 Island 2 </h5>
                                         </a>
@@ -242,12 +242,12 @@
                             <div class="col-lg-3 col-sm-12 col-md-6">
                                 <div class="episode-block">
                                     <div class="block-image position-relative">
-                                        <a href="episode.html">
+                                        <a href="{{ route('episode') }}">
                                             <img src="template/assets/images/tv-show/episodes/03.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                         </a>
                                         <div class="episode-number">S01E03</div>
                                         <div class="episode-play">
-                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                         </div>
                                     </div>
                                     <div class="p-3 epi-desc">
@@ -255,7 +255,7 @@
                                             <span class="text-white border-gredient-left rel-date">October 15, 2020</span>
                                             <span class="text-primary run-time">36min</span>
                                         </div>
-                                        <a href="episode.html">
+                                        <a href="{{ route('episode') }}">
                                             <h5 class="mb-0 text-white epi-name"> Zombie
                                                                 Island 3 </h5>
                                         </a>
@@ -265,12 +265,12 @@
                             <div class="mt-3 col-lg-3 col-sm-12 col-md-6 mt-md-0">
                                 <div class="episode-block">
                                     <div class="block-image position-relative">
-                                        <a href="episode.html">
+                                        <a href="{{ route('episode') }}">
                                             <img src="template/assets/images/tv-show/episodes/04.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                         </a>
                                         <div class="episode-number">S01E04</div>
                                         <div class="episode-play">
-                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                         </div>
                                     </div>
                                     <div class="p-3 epi-desc">
@@ -278,7 +278,7 @@
                                             <span class="text-white border-gredient-left rel-date">October 22, 2020</span>
                                             <span class="text-primary run-time">41min</span>
                                         </div>
-                                        <a href="episode.html">
+                                        <a href="{{ route('episode') }}">
                                             <h5 class="mb-0 text-white epi-name"> Zombie
                                                                 Island 4 </h5>
                                         </a>
@@ -424,7 +424,7 @@
                                 </div>
                                 <div class="col-8 block-description">
                                     <h6 class="iq-title">
-                                        <a href="person-detail.html" tabindex="0">James Chinlund  </a>
+                                        <a href="{{ route('persondetail') }}" tabindex="0">James Chinlund  </a>
                                     </h6>
                                     <div class="my-2 video-time d-flex align-items-center">
                                         <small class="text-white">As James</small>
@@ -439,7 +439,7 @@
                                 </div>
                                 <div class="col-8 block-description">
                                     <h6 class="iq-title">
-                                        <a href="person-detail.html" tabindex="0">James Earl Jones </a>
+                                        <a href="{{ route('persondetail') }}" tabindex="0">James Earl Jones </a>
                                     </h6>
                                     <div class="my-2 video-time d-flex align-items-center">
                                         <small class="text-white">As Jones</small>
@@ -460,7 +460,7 @@
                                 </div>
                                 <div class="col-8 block-description starring-desc ">
                                     <h6 class="iq-title">
-                                        <a href="person-detail.html" tabindex="0"> Jeff Nathanson </a>
+                                        <a href="{{ route('persondetail') }}" tabindex="0"> Jeff Nathanson </a>
                                     </h6>
                                     <div class="my-2 video-time d-flex align-items-center">
                                         <small class="text-white">Writing</small>
@@ -475,7 +475,7 @@
                                 </div>
                                 <div class="col-8 block-description starring-desc ">
                                     <h6 class="iq-title">
-                                        <a href="person-detail.html" tabindex="0"> Irene Mecchi </a>
+                                        <a href="{{ route('persondetail') }}" tabindex="0"> Irene Mecchi </a>
                                     </h6>
                                     <div class="my-2 video-time d-flex align-items-center">
                                         <small class="text-white">Writing</small>
@@ -490,7 +490,7 @@
                                 </div>
                                 <div class="col-8 block-description starring-desc ">
                                     <h6 class="iq-title">
-                                        <a href="person-detail.html" tabindex="0"> Karen Gilchrist </a>
+                                        <a href="{{ route('persondetail') }}" tabindex="0"> Karen Gilchrist </a>
                                     </h6>
                                     <div class="my-2 video-time d-flex align-items-center">
                                         <small class="text-white">Production</small>

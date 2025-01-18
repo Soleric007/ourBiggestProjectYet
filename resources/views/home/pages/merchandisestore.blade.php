@@ -206,11 +206,11 @@
                           <h5 class="m-0 fw-bold">$49.00</h5>
                       </div>
                       <div class="gap-3 mt-4 d-grid">
-                          <a href="shop/checkout.html" class="text-white btn bg-primary text-uppercase fw-medium w-100">
+                          <a href="{{ route('checkout') }}" class="text-white btn bg-primary text-uppercase fw-medium w-100">
                               <span class="button-text small">checkout</span>
                           </a>
 
-                          <a href="shop/cart.html" class="btn bg-light text-uppercase fw-medium w-100 text-dark">
+                          <a href="{{ route('cart') }}" class="btn bg-light text-uppercase fw-medium w-100 text-dark">
                               <span class="button-text small">view cart</span>
                           </a>
                       </div>
@@ -224,13 +224,13 @@
 
 <div class="position-relative swiper swiper-slide-space-0" data-swiper="home-banner-slider">
    <div class="p-0 m-0 slider swiper-wrapper home-slider">
-      <a class="swiper-slide slide" href="shop/product-detail.html">
+      <a class="swiper-slide slide" href="{{ route('productdetail') }}">
          <img src="template/assets/images/shop/slider-01.webp" class="img-fluid" alt="slider-img" />
       </a>
-      <a class="swiper-slide slide" href="shop/product-detail.html">
+      <a class="swiper-slide slide" href="{{ route('productdetail') }}">
          <img src="template/assets/images/shop/slider-02.webp" class="img-fluid" alt="slider-img" />
       </a>
-      <a class="swiper-slide slide" href="shop/product-detail.html">
+      <a class="swiper-slide slide" href="{{ route('productdetail') }}">
          <img src="template/assets/images/shop/slider-03.webp" class="img-fluid" alt="slider-img" />
       </a>
    </div>
@@ -261,7 +261,7 @@
             <li class="swiper-slide slide-item">
                <div class="category-inner position-relative">
                  <div class="category_image">
-                   <a href="shop/shop.html">
+                   <a href="{{ route('shop') }}">
                      <img
                        src="template/assets/images/shop/categories/01.webp"
                        class="img-fluid"
@@ -281,7 +281,7 @@
             <li class="swiper-slide slide-item">
                <div class="category-inner position-relative">
                  <div class="category_image">
-                   <a href="shop/shop.html">
+                   <a href="{{ route('shop') }}">
                      <img
                        src="template/assets/images/shop/categories/02.webp"
                        class="img-fluid"
@@ -300,7 +300,7 @@
             <li class="swiper-slide slide-item">
                <div class="category-inner position-relative">
                  <div class="category_image">
-                   <a href="shop/shop.html">
+                   <a href="{{ route('shop') }}">
                      <img
                        src="template/assets/images/shop/categories/03.webp"
                        class="img-fluid"
@@ -320,7 +320,7 @@
             <li class="swiper-slide slide-item">
                <div class="category-inner position-relative">
                  <div class="category_image">
-                   <a href="shop/shop.html">
+                   <a href="{{ route('shop') }}">
                      <img
                        src="template/assets/images/shop/categories/04.webp"
                        class="img-fluid"
@@ -339,7 +339,7 @@
             <li class="swiper-slide slide-item">
                <div class="category-inner position-relative">
                  <div class="category_image">
-                   <a href="shop/shop.html">
+                   <a href="{{ route('shop') }}">
                      <img
                        src="template/assets/images/shop/categories/05.webp"
                        class="img-fluid"
@@ -359,7 +359,7 @@
             <li class="swiper-slide slide-item">
                <div class="category-inner position-relative">
                  <div class="category_image">
-                   <a href="shop/shop.html">
+                   <a href="{{ route('shop') }}">
                      <img
                        src="template/assets/images/shop/categories/06.webp"
                        class="img-fluid"
@@ -379,7 +379,7 @@
             <li class="swiper-slide slide-item">
                <div class="category-inner position-relative">
                  <div class="category_image">
-                   <a href="shop/shop.html">
+                   <a href="{{ route('shop') }}">
                      <img
                        src="template/assets/images/shop/categories/07.webp"
                        class="img-fluid"
@@ -399,7 +399,7 @@
             <li class="swiper-slide slide-item">
                <div class="category-inner position-relative">
                  <div class="category_image">
-                   <a href="shop/shop.html">
+                   <a href="{{ route('shop') }}">
                      <img
                        src="template/assets/images/shop/categories/08.webp"
                        class="img-fluid"
@@ -419,7 +419,7 @@
             <li class="swiper-slide slide-item">
                <div class="category-inner position-relative">
                  <div class="category_image">
-                   <a href="shop/shop.html">
+                   <a href="{{ route('shop') }}">
                      <img
                        src="template/assets/images/shop/categories/09.webp"
                        class="img-fluid"
@@ -438,7 +438,7 @@
             <li class="swiper-slide slide-item">
                <div class="category-inner position-relative">
                  <div class="category_image">
-                   <a href="shop/shop.html">
+                   <a href="{{ route('shop') }}">
                      <img
                        src="template/assets/images/shop/categories/11.webp"
                        class="img-fluid"
@@ -457,7 +457,7 @@
             <li class="swiper-slide slide-item">
                <div class="category-inner position-relative">
                  <div class="category_image">
-                   <a href="shop/shop.html">
+                   <a href="{{ route('shop') }}">
                      <img
                        src="https://templates.iqonic.design/streamit-dist/frontend/html/template/assets/images/shop/categories/12.webp"
                        class="img-fluid"
@@ -476,7 +476,7 @@
             <li class="swiper-slide slide-item">
                <div class="category-inner position-relative">
                  <div class="category_image">
-                   <a href="shop/shop.html">
+                   <a href="{{ route('shop') }}">
                      <img
                        src="template/assets/images/shop/categories/14.webp"
                        class="img-fluid"
@@ -496,7 +496,7 @@
             <li class="swiper-slide slide-item">
                <div class="category-inner position-relative">
                  <div class="category_image">
-                   <a href="shop/shop.html">
+                   <a href="{{ route('shop') }}">
                      <img
                        src="template/assets/images/shop/categories/15.webp"
                        class="img-fluid"
@@ -524,7 +524,7 @@
       <div class="row gx-lg-0">
          <div class="col-lg-4 col-md-6 d-flex flex-column">
             <div class="product-box left-1-productbox ">
-               <a href="shop/shop.html" class="card-link"></a>
+               <a href="{{ route('shop') }}" class="card-link"></a>
                <div class="card-img-overlay product-card-img-overlay"
                   style="background-image: url(template/assets/images/shop/card/01.webp);">
                </div>
@@ -532,7 +532,7 @@
                   <h5 class="card-title">Ghost Spider </h5>
                   <h4 class="parent-heading">Monster-House</h4>
                   <div class="iq-button link-button">
-                      <a href="https://templates.iqonic.design/streamit-dist/frontend/html/%7B%7Bpath%7D%7Dshop/shop.html" class="btn text-capitalize position-relative">
+                      <a href="https://templates.iqonic.design/streamit-dist/frontend/html/%7B%7Bpath%7D%7D{{ route('shop') }}" class="btn text-capitalize position-relative">
                           <span class="button-text">Shop
                                     Now</span>
                       </a>
@@ -540,7 +540,7 @@
                </div>
             </div>
             <div class="product-box left-2-productbox">
-               <a href="shop/shop.html" class="card-link"></a>
+               <a href="{{ route('shop') }}" class="card-link"></a>
                <div class="mt-4 card-img-overlay product-card-img-overlay mt-lg-0 mt-md-4"
                   style="background-image: url(template/assets/images/shop/card/02.webp);">
                </div>
@@ -548,7 +548,7 @@
                   <h5 class="card-title">Harry David </h5>
                   <h4 class="parent-heading">Warner Bros Films</h4>
                   <div class="iq-button link-button">
-                      <a href="https://templates.iqonic.design/streamit-dist/frontend/html/%7B%7Bpath%7D%7Dshop/shop.html" class="btn text-capitalize position-relative">
+                      <a href="https://templates.iqonic.design/streamit-dist/frontend/html/%7B%7Bpath%7D%7D{{ route('shop') }}" class="btn text-capitalize position-relative">
                           <span class="button-text">Shop Now</span>
                       </a>
                   </div>
@@ -557,7 +557,7 @@
          </div>
          <div class="mt-4 col-lg-4 col-md-6 mt-md-0">
             <div class="center-productbox product-box">
-               <a href="shop/shop.html" class="card-link"></a>
+               <a href="{{ route('shop') }}" class="card-link"></a>
                <div class="card-img-overlay product-card-img-overlay"
                   style="background-image: url(template/assets/images/shop/card/03.webp);">
                </div>
@@ -565,7 +565,7 @@
                   <h5 class="card-title">Avengers </h5>
                   <h4 class="parent-heading">Marvel Studios</h4>
                   <div class="iq-button link-button">
-                      <a href="https://templates.iqonic.design/streamit-dist/frontend/html/%7B%7Bpath%7D%7Dshop/shop.html" class="btn text-capitalize position-relative">
+                      <a href="https://templates.iqonic.design/streamit-dist/frontend/html/%7B%7Bpath%7D%7D{{ route('shop') }}" class="btn text-capitalize position-relative">
                           <span class="button-text">Shop
                                     Now</span>
                       </a>
@@ -575,7 +575,7 @@
          </div>
          <div class="mt-4 col-lg-4 col-md-12 d-flex flex-column mt-lg-0 mt-md-4">
             <div class="product-box right-1-productbox">
-               <a href="shop/shop.html" class="card-link"></a>
+               <a href="{{ route('shop') }}" class="card-link"></a>
                <div class="card-img-overlay product-card-img-overlay md-mt-5"
                   style="background-image: url(template/assets/images/shop/card/04.webp);">
                </div>
@@ -583,7 +583,7 @@
                   <h5 class="card-title">Harry David </h5>
                   <h4 class="parent-heading">Warner Bros Films</h4>
                   <div class="iq-button link-button">
-                      <a href="https://templates.iqonic.design/streamit-dist/frontend/html/%7B%7Bpath%7D%7Dshop/shop.html" class="btn text-capitalize position-relative">
+                      <a href="https://templates.iqonic.design/streamit-dist/frontend/html/%7B%7Bpath%7D%7D{{ route('shop') }}" class="btn text-capitalize position-relative">
                           <span class="button-text">Shop
                                     Now</span>
                       </a>
@@ -591,7 +591,7 @@
                </div>
             </div>
             <div class="product-box right-2-productbox">
-               <a href="shop/shop.html" class="card-link"></a>
+               <a href="{{ route('shop') }}" class="card-link"></a>
                <div class="mt-4 card-img-overlay product-card-img-overlay mt-lg-0 mt-md-4"
                   style="background-image: url(template/assets/images/shop/card/05.webp);">
                </div>
@@ -599,7 +599,7 @@
                   <h5 class="card-title">Fantasia </h5>
                   <h4 class="parent-heading">Disney World</h4>
                   <div class="iq-button link-button">
-                      <a href="https://templates.iqonic.design/streamit-dist/frontend/html/%7B%7Bpath%7D%7Dshop/shop.html" class="btn text-capitalize position-relative">
+                      <a href="https://templates.iqonic.design/streamit-dist/frontend/html/%7B%7Bpath%7D%7D{{ route('shop') }}" class="btn text-capitalize position-relative">
                           <span class="button-text">Shop
                                     Now</span>
                       </a>
@@ -616,7 +616,7 @@
       <div class="overflow-hidden">
          <div class="px-3 my-4 d-flex align-items-center justify-content-between">
             <h5 class="mb-0 main-title text-capitalize">Newest Products</h5>
-            <a href="shop/view-all-product.html" class="flex-none text-primary iq-view-all text-decoration-none">Want
+            <a href="{{ route('viewallproduct') }}" class="flex-none text-primary iq-view-all text-decoration-none">Want
                More?</a>
          </div>
          <div class="card-style-slider">
@@ -630,7 +630,7 @@
                          Sale!
                        </span>
                        <div class="image-wrap">
-                         <a href="shop/product-detail.html">
+                         <a href="{{ route('productdetail') }}">
                            <div class="product-image">
                              <img src="template/assets/images/shop/product/01.webp" class="img-fluid w-100" alt="productImg-01"
                                loading="lazy" />
@@ -656,7 +656,7 @@
                        </div>
                        <div class="product-caption">
                          <h5 class="product__title">
-                           <a href="shop/product-detail.html" class="title-link">
+                           <a href="{{ route('productdetail') }}" class="title-link">
                              Bag Pack</a>
                          </h5>
                          <div class="price-detail">
@@ -689,7 +689,7 @@
                   <li class="swiper-slide">
                      <div class="product-block">
                        <div class="image-wrap">
-                         <a href="shop/product-detail.html">
+                         <a href="{{ route('productdetail') }}">
                            <div class="product-image">
                              <img src="template/assets/images/shop/product/02.webp" class="img-fluid w-100" alt="productImg-02"
                                loading="lazy" />
@@ -715,7 +715,7 @@
                        </div>
                        <div class="product-caption">
                          <h5 class="product__title">
-                           <a href="shop/product-detail.html" class="title-link">
+                           <a href="{{ route('productdetail') }}" class="title-link">
                              Believe Mask</a>
                          </h5>
                          <div class="price-detail">
@@ -751,7 +751,7 @@
                          Sale!
                        </span>
                        <div class="image-wrap">
-                         <a href="shop/product-detail.html">
+                         <a href="{{ route('productdetail') }}">
                            <div class="product-image">
                              <img src="template/assets/images/shop/product/03.webp" class="img-fluid w-100" alt="productImg-03"
                                loading="lazy" />
@@ -777,7 +777,7 @@
                        </div>
                        <div class="product-caption">
                          <h5 class="product__title">
-                           <a href="shop/product-detail.html" class="title-link">
+                           <a href="{{ route('productdetail') }}" class="title-link">
                              Black Bow</a>
                          </h5>
                          <div class="price-detail">
@@ -813,7 +813,7 @@
                          New!
                        </span>
                        <div class="image-wrap">
-                         <a href="shop/product-detail.html">
+                         <a href="{{ route('productdetail') }}">
                            <div class="product-image">
                              <img src="template/assets/images/shop/product/04.webp" class="img-fluid w-100" alt="productImg-04"
                                loading="lazy" />
@@ -839,7 +839,7 @@
                        </div>
                        <div class="product-caption">
                          <h5 class="product__title">
-                           <a href="shop/product-detail.html" class="title-link">
+                           <a href="{{ route('productdetail') }}" class="title-link">
                              Black Cap</a>
                          </h5>
                          <div class="price-detail">
@@ -872,7 +872,7 @@
                   <li class="swiper-slide">
                      <div class="product-block">
                        <div class="image-wrap">
-                         <a href="shop/product-detail.html">
+                         <a href="{{ route('productdetail') }}">
                            <div class="product-image">
                              <img src="template/assets/images/shop/product/05.webp" class="img-fluid w-100" alt="productImg-05"
                                loading="lazy" />
@@ -898,7 +898,7 @@
                        </div>
                        <div class="product-caption">
                          <h5 class="product__title">
-                           <a href="shop/product-detail.html" class="title-link">
+                           <a href="{{ route('productdetail') }}" class="title-link">
                              Boxing Gloves</a>
                          </h5>
                          <div class="price-detail">
@@ -931,7 +931,7 @@
                   <li class="swiper-slide">
                      <div class="product-block">
                        <div class="image-wrap">
-                         <a href="shop/product-detail.html">
+                         <a href="{{ route('productdetail') }}">
                            <div class="product-image">
                              <img src="template/assets/images/shop/product/06.webp" class="img-fluid w-100" alt="productImg-06"
                                loading="lazy" />
@@ -957,7 +957,7 @@
                        </div>
                        <div class="product-caption">
                          <h5 class="product__title">
-                           <a href="shop/product-detail.html" class="title-link">
+                           <a href="{{ route('productdetail') }}" class="title-link">
                              Carry Bag</a>
                          </h5>
                          <div class="price-detail">
@@ -1009,7 +1009,7 @@
                   <p class="mt-2 mb-4 line-count-3">Lorem Ipsum is simply dummy text of the printing and typesetting
                      industry.</p>
                   <div class="iq-button">
-                      <a href="https://templates.iqonic.design/streamit-dist/frontend/html/%7B%7Bpath%7D%7Dshop/shop.html" class="btn text-uppercase position-relative">
+                      <a href="https://templates.iqonic.design/streamit-dist/frontend/html/%7B%7Bpath%7D%7D{{ route('shop') }}" class="btn text-uppercase position-relative">
                           <span class="button-text">view
                                     collection</span>
                           <i class="fa-solid fa-play"></i>
@@ -1028,7 +1028,7 @@
                   <p class="mt-2 mb-4 line-count-3">Lorem Ipsum is simply dummy text of the printing and typesetting
                      industry.</p>
                   <div class="iq-button">
-                      <a href="https://templates.iqonic.design/streamit-dist/frontend/html/%7B%7Bpath%7D%7Dshop/shop.html" class="btn text-uppercase position-relative">
+                      <a href="https://templates.iqonic.design/streamit-dist/frontend/html/%7B%7Bpath%7D%7D{{ route('shop') }}" class="btn text-uppercase position-relative">
                           <span class="button-text">view
                                     collection</span>
                           <i class="fa-solid fa-play"></i>
@@ -1051,29 +1051,29 @@
          <div class="mt-4 col-lg-6 col-md-12 mt-md-0">
             <!--Logo -->
             <div class="logo-default">
-                <a class="navbar-brand text-primary" href="././index.html">
+                <a class="navbar-brand text-primary" href="././{{ route('index') }}">
                     <img class="img-fluid logo" src="template/assets/images/logo.webp" loading="lazy" alt="streamit" />
                 </a>
             </div>
             <div class="logo-hotstar">
-                <a class="navbar-brand text-primary" href="././index.html">
+                <a class="navbar-brand text-primary" href="././{{ route('index') }}">
                     <img class="img-fluid logo" src="template/assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
                 </a>
             </div>
             <div class="logo-prime">
-                <a class="navbar-brand text-primary" href="././index.html">
+                <a class="navbar-brand text-primary" href="././{{ route('index') }}">
                     <img class="img-fluid logo" src="template/assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
                 </a>
             </div>
             <div class="logo-hulu">
-                <a class="navbar-brand text-primary" href="././index.html">
+                <a class="navbar-brand text-primary" href="././{{ route('index') }}">
                     <img class="img-fluid logo" src="template/assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
                 </a>
             </div>
             <h2 class="mt-3 mb-3"> Wear Streamit, Buy Streamit and Love Streamit </h2>
             <p class="mb-4 line-count-3">Buy exclusive streamit products from our store and get amazing benefits.</p>
             <div class="iq-button">
-                <a href="shop/product-detail.html" class="btn text-uppercase position-relative">
+                <a href="{{ route('productdetail') }}" class="btn text-uppercase position-relative">
                     <span class="button-text">shop now</span>
                     <i class="fa-solid fa-play"></i>
                 </a>
@@ -1088,7 +1088,7 @@
       <div class="overflow-hidden">
          <div class="px-3 my-4 d-flex align-items-center justify-content-between">
             <h5 class="mb-0 main-title text-capitalize">Best Sellers</h5>
-            <a href="shop/view-all-product.html" class="flex-none text-primary iq-view-all text-decoration-none">Want
+            <a href="{{ route('viewallproduct') }}" class="flex-none text-primary iq-view-all text-decoration-none">Want
                More?</a>
          </div>
          <div class="card-style-slider">
@@ -1102,7 +1102,7 @@
                          Sale!
                        </span>
                        <div class="image-wrap">
-                         <a href="shop/product-detail.html">
+                         <a href="{{ route('productdetail') }}">
                            <div class="product-image">
                              <img src="template/assets/images/shop/product/01.webp" class="img-fluid w-100" alt="productImg-01"
                                loading="lazy" />
@@ -1128,7 +1128,7 @@
                        </div>
                        <div class="product-caption">
                          <h5 class="product__title">
-                           <a href="shop/product-detail.html" class="title-link">
+                           <a href="{{ route('productdetail') }}" class="title-link">
                              Bag Pack</a>
                          </h5>
                          <div class="price-detail">
@@ -1161,7 +1161,7 @@
                   <li class="swiper-slide">
                      <div class="product-block">
                        <div class="image-wrap">
-                         <a href="shop/product-detail.html">
+                         <a href="{{ route('productdetail') }}">
                            <div class="product-image">
                              <img src="template/assets/images/shop/product/02.webp" class="img-fluid w-100" alt="productImg-02"
                                loading="lazy" />
@@ -1187,7 +1187,7 @@
                        </div>
                        <div class="product-caption">
                          <h5 class="product__title">
-                           <a href="shop/product-detail.html" class="title-link">
+                           <a href="{{ route('productdetail') }}" class="title-link">
                              Believe Mask</a>
                          </h5>
                          <div class="price-detail">
@@ -1223,7 +1223,7 @@
                          Sale!
                        </span>
                        <div class="image-wrap">
-                         <a href="shop/product-detail.html">
+                         <a href="{{ route('productdetail') }}">
                            <div class="product-image">
                              <img src="template/assets/images/shop/product/03.webp" class="img-fluid w-100" alt="productImg-03"
                                loading="lazy" />
@@ -1249,7 +1249,7 @@
                        </div>
                        <div class="product-caption">
                          <h5 class="product__title">
-                           <a href="shop/product-detail.html" class="title-link">
+                           <a href="{{ route('productdetail') }}" class="title-link">
                              Black Bow</a>
                          </h5>
                          <div class="price-detail">
@@ -1285,7 +1285,7 @@
                          New!
                        </span>
                        <div class="image-wrap">
-                         <a href="shop/product-detail.html">
+                         <a href="{{ route('productdetail') }}">
                            <div class="product-image">
                              <img src="template/assets/images/shop/product/04.webp" class="img-fluid w-100" alt="productImg-04"
                                loading="lazy" />
@@ -1311,7 +1311,7 @@
                        </div>
                        <div class="product-caption">
                          <h5 class="product__title">
-                           <a href="shop/product-detail.html" class="title-link">
+                           <a href="{{ route('productdetail') }}" class="title-link">
                              Black Cap</a>
                          </h5>
                          <div class="price-detail">
@@ -1344,7 +1344,7 @@
                   <li class="swiper-slide">
                      <div class="product-block">
                        <div class="image-wrap">
-                         <a href="shop/product-detail.html">
+                         <a href="{{ route('productdetail') }}">
                            <div class="product-image">
                              <img src="template/assets/images/shop/product/05.webp" class="img-fluid w-100" alt="productImg-05"
                                loading="lazy" />
@@ -1370,7 +1370,7 @@
                        </div>
                        <div class="product-caption">
                          <h5 class="product__title">
-                           <a href="shop/product-detail.html" class="title-link">
+                           <a href="{{ route('productdetail') }}" class="title-link">
                              Boxing Gloves</a>
                          </h5>
                          <div class="price-detail">
@@ -1403,7 +1403,7 @@
                   <li class="swiper-slide">
                      <div class="product-block">
                        <div class="image-wrap">
-                         <a href="shop/product-detail.html">
+                         <a href="{{ route('productdetail') }}">
                            <div class="product-image">
                              <img src="template/assets/images/shop/product/06.webp" class="img-fluid w-100" alt="productImg-06"
                                loading="lazy" />
@@ -1429,7 +1429,7 @@
                        </div>
                        <div class="product-caption">
                          <h5 class="product__title">
-                           <a href="shop/product-detail.html" class="title-link">
+                           <a href="{{ route('productdetail') }}" class="title-link">
                              Carry Bag</a>
                          </h5>
                          <div class="price-detail">

@@ -299,7 +299,7 @@
                    <tr>
                      <td>
                        <div class="iq-button">
-                         <a href="movie-detail.html"
+                         <a href="{{ route('moviedetail') }}"
                            class="btn text-uppercase position-relative">
                            <span class="button-text"> Play Now</span>
                            <i class="fa-solid fa-play"></i>
@@ -322,7 +322,7 @@
                    <tr>
                      <td>
                        <div class="iq-button">
-                         <a href="movie-detail.html"
+                         <a href="{{ route('moviedetail') }}"
                            class="btn text-uppercase position-relative">
                            <span class="button-text"> Play Now</span>
                            <i class="fa-solid fa-play"></i>
@@ -345,7 +345,7 @@
                    <tr>
                      <td>
                        <div class="iq-button">
-                         <a href="movie-detail.html"
+                         <a href="{{ route('moviedetail') }}"
                            class="btn text-uppercase position-relative">
                            <span class="button-text"> Play Now</span>
                            <i class="fa-solid fa-play"></i>
@@ -388,12 +388,12 @@
             <li class="swiper-slide">
               <div class="episode-block">
                   <div class="block-image position-relative">
-                      <a href="episode.html">
+                      <a href="{{ route('episode') }}">
                           <img src="template/assets/images/tv-show/episodes/01.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                       </a>
                       <div class="episode-number">S01E01</div>
                       <div class="episode-play">
-                          <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                          <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                       </div>
                   </div>
                   <div class="p-3 epi-desc">
@@ -401,7 +401,7 @@
                           <span class="text-white border-gredient-left rel-date">October 1, 2020</span>
                           <span class="text-primary run-time">45min</span>
                       </div>
-                      <a href="episode.html">
+                      <a href="{{ route('episode') }}">
                           <h5 class="mb-0 text-white epi-name"> Zombie Island 1 </h5>
                       </a>
                   </div>
@@ -410,12 +410,12 @@
             <li class="swiper-slide">
               <div class="episode-block">
                   <div class="block-image position-relative">
-                      <a href="episode.html">
+                      <a href="{{ route('episode') }}">
                           <img src="template/assets/images/tv-show/episodes/02.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                       </a>
                       <div class="episode-number">S01E02</div>
                       <div class="episode-play">
-                          <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                          <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                       </div>
                   </div>
                   <div class="p-3 epi-desc">
@@ -423,7 +423,7 @@
                           <span class="text-white border-gredient-left rel-date">October 8, 2020</span>
                           <span class="text-primary run-time">35min</span>
                       </div>
-                      <a href="episode.html">
+                      <a href="{{ route('episode') }}">
                           <h5 class="mb-0 text-white epi-name"> Zombie Island 2 </h5>
                       </a>
                   </div>
@@ -432,12 +432,12 @@
             <li class="swiper-slide">
               <div class="episode-block">
                   <div class="block-image position-relative">
-                      <a href="episode.html">
+                      <a href="{{ route('episode') }}">
                           <img src="template/assets/images/tv-show/episodes/03.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                       </a>
                       <div class="episode-number">S01E03</div>
                       <div class="episode-play">
-                          <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                          <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                       </div>
                   </div>
                   <div class="p-3 epi-desc">
@@ -445,7 +445,7 @@
                           <span class="text-white border-gredient-left rel-date">October 15, 2020</span>
                           <span class="text-primary run-time">36min</span>
                       </div>
-                      <a href="episode.html">
+                      <a href="{{ route('episode') }}">
                           <h5 class="mb-0 text-white epi-name"> Zombie Island 3 </h5>
                       </a>
                   </div>
@@ -454,12 +454,12 @@
             <li class="swiper-slide">
              <div class="episode-block">
                  <div class="block-image position-relative">
-                     <a href="episode.html">
+                     <a href="{{ route('episode') }}">
                          <img src="template/assets/images/tv-show/episodes/04.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                      </a>
                      <div class="episode-number">S01E04</div>
                      <div class="episode-play">
-                         <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                         <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                      </div>
                  </div>
                  <div class="p-3 epi-desc">
@@ -467,7 +467,7 @@
                          <span class="text-white border-gredient-left rel-date">October 22, 2020</span>
                          <span class="text-primary run-time">41min</span>
                      </div>
-                     <a href="episode.html">
+                     <a href="{{ route('episode') }}">
                          <h5 class="mb-0 text-white epi-name"> Zombie Island 4 </h5>
                      </a>
                  </div>
@@ -476,12 +476,12 @@
             <li class="swiper-slide">
              <div class="episode-block">
                  <div class="block-image position-relative">
-                     <a href="episode.html">
+                     <a href="{{ route('episode') }}">
                          <img src="template/assets/images/tv-show/episodes/01.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                      </a>
                      <div class="episode-number">S01E04</div>
                      <div class="episode-play">
-                         <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                         <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                      </div>
                  </div>
                  <div class="p-3 epi-desc">
@@ -489,7 +489,7 @@
                          <span class="text-white border-gredient-left rel-date">October 22, 2020</span>
                          <span class="text-primary run-time">41min</span>
                      </div>
-                     <a href="episode.html">
+                     <a href="{{ route('episode') }}">
                          <h5 class="mb-0 text-white epi-name"> Zombie Island 4 </h5>
                      </a>
                  </div>

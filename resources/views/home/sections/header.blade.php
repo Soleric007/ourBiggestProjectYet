@@ -15,22 +15,22 @@
                 </div>
                 <!--Logo -->
                 <div class="logo-default">
-                    <a class="navbar-brand text-primary" href="./index.html">
+                    <a class="navbar-brand text-primary" href="./{{ route('index') }}">
                         <img class="img-fluid logo" src="template/assets/images/logo.webp" loading="lazy" alt="streamit" />
                     </a>
                 </div>
                 <div class="logo-hotstar">
-                    <a class="navbar-brand text-primary" href="./index.html">
+                    <a class="navbar-brand text-primary" href="./{{ route('index') }}">
                         <img class="img-fluid logo" src="template/assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
                     </a>
                 </div>
                 <div class="logo-prime">
-                    <a class="navbar-brand text-primary" href="./index.html">
+                    <a class="navbar-brand text-primary" href="./{{ route('index') }}">
                         <img class="img-fluid logo" src="template/assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
                     </a>
                 </div>
                 <div class="logo-hulu">
-                    <a class="navbar-brand text-primary" href="./index.html">
+                    <a class="navbar-brand text-primary" href="./{{ route('index') }}">
                         <img class="img-fluid logo" src="template/assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
                     </a>
                 </div>
@@ -42,22 +42,22 @@
                    <div class="navbar-brand ms-3">
                      <!--Logo -->
                      <div class="logo-default">
-                         <a class="navbar-brand text-primary" href="./index.html">
+                         <a class="navbar-brand text-primary" href="./{{ route('index') }}">
                              <img class="img-fluid logo" src="template/assets/images/logo.webp" loading="lazy" alt="streamit" />
                          </a>
                      </div>
                      <div class="logo-hotstar">
-                         <a class="navbar-brand text-primary" href="./index.html">
+                         <a class="navbar-brand text-primary" href="./{{ route('index') }}">
                              <img class="img-fluid logo" src="template/assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
                          </a>
                      </div>
                      <div class="logo-prime">
-                         <a class="navbar-brand text-primary" href="./index.html">
+                         <a class="navbar-brand text-primary" href="./{{ route('index') }}">
                              <img class="img-fluid logo" src="template/assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
                          </a>
                      </div>
                      <div class="logo-hulu">
-                         <a class="navbar-brand text-primary" href="./index.html">
+                         <a class="navbar-brand text-primary" href="./{{ route('index') }}">
                              <img class="img-fluid logo" src="template/assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
                          </a>
                      </div>
@@ -78,37 +78,37 @@
                      </a>
                      <ul class="sub-nav mega-menu-item collapse justify-content-center list-unstyled" id="homePages">
                        <li class="nav-item">
-                         <a class="nav-link p-0 active" href="./index.html">
+                         <a class="nav-link p-0 active" href="./{{ route('index') }}">
                            <img src="template/assets/images/mega-menu/new-home.webp" alt="img" class="img-fluid d-xl-block d-none">
                            <span class="d-inline-block ">OTT Home</span>
                          </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link p-0 " href="home.html">
+                         <a class="nav-link p-0 " href="{{ route('home') }}">
                            <img src="template/assets/images/mega-menu/home.webp" alt="img" class="img-fluid d-xl-block d-none">
                            <span class="d-inline-block ">Home</span>
                          </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link p-0 " href="movie.html">
+                         <a class="nav-link p-0 " href="{{ route('movie') }}">
                            <img src="template/assets/images/mega-menu/movie.webp" alt="img" class="img-fluid d-xl-block d-none">
                            <span class="d-inline-block ">Movie</span>
                          </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link p-0 " href="tv-show.html">
+                         <a class="nav-link p-0 " href="{{ route('tvshow') }}">
                            <img src="template/assets/images/mega-menu/tv-show.webp" alt="img" class="img-fluid d-xl-block d-none">
                            <span class="d-inline-block ">TV Show</span>
                          </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link p-0 " href="video.html">
+                         <a class="nav-link p-0 " href="{{ route('video') }}">
                            <img src="template/assets/images/mega-menu/video.webp" alt="img" class="img-fluid d-xl-block d-none">
                            <span class="d-inline-block ">Video</span>
                          </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link p-0 " href="merchandise-store.html">
+                         <a class="nav-link p-0 " href="{{ route('merchandisestore') }}">
                            <img src="template/assets/images/mega-menu/shop-home.webp" alt="img" class="img-fluid d-xl-block d-none">
                            <span class="d-inline-block ">Merchandise Store</span>
                          </a>
@@ -128,22 +128,22 @@
                      </a>
                      <ul class="sub-nav collapse  list-unstyled" id="features">
                        <li class="nav-item">
-                         <a class="nav-link " href="restricted-content.html"> Restricted Content </a>
+                         <a class="nav-link " href="{{ route('restrictedcontent') }}"> Restricted Content </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link " href="related-merchandise.html"> Related Merchandise </a>
+                         <a class="nav-link " href="{{ route('relatedmerchandise') }}"> Related Merchandise </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link " href="playlist.html"> Playlist </a>
+                         <a class="nav-link " href="{{ route('playlist') }}"> Playlist </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link " href="geners.html"> Geners </a>
+                         <a class="nav-link " href="{{ route('genre') }}"> Geners </a>
                        </li>
                        <li class="nav-item">
                          <a class="nav-link " href="{{ route('cast') }}"> Cast </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link " href="tags.html"> Tags </a>
+                         <a class="nav-link " href="{{ route('tags') }}"> Tags </a>
                        </li>
                      </ul>
                    </li>
@@ -163,19 +163,19 @@
                          <a class="nav-link " href="{{ route('about') }}"> About Us </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link " href="contact-us.html"> Contact Us </a>
+                         <a class="nav-link " href="{{ route('comingsoon') }}"> Contact Us </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link " href="faq.html"> FAQ </a>
+                         <a class="nav-link " href="{{ route('faq') }}"> FAQ </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link " href="privacy-policy.html"> Privacy Policy </a>
+                         <a class="nav-link " href="{{ route('privacypolicy') }}"> Privacy Policy </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link " href="pricing-plan.html"> Pricing Plan </a>
+                         <a class="nav-link " href="{{ route('pricingplan') }}"> Pricing Plan </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link " href="coming-soon.html"> Coming Soon </a>
+                         <a class="nav-link " href="{{ route('comingsoon') }}"> Coming Soon </a>
                        </li>
                        <li class="nav-item">
                          <a class="nav-link" data-bs-toggle="collapse" href="#error-page" role="button" aria-expanded="false" aria-controls="error-page">
@@ -190,10 +190,10 @@
                          </a>
                          <ul class="sub-nav collapse  list-unstyled" id="error-page">
                            <li class="nav-item">
-                             <a class="nav-link " href="error-page-one.html"> Error Page 1 </a>
+                             <a class="nav-link " href="{{ route('error') }}"> Error Page 1 </a>
                            </li>
                            <li class="nav-item">
-                             <a class="nav-link " href="error-page-two.html"> Error Page 2 </a>
+                             <a class="nav-link " href="{{ route('error') }}"> Error Page 2 </a>
                            </li>
                          </ul>
                        </li>
@@ -282,7 +282,7 @@
                              <a class="nav-link " href="blog/blog-audio.html"> Audio </a>
                            </li>
                            <li class="nav-item">
-                             <a class="nav-link " href="blog/blog-video.html"> Video </a>
+                             <a class="nav-link " href="blog/blog-{{ route('video') }}"> Video </a>
                            </li>
                            <li class="nav-item">
                              <a class="nav-link " href="blog/blog-link.html"> Link </a>
@@ -310,22 +310,22 @@
                      </a>
                      <ul class="sub-nav collapse  list-unstyled" id="shop">
                        <li class="nav-item">
-                         <a class="nav-link " href="shop/shop.html"> Shop </a>
+                         <a class="nav-link " href="{{ route('shop') }}"> Shop </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link " href="shop/my-account.html"> My Account Page </a>
+                         <a class="nav-link " href="{{ route('myaccount') }}"> My Account Page </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link " href="shop/cart.html"> Cart Page </a>
+                         <a class="nav-link " href="{{ route('cart') }}"> Cart Page </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link " href="shop/wishlist.html"> Wishlist Page </a>
+                         <a class="nav-link " href="{{ route('wishlist') }}"> Wishlist Page </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link " href="shop/checkout.html"> Checkout Page </a>
+                         <a class="nav-link " href="{{ route('checkout') }}"> Checkout Page </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link " href="shop/order-tracking.html"> Order Tracking </a>
+                         <a class="nav-link " href="{{ route('ordertracking') }}"> Order Tracking </a>
                        </li>
                      </ul>
                    </li>
@@ -409,7 +409,7 @@
                                <span class="font-size-14 fw-500 text-capitalize text-white">Jenny</span>
                             </li>
                             <li>
-                               <a href="playlist.html" class="iq-sub-card d-flex align-items-center gap-3">
+                               <a href="{{ route('playlist') }}" class="iq-sub-card d-flex align-items-center gap-3">
                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 22" fill="none">
                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M7.84455 20.6621C4.15273 20.6621 1 20.0876 1 17.7868C1 15.486 4.13273 13.3621 7.84455 13.3621C11.5364 13.3621 14.6891 15.4654 14.6891 17.7662C14.6891 20.066 11.5564 20.6621 7.84455 20.6621Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M7.83725 10.1738C10.26 10.1738 12.2236 8.21015 12.2236 5.78742C12.2236 3.36469 10.26 1.40015 7.83725 1.40015C5.41452 1.40015 3.44998 3.36469 3.44998 5.78742C3.4418 8.20196 5.3918 10.1656 7.80634 10.1738C7.81725 10.1738 7.82725 10.1738 7.83725 10.1738Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -418,7 +418,7 @@
                                </a>
                             </li>
                             <li>
-                               <a href="playlist.html" class="iq-sub-card d-flex align-items-center gap-3">
+                               <a href="{{ route('playlist') }}" class="iq-sub-card d-flex align-items-center gap-3">
                                   <svg width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                      <path d="m0 0h24v24h-24z" fill="#fff" opacity="0"
                                         transform="matrix(-1 0 0 -1 24 24)" />
@@ -430,7 +430,7 @@
                                </a>
                             </li>
                             <li>
-                               <a href="pricing-plan.html" class="iq-sub-card d-flex align-items-center gap-3">
+                               <a href="{{ route('pricingplan') }}" class="iq-sub-card d-flex align-items-center gap-3">
                                   <svg width="16" height="16" stroke-width="1.5" viewBox="0 0 24 24" fill="none"
                                      xmlns="http://www.w3.org/2000/svg">
                                      <path
@@ -441,7 +441,7 @@
                                </a>
                             </li>
                             <li>
-                               <a href="login.html"
+                               <a href="{{ route('login') }}"
                                   class="iq-sub-card iq-logout-2 mt-1 d-flex justify-content-center gap-2">
                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
                                      fill="none">

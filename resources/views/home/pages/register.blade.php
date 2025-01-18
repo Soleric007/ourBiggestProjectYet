@@ -94,7 +94,7 @@
                       <input type="password" class="form-control rounded-0" required="">
                   </div>
               </div>
-              <label class="list-group-item d-flex align-items-center mt-5 mb-3 text-white"><input class="form-check-input m-0 me-2" type="checkbox">I've read and accept the <a href="terms-of-use.html" class="ms-1">terms & conditions*</a></label>
+              <label class="list-group-item d-flex align-items-center mt-5 mb-3 text-white"><input class="form-check-input m-0 me-2" type="checkbox">I've read and accept the <a href="{{ route('termsofuse') }}" class="ms-1">terms & conditions*</a></label>
               <div class="row text-center">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-6">
@@ -105,7 +105,7 @@
                             <i class="fa-solid fa-play"></i>
                         </a>
                     </div>
-                    <p class="mt-2 mb-0 fw-normal">Already have an account?<a href="login.html" class="ms-1">Login</a></p>
+                    <p class="mt-2 mb-0 fw-normal">Already have an account?<a href="{{ route('login') }}" class="ms-1">Login</a></p>
                   </div>
                 </div>
                 <div class="col-lg-3"></div>

@@ -70,7 +70,7 @@
                       <nav aria-label="breadcrumb" class="text-center">
                           <h2 class="title">Cast</h2>
                           <ol class="breadcrumb justify-content-center">
-                              <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                              <li class="breadcrumb-item"><a href="./{{ route('index') }}">Home</a></li>
                               <li class="breadcrumb-item active">Cast</li>
                           </ol>
                       </nav>
@@ -87,7 +87,7 @@
                       <img src="template/assets/images/cast/01.webp" class="img-fluid" alt="castImg" />
                       <div class="card-img-overlay iq-cast-body">
                         <h6 class="cast-title fw-500">
-                          <a href="person-detail.html">
+                          <a href="{{ route('persondetail') }}">
                             Debbi
                                     Bossi
                           </a>
@@ -102,7 +102,7 @@
                       <img src="template/assets/images/cast/02.webp" class="img-fluid" alt="castImg" />
                       <div class="card-img-overlay iq-cast-body">
                         <h6 class="cast-title fw-500">
-                          <a href="person-detail.html">
+                          <a href="{{ route('persondetail') }}">
                             Karen
                                     Gilchrist
                           </a>
@@ -117,7 +117,7 @@
                       <img src="template/assets/images/cast/03.webp" class="img-fluid" alt="castImg" />
                       <div class="card-img-overlay iq-cast-body">
                         <h6 class="cast-title fw-500">
-                          <a href="person-detail.html">
+                          <a href="{{ route('persondetail') }}">
                             James
                                     Chinlund
                           </a>
@@ -132,7 +132,7 @@
                       <img src="template/assets/images/cast/04.webp" class="img-fluid" alt="castImg" />
                       <div class="card-img-overlay iq-cast-body">
                         <h6 class="cast-title fw-500">
-                          <a href="person-detail.html">
+                          <a href="{{ route('persondetail') }}">
                             Brenda
                                     Chapman
                           </a>
@@ -147,7 +147,7 @@
                       <img src="template/assets/images/cast/05.webp" class="img-fluid" alt="castImg" />
                       <div class="card-img-overlay iq-cast-body">
                         <h6 class="cast-title fw-500">
-                          <a href="person-detail.html">
+                          <a href="{{ route('persondetail') }}">
                             Mark
                                     Livolsi
                           </a>
@@ -162,7 +162,7 @@
                        <img src="template/assets/images/cast/06.webp" class="img-fluid" alt="castImg" />
                        <div class="card-img-overlay iq-cast-body">
                          <h6 class="cast-title fw-500">
-                           <a href="person-detail.html">
+                           <a href="{{ route('persondetail') }}">
                              Caleb
                                      Deschannel
                            </a>
@@ -177,7 +177,7 @@
                       <img src="template/assets/images/cast/02.webp" class="img-fluid" alt="castImg" />
                       <div class="card-img-overlay iq-cast-body">
                         <h6 class="cast-title fw-500">
-                          <a href="person-detail.html">
+                          <a href="{{ route('persondetail') }}">
                             Hans
                                     Zimmer
                           </a>
@@ -192,7 +192,7 @@
                      <img src="template/assets/images/cast/01.webp" class="img-fluid" alt="castImg" />
                      <div class="card-img-overlay iq-cast-body">
                        <h6 class="cast-title fw-500">
-                         <a href="person-detail.html">
+                         <a href="{{ route('persondetail') }}">
                            John
                                    Bartnicki
                          </a>
@@ -207,7 +207,7 @@
                       <img src="template/assets/images/cast/04.webp" class="img-fluid" alt="castImg" />
                       <div class="card-img-overlay iq-cast-body">
                         <h6 class="cast-title fw-500">
-                          <a href="person-detail.html">
+                          <a href="{{ route('persondetail') }}">
                             Jeffrey
                                     Silver
                           </a>
@@ -222,7 +222,7 @@
                      <img src="template/assets/images/cast/05.webp" class="img-fluid" alt="castImg" />
                      <div class="card-img-overlay iq-cast-body">
                        <h6 class="cast-title fw-500">
-                         <a href="person-detail.html">
+                         <a href="{{ route('persondetail') }}">
                            Linda
                                    Wolverton
                          </a>
@@ -237,7 +237,7 @@
                      <img src="template/assets/images/cast/06.webp" class="img-fluid" alt="castImg" />
                      <div class="card-img-overlay iq-cast-body">
                        <h6 class="cast-title fw-500">
-                         <a href="person-detail.html">
+                         <a href="{{ route('persondetail') }}">
                            Johnathon
                                    Roberts
                          </a>
@@ -252,7 +252,7 @@
                       <img src="template/assets/images/cast/01.webp" class="img-fluid" alt="castImg" />
                       <div class="card-img-overlay iq-cast-body">
                         <h6 class="cast-title fw-500">
-                          <a href="person-detail.html">
+                          <a href="{{ route('persondetail') }}">
                             Irene
                                     Mecchi
                           </a>

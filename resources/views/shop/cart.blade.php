@@ -46,7 +46,7 @@
 
 </head>
 
-<body class="  ">
+<body class="">
   <span class="screen-darken"></span>
   <!-- loader Start -->
    <!-- loader Start -->
@@ -62,11 +62,11 @@
          <nav class="nav navbar navbar-expand-xl navbar-light iq-navbar header-hover-menu py-xl-0">
             <div class="container-fluid navbar-inner">
                <div class="d-flex align-items-center justify-content-between w-100 landing-header">
-                  <div class="d-flex gap-3 gap-xl-0 align-items-center">
+                  <div class="gap-3 d-flex gap-xl-0 align-items-center">
                      <div>
                         <button type="button" data-bs-toggle="offcanvas" data-bs-target="#navbar_main"
                            aria-controls="navbar_main"
-                           class="d-xl-none btn btn-primary rounded-pill p-1 pt-0 toggle-rounded-btn">
+                           class="p-1 pt-0 d-xl-none btn btn-primary rounded-pill toggle-rounded-btn">
                            <svg width="20px" class="icon-20" viewBox="0 0 24 24">
                               <path fill="currentColor"
                                  d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
@@ -75,22 +75,22 @@
                      </div>
                      <!--Logo -->
                      <div class="logo-default">
-                         <a class="navbar-brand text-primary" href="../index.html">
+                         <a class="navbar-brand text-primary" href="{{ route('index') }}">
                              <img class="img-fluid logo" src="../template/assets/images/logo.webp" loading="lazy" alt="streamit" />
                          </a>
                      </div>
                      <div class="logo-hotstar">
-                         <a class="navbar-brand text-primary" href="../index.html">
+                         <a class="navbar-brand text-primary" href="{{ route('index') }}">
                              <img class="img-fluid logo" src="../template/assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
                          </a>
                      </div>
                      <div class="logo-prime">
-                         <a class="navbar-brand text-primary" href="../index.html">
+                         <a class="navbar-brand text-primary" href="{{ route('index') }}">
                              <img class="img-fluid logo" src="../template/assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
                          </a>
                      </div>
                      <div class="logo-hulu">
-                         <a class="navbar-brand text-primary" href="../index.html">
+                         <a class="navbar-brand text-primary" href="{{ route('index') }}">
                              <img class="img-fluid logo" src="../template/assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
                          </a>
                      </div>
@@ -99,62 +99,62 @@
                   <!-- Horizontal Menu Start -->
                   <nav id="navbar_main" class="offcanvas mobile-offcanvas nav navbar navbar-expand-xl hover-nav horizontal-nav py-xl-0">
                     <div class="container-fluid p-lg-0">
-                      <div class="offcanvas-header px-0">
+                      <div class="px-0 offcanvas-header">
                         <div class="navbar-brand ms-3">
                           <!--Logo -->
                           <div class="logo-default">
-                              <a class="navbar-brand text-primary" href="../index.html">
+                              <a class="navbar-brand text-primary" href="{{ route('index') }}">
                                   <img class="img-fluid logo" src="../template/assets/images/logo.webp" loading="lazy" alt="streamit" />
                               </a>
                           </div>
                           <div class="logo-hotstar">
-                              <a class="navbar-brand text-primary" href="../index.html">
+                              <a class="navbar-brand text-primary" href="{{ route('index') }}">
                                   <img class="img-fluid logo" src="../template/assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
                               </a>
                           </div>
                           <div class="logo-prime">
-                              <a class="navbar-brand text-primary" href="../index.html">
+                              <a class="navbar-brand text-primary" href="{{ route('index') }}">
                                   <img class="img-fluid logo" src="../template/assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
                               </a>
                           </div>
                           <div class="logo-hulu">
-                              <a class="navbar-brand text-primary" href="../index.html">
+                              <a class="navbar-brand text-primary" href="{{ route('index') }}">
                                   <img class="img-fluid logo" src="../template/assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
                               </a>
                           </div>
                         </div>
-                        <button type="button" class="btn-close float-end px-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <button type="button" class="px-3 btn-close float-end" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                       </div>
-                      <ul class="navbar-nav iq-nav-menu  list-unstyled" id="header-menu">
+                      <ul class="navbar-nav iq-nav-menu list-unstyled" id="header-menu">
                         <li class="nav-item">
                           <a class="nav-link" data-bs-toggle="collapse" href="#homePages" role="button" aria-expanded="false" aria-controls="homePages">
                             <span class="item-name">Home</span>
                             <span class="menu-icon">
                               <i class="fa fa-caret-down toggledrop-desktop right-icon" aria-hidden="true"></i>
                               <span class="toggle-menu">
-                                <i class="fa fa-plus  arrow-active text-white" aria-hidden="true"></i>
-                                <i class="fa fa-minus  arrow-hover text-white" aria-hidden="true"></i>
+                                <i class="text-white fa fa-plus arrow-active" aria-hidden="true"></i>
+                                <i class="text-white fa fa-minus arrow-hover" aria-hidden="true"></i>
                               </span>
                             </span>
                           </a>
-                          <ul class="sub-nav collapse  list-unstyled" id="homePages">
+                          <ul class="sub-nav collapse list-unstyled" id="homePages">
                             <li class="nav-item">
-                              <a class="nav-link " href="../index.html"> OTT Home </a>
+                              <a class="nav-link " href="{{ route('index') }}"> OTT Home </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link " href="../home.html"> Home </a>
+                              <a class="nav-link " href="{{ route('home') }}"> Home </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link " href="../movie.html"> Movie </a>
+                              <a class="nav-link " href="{{ route('movie') }}"> Movie </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link " href="../tv-show.html"> TV Show </a>
+                              <a class="nav-link " href="{{ route('tvshow') }}"> TV Show </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link " href="../video.html"> Video </a>
+                              <a class="nav-link " href="{{ route('video') }}"> Video </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link " href="../merchandise-store.html"> Merchandise Store </a>
+                              <a class="nav-link " href="{{ route('merchandisestore') }}"> Merchandise Store </a>
                             </li>
                           </ul>
                         </li>
@@ -164,29 +164,29 @@
                             <span class="menu-icon">
                               <i class="fa fa-caret-down toggledrop-desktop right-icon" aria-hidden="true"></i>
                               <span class="toggle-menu">
-                                <i class="fa fa-plus  arrow-active text-white" aria-hidden="true"></i>
-                                <i class="fa fa-minus  arrow-hover text-white" aria-hidden="true"></i>
+                                <i class="text-white fa fa-plus arrow-active" aria-hidden="true"></i>
+                                <i class="text-white fa fa-minus arrow-hover" aria-hidden="true"></i>
                               </span>
                             </span>
                           </a>
-                          <ul class="sub-nav collapse  list-unstyled" id="features">
+                          <ul class="sub-nav collapse list-unstyled" id="features">
                             <li class="nav-item">
-                              <a class="nav-link " href="../restricted-content.html"> Restricted Content </a>
+                              <a class="nav-link " href="{{ route('restrictedcontent') }}"> Restricted Content </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link " href="../related-merchandise.html"> Related Merchandise </a>
+                              <a class="nav-link " href="{{ route('relatedmerchandise') }}"> Related Merchandise </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link " href="../playlist.html"> Playlist </a>
+                              <a class="nav-link " href="{{ route('playlist') }}"> Playlist </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link " href="../geners.html"> Genres </a>
+                              <a class="nav-link " href="{{ route('genre') }}"> Genres </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link " href="../cast.html"> Cast </a>
+                              <a class="nav-link " href="{{ route('cast') }}"> Cast </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link " href="../tags.html"> Tags </a>
+                              <a class="nav-link " href="{{ route('tags') }}"> Tags </a>
                             </li>
                           </ul>
                         </li>
@@ -196,29 +196,29 @@
                             <span class="menu-icon">
                               <i class="fa fa-caret-down toggledrop-desktop right-icon" aria-hidden="true"></i>
                               <span class="toggle-menu">
-                                <i class="fa fa-plus  arrow-active text-white" aria-hidden="true"></i>
-                                <i class="fa fa-minus  arrow-hover text-white" aria-hidden="true"></i>
+                                <i class="text-white fa fa-plus arrow-active" aria-hidden="true"></i>
+                                <i class="text-white fa fa-minus arrow-hover" aria-hidden="true"></i>
                               </span>
                             </span>
                           </a>
-                          <ul class="sub-nav collapse  list-unstyled" id="pages">
+                          <ul class="sub-nav collapse list-unstyled" id="pages">
                             <li class="nav-item">
-                              <a class="nav-link " href="../about-us.html"> About Us </a>
+                              <a class="nav-link " href="{{ route('about') }}"> About Us </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link " href="../contact-us.html"> Contact Us </a>
+                              <a class="nav-link " href="{{ route('comingsoon') }}"> Contact Us </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link " href="../faq.html"> FAQ </a>
+                              <a class="nav-link " href="{{ route('faq') }}"> FAQ </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link " href="../privacy-policy.html"> Privacy Policy </a>
+                              <a class="nav-link " href="{{ route('privacypolicy') }}"> Privacy Policy </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link " href="../pricing-plan.html"> Pricing Plan </a>
+                              <a class="nav-link " href="{{ route('pricingplan') }}"> Pricing Plan </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link " href="../coming-soon.html"> Coming Soon </a>
+                              <a class="nav-link " href="{{ route('comingsoon') }}"> Coming Soon </a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" data-bs-toggle="collapse" href="#error-page" role="button" aria-expanded="false" aria-controls="error-page">
@@ -226,17 +226,17 @@
                                 <span class="menu-icon">
                                   <i class="fa fa-caret-right toggledrop-desktop right-icon" aria-hidden="true"></i>
                                   <span class="toggle-menu">
-                                    <i class="fa fa-plus  arrow-active text-white" aria-hidden="true"></i>
-                                    <i class="fa fa-minus  arrow-hover text-white" aria-hidden="true"></i>
+                                    <i class="text-white fa fa-plus arrow-active" aria-hidden="true"></i>
+                                    <i class="text-white fa fa-minus arrow-hover" aria-hidden="true"></i>
                                   </span>
                                 </span>
                               </a>
-                              <ul class="sub-nav collapse  list-unstyled" id="error-page">
+                              <ul class="sub-nav collapse list-unstyled" id="error-page">
                                 <li class="nav-item">
-                                  <a class="nav-link " href="../error-page-one.html"> Error Page 1 </a>
+                                  <a class="nav-link " href="{{ route('error') }}"> Error Page 1 </a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link " href="../error-page-two.html"> Error Page 2 </a>
+                                  <a class="nav-link " href="{{ route('error') }}"> Error Page 2 </a>
                                 </li>
                               </ul>
                             </li>
@@ -248,12 +248,12 @@
                             <span class="menu-icon">
                               <i class="fa fa-caret-down toggledrop-desktop right-icon" aria-hidden="true"></i>
                               <span class="toggle-menu">
-                                <i class="fa fa-plus  arrow-active text-white" aria-hidden="true"></i>
-                                <i class="fa fa-minus  arrow-hover text-white" aria-hidden="true"></i>
+                                <i class="text-white fa fa-plus arrow-active" aria-hidden="true"></i>
+                                <i class="text-white fa fa-minus arrow-hover" aria-hidden="true"></i>
                               </span>
                             </span>
                           </a>
-                          <ul class="sub-nav collapse  list-unstyled" id="blog">
+                          <ul class="sub-nav collapse list-unstyled" id="blog">
                             <li class="nav-item">
                               <a class="nav-link " href="../blog/blog-listing.html"> Listing </a>
                             </li>
@@ -263,12 +263,12 @@
                                 <span class="menu-icon">
                                   <i class="fa fa-caret-right toggledrop-desktop right-icon" aria-hidden="true"></i>
                                   <span class="toggle-menu">
-                                    <i class="fa fa-plus  arrow-active text-white" aria-hidden="true"></i>
-                                    <i class="fa fa-minus  arrow-hover text-white" aria-hidden="true"></i>
+                                    <i class="text-white fa fa-plus arrow-active" aria-hidden="true"></i>
+                                    <i class="text-white fa fa-minus arrow-hover" aria-hidden="true"></i>
                                   </span>
                                 </span>
                               </a>
-                              <ul class="sub-nav collapse  list-unstyled" id="blog-grid">
+                              <ul class="sub-nav collapse list-unstyled" id="blog-grid">
                                 <li class="nav-item">
                                   <a class="nav-link " href="../blog/one-column.html"> 1 Column </a>
                                 </li>
@@ -289,12 +289,12 @@
                                 <span class="menu-icon">
                                   <i class="fa fa-caret-right toggledrop-desktop right-icon" aria-hidden="true"></i>
                                   <span class="toggle-menu">
-                                    <i class="fa fa-plus  arrow-active text-white" aria-hidden="true"></i>
-                                    <i class="fa fa-minus  arrow-hover text-white" aria-hidden="true"></i>
+                                    <i class="text-white fa fa-plus arrow-active" aria-hidden="true"></i>
+                                    <i class="text-white fa fa-minus arrow-hover" aria-hidden="true"></i>
                                   </span>
                                 </span>
                               </a>
-                              <ul class="sub-nav collapse  list-unstyled" id="blog-sidebar">
+                              <ul class="sub-nav collapse list-unstyled" id="blog-sidebar">
                                 <li class="nav-item">
                                   <a class="nav-link " href="../blog/left-sidebar.html"> Left Sidebar </a>
                                 </li>
@@ -309,12 +309,12 @@
                                 <span class="menu-icon">
                                   <i class="fa fa-caret-right toggledrop-desktop right-icon" aria-hidden="true"></i>
                                   <span class="toggle-menu">
-                                    <i class="fa fa-plus  arrow-active text-white" aria-hidden="true"></i>
-                                    <i class="fa fa-minus  arrow-hover text-white" aria-hidden="true"></i>
+                                    <i class="text-white fa fa-plus arrow-active" aria-hidden="true"></i>
+                                    <i class="text-white fa fa-minus arrow-hover" aria-hidden="true"></i>
                                   </span>
                                 </span>
                               </a>
-                              <ul class="sub-nav collapse  list-unstyled" id="blog-single">
+                              <ul class="sub-nav collapse list-unstyled" id="blog-single">
                                 <li class="nav-item">
                                   <a class="nav-link " href="../blog/blog-template.html"> Blog Template </a>
                                 </li>
@@ -325,7 +325,7 @@
                                   <a class="nav-link " href="../blog/blog-audio.html"> Audio </a>
                                 </li>
                                 <li class="nav-item">
-                                  <a class="nav-link " href="../blog/blog-video.html"> Video </a>
+                                  <a class="nav-link " href="../blog/blog-{{ route('video') }}"> Video </a>
                                 </li>
                                 <li class="nav-item">
                                   <a class="nav-link " href="../blog/blog-link.html"> Link </a>
@@ -346,29 +346,29 @@
                             <span class="menu-icon">
                               <i class="fa fa-caret-down toggledrop-desktop right-icon" aria-hidden="true"></i>
                               <span class="toggle-menu">
-                                <i class="fa fa-plus arrow-active text-white" aria-hidden="true"></i>
-                                <i class="fa fa-minus arrow-hover text-white" aria-hidden="true"></i>
+                                <i class="text-white fa fa-plus arrow-active" aria-hidden="true"></i>
+                                <i class="text-white fa fa-minus arrow-hover" aria-hidden="true"></i>
                               </span>
                             </span>
                           </a>
-                          <ul class="sub-nav collapse  list-unstyled" id="shop">
+                          <ul class="sub-nav collapse list-unstyled" id="shop">
                             <li class="nav-item">
-                              <a class="nav-link " href="shop.html"> Shop </a>
+                              <a class="nav-link " href="{{ route('shop') }}"> Shop </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link " href="my-account.html"> My Account Page </a>
+                              <a class="nav-link " href="{{ route('myaccount') }}"> My Account Page </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link active" href="cart.html"> Cart Page </a>
+                              <a class="nav-link active" href="{{ route('cart') }}"> Cart Page </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link " href="wishlist.html"> Wishlist Page </a>
+                              <a class="nav-link " href="{{ route('wishlist') }}"> Wishlist Page </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link " href="checkout.html"> Checkout Page </a>
+                              <a class="nav-link " href="{{ route('checkout') }}"> Checkout Page </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link " href="order-tracking.html"> Order Tracking </a>
+                              <a class="nav-link " href="{{ route('ordertracking') }}"> Order Tracking </a>
                             </li>
                           </ul>
                         </li>
@@ -385,10 +385,10 @@
                         </span>
                      </button>
                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav align-items-center ms-auto mb-2 mb-xl-0">
+                        <ul class="mb-2 navbar-nav align-items-center ms-auto mb-xl-0">
                            <li class="nav-item dropdown iq-responsive-menu">
                               <div class="search-box">
-                                 <a href="#" class="nav-link p-0" id="search-drop" data-bs-toggle="dropdown">
+                                 <a href="#" class="p-0 nav-link" id="search-drop" data-bs-toggle="dropdown">
                                     <div class="btn-icon btn-sm rounded-pill btn-action">
                                        <span class="btn-inner">
                                           <svg class="icon-20" width="20" viewBox="0 0 24 24" fill="none"
@@ -403,10 +403,10 @@
                                        </span>
                                     </div>
                                  </a>
-                                 <ul class="dropdown-menu p-0 dropdown-search m-0 iq-search-bar" style="width: 20rem;">
+                                 <ul class="p-0 m-0 dropdown-menu dropdown-search iq-search-bar" style="width: 20rem;">
                                     <li class="p-0">
-                                       <div class="form-group input-group mb-0">
-                                          <input type="text" class="form-control border-0" placeholder="Search...">
+                                       <div class="mb-0 form-group input-group">
+                                          <input type="text" class="border-0 form-control" placeholder="Search...">
                                           <button type="submit" class="search-submit">
                                              <svg class="icon-15" width="15" viewBox="0 0 24 24" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -446,14 +446,14 @@
                                     </span>
                                  </div>
                               </a>
-                              <ul class="dropdown-menu dropdown-menu-end dropdown-user border-0 p-0 m-0"
+                              <ul class="p-0 m-0 border-0 dropdown-menu dropdown-menu-end dropdown-user"
                                  aria-labelledby="navbarDropdown">
-                                 <li class="user-info d-flex align-items-center gap-3 mb-3">
+                                 <li class="gap-3 mb-3 user-info d-flex align-items-center">
                                     <img src="../template/assets/images/user/user1.webp" class="img-fluid" alt="" loading="lazy">
-                                    <span class="font-size-14 fw-500 text-capitalize text-white">Jenny</span>
+                                    <span class="text-white font-size-14 fw-500 text-capitalize">Jenny</span>
                                  </li>
                                  <li>
-                                    <a href="../playlist.html" class="iq-sub-card d-flex align-items-center gap-3">
+                                    <a href="{{ route('playlist') }}" class="gap-3 iq-sub-card d-flex align-items-center">
                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 22" fill="none">
                                           <path fill-rule="evenodd" clip-rule="evenodd" d="M7.84455 20.6621C4.15273 20.6621 1 20.0876 1 17.7868C1 15.486 4.13273 13.3621 7.84455 13.3621C11.5364 13.3621 14.6891 15.4654 14.6891 17.7662C14.6891 20.066 11.5564 20.6621 7.84455 20.6621Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                           <path fill-rule="evenodd" clip-rule="evenodd" d="M7.83725 10.1738C10.26 10.1738 12.2236 8.21015 12.2236 5.78742C12.2236 3.36469 10.26 1.40015 7.83725 1.40015C5.41452 1.40015 3.44998 3.36469 3.44998 5.78742C3.4418 8.20196 5.3918 10.1656 7.80634 10.1738C7.81725 10.1738 7.82725 10.1738 7.83725 10.1738Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -462,7 +462,7 @@
                                     </a>
                                  </li>
                                  <li>
-                                    <a href="../playlist.html" class="iq-sub-card d-flex align-items-center gap-3">
+                                    <a href="{{ route('playlist') }}" class="gap-3 iq-sub-card d-flex align-items-center">
                                        <svg width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                           <path d="m0 0h24v24h-24z" fill="#fff" opacity="0"
                                              transform="matrix(-1 0 0 -1 24 24)" />
@@ -474,7 +474,7 @@
                                     </a>
                                  </li>
                                  <li>
-                                    <a href="../pricing-plan.html" class="iq-sub-card d-flex align-items-center gap-3">
+                                    <a href="{{ route('pricingplan') }}" class="gap-3 iq-sub-card d-flex align-items-center">
                                        <svg width="16" height="16" stroke-width="1.5" viewBox="0 0 24 24" fill="none"
                                           xmlns="http://www.w3.org/2000/svg">
                                           <path
@@ -485,8 +485,8 @@
                                     </a>
                                  </li>
                                  <li>
-                                    <a href="../login.html"
-                                       class="iq-sub-card iq-logout-2 mt-1 d-flex justify-content-center gap-2">
+                                    <a href="{{ route('login') }}"
+                                       class="gap-2 mt-1 iq-sub-card iq-logout-2 d-flex justify-content-center">
                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
                                           fill="none">
                                           <path
@@ -514,7 +514,7 @@
                       <nav aria-label="breadcrumb" class="text-center">
                           <h2 class="title">Cart</h2>
                           <ol class="breadcrumb justify-content-center">
-                              <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                              <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
                               <li class="breadcrumb-item active">Cart</li>
                           </ol>
                       </nav>
@@ -523,11 +523,11 @@
          </div>
       </div>      <!--bread-crumb-->
 
-<div class="cart-page  section-padding">
+<div class="cart-page section-padding">
     <div class="container">
-        <div class="main-cart mb-3 mb-md-5 pb-0 pb-md-5">
+        <div class="pb-0 mb-3 main-cart mb-md-5 pb-md-5">
             <ul
-                class="cart-page-items d-flex justify-content-center list-inline align-items-center gap-3 gap-md-5 flex-wrap">
+                class="flex-wrap gap-3 cart-page-items d-flex justify-content-center list-inline align-items-center gap-md-5">
                 <li class="cart-page-item active">
                     <span class="cart-pre-heading badge cart-pre-number bg-primary border-radius rounded-circle me-1"> 1
                     </span>
@@ -583,8 +583,8 @@
                         <tbody>
                             <tr data-item="list">
                                 <td>
-                                    <div class="product-thumbnail d-flex align-items-center gap-3">
-                                        <a class="d-block mb-2" href="">
+                                    <div class="gap-3 product-thumbnail d-flex align-items-center">
+                                        <a class="mb-2 d-block" href="">
                                             <img class="avatar-80" src="../template/assets/images/shop/product/08.webp"
                                                 alt="">
                                         </a>
@@ -595,14 +595,14 @@
                                     <span class="fw-500">$15.00</span>
                                 </td>
                                 <td>
-                                    <div class="btn-group iq-qty-btn border border-white rounded-0" data-qty="btn" role="group">
-                                        <button type="button" class="btn btn-sm btn-outline-light iq-quantity-minus text-white border-0">
+                                    <div class="border border-white btn-group iq-qty-btn rounded-0" data-qty="btn" role="group">
+                                        <button type="button" class="text-white border-0 btn btn-sm btn-outline-light iq-quantity-minus">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="6" height="3" viewBox="0 0 6 3" fill="none">
                                             <path d="M5.22727 0.886364H0.136364V2.13636H5.22727V0.886364Z" fill="currentColor"></path>
                                             </svg>
                                         </button>
-                                        <input type="text" class="btn btn-sm btn-outline-light input-display border-0" data-qty="input" pattern="^(0|[1-9][0-9]*)$" minlength="1" maxlength="2" value="2" title="Qty">
-                                        <button type="button" class="btn btn-sm btn-outline-light iq-quantity-plus text-white border-0">
+                                        <input type="text" class="border-0 btn btn-sm btn-outline-light input-display" data-qty="input" pattern="^(0|[1-9][0-9]*)$" minlength="1" maxlength="2" value="2" title="Qty">
+                                        <button type="button" class="text-white border-0 btn btn-sm btn-outline-light iq-quantity-plus">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8" viewBox="0 0 9 8" fill="none">
                                             <path d="M3.63636 7.70455H4.90909V4.59091H8.02273V3.31818H4.90909V0.204545H3.63636V3.31818H0.522727V4.59091H3.63636V7.70455Z" fill="currentColor"></path>
                                             </svg>
@@ -614,7 +614,7 @@
                                 </td>
                                 <td>
                                     <button
-                                        class="btn btn-icon btn-danger delete-btn text-end  bg-transparent text-body border-0">
+                                        class="bg-transparent border-0 btn btn-icon btn-danger delete-btn text-end text-body">
                                         <span class="btn-inner">
                                             <i class="far fa-trash-alt"></i>
                                         </span>
@@ -623,8 +623,8 @@
                             </tr>
                             <tr data-item="list">
                                 <td>
-                                    <div class="product-thumbnail d-flex align-items-center gap-3">
-                                        <a class="d-block mb-2" href="">
+                                    <div class="gap-3 product-thumbnail d-flex align-items-center">
+                                        <a class="mb-2 d-block" href="">
                                             <img class="avatar-80" src="../template/assets/images/shop/product/09.webp"
                                                 alt="">
                                         </a>
@@ -635,14 +635,14 @@
                                     <span class="fw-500">$92.00</span>
                                 </td>
                                 <td>
-                                    <div class="btn-group iq-qty-btn border border-white rounded-0" data-qty="btn" role="group">
-                                        <button type="button" class="btn btn-sm btn-outline-light iq-quantity-minus text-white border-0">
+                                    <div class="border border-white btn-group iq-qty-btn rounded-0" data-qty="btn" role="group">
+                                        <button type="button" class="text-white border-0 btn btn-sm btn-outline-light iq-quantity-minus">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="6" height="3" viewBox="0 0 6 3" fill="none">
                                             <path d="M5.22727 0.886364H0.136364V2.13636H5.22727V0.886364Z" fill="currentColor"></path>
                                             </svg>
                                         </button>
-                                        <input type="text" class="btn btn-sm btn-outline-light input-display border-0" data-qty="input" pattern="^(0|[1-9][0-9]*)$" minlength="1" maxlength="2" value="2" title="Qty">
-                                        <button type="button" class="btn btn-sm btn-outline-light iq-quantity-plus text-white border-0">
+                                        <input type="text" class="border-0 btn btn-sm btn-outline-light input-display" data-qty="input" pattern="^(0|[1-9][0-9]*)$" minlength="1" maxlength="2" value="2" title="Qty">
+                                        <button type="button" class="text-white border-0 btn btn-sm btn-outline-light iq-quantity-plus">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8" viewBox="0 0 9 8" fill="none">
                                             <path d="M3.63636 7.70455H4.90909V4.59091H8.02273V3.31818H4.90909V0.204545H3.63636V3.31818H0.522727V4.59091H3.63636V7.70455Z" fill="currentColor"></path>
                                             </svg>
@@ -654,7 +654,7 @@
                                 </td>
                                 <td>
                                     <button
-                                        class="btn btn-icon btn-danger delete-btn text-end  bg-transparent text-body border-0">
+                                        class="bg-transparent border-0 btn btn-icon btn-danger delete-btn text-end text-body">
                                         <span class="btn-inner">
                                             <i class="far fa-trash-alt"></i>
                                         </span>
@@ -664,8 +664,8 @@
                             </tr>
                             <tr data-item="list">
                                 <td>
-                                    <div class="product-thumbnail d-flex align-items-center gap-3">
-                                        <a class="d-block mb-2" href="">
+                                    <div class="gap-3 product-thumbnail d-flex align-items-center">
+                                        <a class="mb-2 d-block" href="">
                                             <img class="avatar-80" src="../template/assets/images/shop/product/10.webp"
                                                 alt="">
                                         </a>
@@ -676,14 +676,14 @@
                                     <span class="fw-500">$90.00</span>
                                 </td>
                                 <td>
-                                    <div class="btn-group iq-qty-btn border border-white rounded-0" data-qty="btn" role="group">
-                                        <button type="button" class="btn btn-sm btn-outline-light iq-quantity-minus text-white border-0">
+                                    <div class="border border-white btn-group iq-qty-btn rounded-0" data-qty="btn" role="group">
+                                        <button type="button" class="text-white border-0 btn btn-sm btn-outline-light iq-quantity-minus">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="6" height="3" viewBox="0 0 6 3" fill="none">
                                             <path d="M5.22727 0.886364H0.136364V2.13636H5.22727V0.886364Z" fill="currentColor"></path>
                                             </svg>
                                         </button>
-                                        <input type="text" class="btn btn-sm btn-outline-light input-display border-0" data-qty="input" pattern="^(0|[1-9][0-9]*)$" minlength="1" maxlength="2" value="2" title="Qty">
-                                        <button type="button" class="btn btn-sm btn-outline-light iq-quantity-plus text-white border-0">
+                                        <input type="text" class="border-0 btn btn-sm btn-outline-light input-display" data-qty="input" pattern="^(0|[1-9][0-9]*)$" minlength="1" maxlength="2" value="2" title="Qty">
+                                        <button type="button" class="text-white border-0 btn btn-sm btn-outline-light iq-quantity-plus">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8" viewBox="0 0 9 8" fill="none">
                                             <path d="M3.63636 7.70455H4.90909V4.59091H8.02273V3.31818H4.90909V0.204545H3.63636V3.31818H0.522727V4.59091H3.63636V7.70455Z" fill="currentColor"></path>
                                             </svg>
@@ -695,7 +695,7 @@
                                 </td>
                                 <td>
                                     <button
-                                        class="btn btn-icon btn-danger delete-btn text-end  bg-transparent text-body border-0">
+                                        class="bg-transparent border-0 btn btn-icon btn-danger delete-btn text-end text-body">
                                         <span class="btn-inner">
                                             <i class="far fa-trash-alt"></i>
                                         </span>
@@ -707,10 +707,10 @@
                     </table>
                 </div>
                 <div
-                    class="coupon-main d-flex justify-content-between  gap-5 flex-wrap align-items-center pt-4 pb-5 border-bottom">
-                    <div class="wrap-coupon d-flex align-items-center gap-3 flex-wrap">
+                    class="flex-wrap gap-5 pt-4 pb-5 coupon-main d-flex justify-content-between align-items-center border-bottom">
+                    <div class="flex-wrap gap-3 wrap-coupon d-flex align-items-center">
                         <label>Coupon :</label>
-                        <input class="form-control d-inline-block w-auto me-2" name="coupon_code" type="text"
+                        <input class="w-auto form-control d-inline-block me-2" name="coupon_code" type="text"
                             placeholder="Coupon code">
                         <div class=" d-inline-block">
                             <div class="iq-button">
@@ -732,7 +732,7 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="cart_totals p-4">
+                <div class="p-4 cart_totals">
                     <h5 class="mb-3 font-size-18 fw-500">Cart Totals</h5>
                     <div class="css_prefix-woocommerce-cart-box table-responsive">
                         <table class="table">
@@ -755,7 +755,7 @@
                         </table>
                         <div class="button-primary">
                             <div class="iq-button">
-                                <a href="checkout.html" class="btn text-uppercase position-relative">
+                                <a href="{{ route('checkout') }}" class="btn text-uppercase position-relative">
                                     <span class="button-text">Proceed to checkout</span>
                                     <i class="fa-solid fa-play"></i>
                                 </a>
@@ -773,91 +773,91 @@
     <div class="container-fluid">
       <div class="footer-top">
         <div class="row">
-          <div class="col-xl-3 col-lg-6 mb-5 mb-lg-0">
+          <div class="mb-5 col-xl-3 col-lg-6 mb-lg-0">
             <div class="footer-logo">
                 <!--Logo -->
                  <div class="logo-default">
-                     <a class="navbar-brand text-primary" href="../index.html">
+                     <a class="navbar-brand text-primary" href="{{ route('index') }}">
                          <img class="img-fluid logo" src="../template/assets/images/logo.webp" loading="lazy" alt="streamit" />
                      </a>
                  </div>
                  <div class="logo-hotstar">
-                     <a class="navbar-brand text-primary" href="../index.html">
+                     <a class="navbar-brand text-primary" href="{{ route('index') }}">
                          <img class="img-fluid logo" src="../template/assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
                      </a>
                  </div>
                  <div class="logo-prime">
-                     <a class="navbar-brand text-primary" href="../index.html">
+                     <a class="navbar-brand text-primary" href="{{ route('index') }}">
                          <img class="img-fluid logo" src="../template/assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
                      </a>
                  </div>
                  <div class="logo-hulu">
-                     <a class="navbar-brand text-primary" href="../index.html">
+                     <a class="navbar-brand text-primary" href="{{ route('index') }}">
                          <img class="img-fluid logo" src="../template/assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
                      </a>
                  </div>
             </div>
             <p class="mb-4 font-size-14">Email us: <span class="text-white">customer@streamit.com</span>
             </p>
-            <p class="text-uppercase letter-spacing-1 font-size-14 mb-1">customer services</p>
-            <p class="mb-0 contact text-white">+ (480) 555-0103</p>
+            <p class="mb-1 text-uppercase letter-spacing-1 font-size-14">customer services</p>
+            <p class="mb-0 text-white contact">+ (480) 555-0103</p>
           </div>
-          <div class="col-xl-2 col-lg-6 mb-5 mb-lg-0">
+          <div class="mb-5 col-xl-2 col-lg-6 mb-lg-0">
             <h4 class="footer-link-title">Quick Links</h4>
             <ul class="list-unstyled footer-menu">
               <li class="mb-3">
-                <a href="../about-us.html" class="ms-3">about us</a>
+                <a href="{{ route('about') }}" class="ms-3">about us</a>
               </li>
               <li class="mb-3">
                 <a href="../blog/blog-listing.html" class="ms-3">Blog</a>
               </li>
               <li class="mb-3">
-                <a href="../pricing-plan.html" class="ms-3">Pricing Plan</a>
+                <a href="{{ route('pricingplan') }}" class="ms-3">Pricing Plan</a>
               </li>
               <li>
-                <a href="../faq.html" class="ms-3">FAQ</a>
+                <a href="{{ route('faq') }}" class="ms-3">FAQ</a>
               </li>
             </ul>
           </div>
-          <div class="col-xl-2 col-lg-6 mb-5 mb-lg-0">
+          <div class="mb-5 col-xl-2 col-lg-6 mb-lg-0">
             <h4 class="footer-link-title">Movies to watch</h4>
             <ul class="list-unstyled footer-menu">
               <li class="mb-3">
-                <a href="../view-all-movie.html" class="ms-3">Top trending</a>
+                <a href="../view-all-{{ route('movie') }}" class="ms-3">Top trending</a>
               </li>
               <li class="mb-3">
-                <a href="../view-all-movie.html" class="ms-3">Recommended</a>
+                <a href="../view-all-{{ route('movie') }}" class="ms-3">Recommended</a>
               </li>
               <li>
-                <a href="../view-all-movie.html" class="ms-3">Popular</a>
+                <a href="../view-all-{{ route('movie') }}" class="ms-3">Popular</a>
               </li>
             </ul>
           </div>
-          <div class="col-xl-2 col-lg-6 mb-5 mb-lg-0">
+          <div class="mb-5 col-xl-2 col-lg-6 mb-lg-0">
             <h4 class="footer-link-title">About company</h4>
             <ul class="list-unstyled footer-menu">
               <li class="mb-3">
-                <a href="../contact-us.html" class="ms-3">contact us</a>
+                <a href="{{ route('contact') }}" class="ms-3">contact us</a>
               </li>
               <li class="mb-3">
-                <a href="../privacy-policy.html" class="ms-3">privacy policy</a>
+                <a href="{{ route('privacypolicy') }}" class="ms-3">privacy policy</a>
               </li>
               <li>
-                <a href="../terms-of-use.html" class="ms-3">Terms of use</a>
+                <a href="{{ route('termsofuse') }}" class="ms-3">Terms of use</a>
               </li>
             </ul>
           </div>
           <div class="col-xl-3 col-lg-6">
             <h4 class="footer-link-title">Subscribe Newsletter</h4>
             <div class="mailchimp mailchimp-dark">
-              <div class="input-group mb-3 mt-4">
-                <input type="text" class="form-control mb-0 font-size-14" placeholder="Email*" aria-describedby="button-addon2">
+              <div class="mt-4 mb-3 input-group">
+                <input type="text" class="mb-0 form-control font-size-14" placeholder="Email*" aria-describedby="button-addon2">
                 <div class="iq-button">
                   <button type="submit" class="btn btn-sm" id="button-addon2">Subscribe</button>
                 </div>
               </div>
             </div>
-            <div class="d-flex align-items-center mt-5">
+            <div class="mt-5 d-flex align-items-center">
               <span class="font-size-14 me-2">Follow Us:</span>
                 <ul class="p-0 m-0 list-unstyled widget_social_media">
                   <li>
@@ -888,25 +888,25 @@
       <div class="footer-bottom border-top">
         <div class="row align-items-center">
           <div class="col-md-6">
-            <ul class="menu list-inline p-0 d-flex flex-wrap align-items-center">
+            <ul class="flex-wrap p-0 menu list-inline d-flex align-items-center">
               <li class="menu-item">
                 <a href="#"> Terms Of Use </a>
               </li>
               <li id="menu-item-7316" class="menu-item">
-                <a href="../privacy-policy.html"> Privacy-Policy </a>
+                <a href="{{ route('privacypolicy') }}"> Privacy-Policy </a>
               </li>
               <li class="menu-item">
-                <a href="../faq.html"> FAQ </a>
+                <a href="{{ route('faq') }}"> FAQ </a>
               </li>
               <li class="menu-item">
-                <a href="../playlist.html"> Watch List </a>
+                <a href="{{ route('playlist') }}"> Watch List </a>
               </li>
             </ul>
             <p class="font-size-14">© <span class="currentYear"></span> <span class="text-primary">STREAMIT</span>. All Rights Reserved. All videos and shows on this platform are trademarks of, and all related images and content are the property of, Streamit Inc. Duplication and copy of this is strictly prohibited.</p>
           </div>
           <div class="col-md-3"></div>
           <div class="col-md-3">
-            <h6 class="font-size-14 pb-1">Download Streamit Apps </h6>
+            <h6 class="pb-1 font-size-14">Download Streamit Apps </h6>
             <div class="d-flex align-items-center">
               <a class="app-image" href="#">
                 <img src="../template/assets/images/footer/google-play.webp" loading="lazy" alt="play-store" />
@@ -934,22 +934,22 @@
       <div class="offcanvas offcanvas-end live-customizer on-rtl end" tabindex="-1" id="live-customizer"
           data-bs-scroll="true" data-bs-backdrop="false" aria-labelledby="live-customizer-label" aria-modal="true"
           role="dialog">
-          <div class="offcanvas-header gap-3">
+          <div class="gap-3 offcanvas-header">
               <div class="d-flex align-items-center">
                   <h5 class="offcanvas-title text-dark" id="live-customizer-label">Live Customizer</h5>
               </div>
-              <div class="d-flex gap-1 align-items-center">
+              <div class="gap-1 d-flex align-items-center">
                   <button class="btn btn-icon text-primary" data-reset="settings" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Reset All Settings"
                       data-bs-original-title="Reset All Settings">
                       <span class="btn-inner">
                           <i class="fa-solid fa-arrows-rotate"></i>
                       </span>
                   </button>
-                  <button type="button" class="btn btn-icon btn-close px-0 text-reset shadow-none text-dark" data-bs-dismiss="offcanvas" aria-label="Close">
+                  <button type="button" class="px-0 shadow-none btn btn-icon btn-close text-reset text-dark" data-bs-dismiss="offcanvas" aria-label="Close">
                   </button>
               </div>
           </div>
-          <div class="offcanvas-body pt-0">
+          <div class="pt-0 offcanvas-body">
               <div class="modes row row-cols-2 gx-2">
                   <div class="col">
                       <div data-setting="attribute" class="text-center w-100">
@@ -970,12 +970,12 @@
                       </div>
                   </div>
               </div>
-              <div class="modes mt-3">
-                  <div class="color-customizer mb-3">
+              <div class="mt-3 modes">
+                  <div class="mb-3 color-customizer">
                       <h6 class="mb-0 title-customizer">Color Customizer</h6>
                   </div>
                   <div class="row row-cols-2 gx-2">
-                      <div class="col mb-3">
+                      <div class="mb-3 col">
                           <div data-setting="attribute" class="text-center w-100">
                               <input type="radio" value="dark" class="btn-check" name="theme_style_appearance"
                                   data-prop="data-bs-theme" id="theme-scheme-color-netflix" data-colors="{&quot;primary&quot;: &quot;#e50914&quot;, &quot;secondary&quot;: &quot;#adafb8&quot;, &quot;tertiray&quot;: &quot;#adafb8&quot;}" checked>
@@ -984,7 +984,7 @@
                               </label>
                           </div>
                       </div>
-                      <div class="col mb-3">
+                      <div class="mb-3 col">
                           <div data-setting="attribute" class="text-center w-100">
                               <input type="radio" value="hotstar" class="btn-check" name="theme_style_appearance"
                                   data-prop="data-bs-theme" id="theme-scheme-color-hotstar" data-colors="{&quot;primary&quot;: &quot;#0959E4&quot;, &quot;secondary&quot;: &quot;#adafb8&quot;, &quot;tertiray&quot;: &quot;#EA4335&quot;}">
@@ -1016,7 +1016,7 @@
           </div>
       </div>
   </div>  <div id="back-to-top" style="display: none;">
-     <a class="p-0 btn bg-primary btn-sm position-fixed top border-0 rounded-circle text-white" id="top" href="#top">
+     <a class="p-0 text-white border-0 btn bg-primary btn-sm position-fixed top rounded-circle" id="top" href="#top">
         <i class="fa-solid fa-chevron-up"></i>
      </a>
   </div>

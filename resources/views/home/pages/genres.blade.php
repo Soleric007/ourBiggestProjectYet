@@ -70,7 +70,7 @@
                       <nav aria-label="breadcrumb" class="text-center">
                           <h2 class="title">Genres</h2>
                           <ol class="breadcrumb justify-content-center">
-                              <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                              <li class="breadcrumb-item"><a href="./{{ route('index') }}">Home</a></li>
                               <li class="breadcrumb-item active">Genres</li>
                           </ol>
                       </nav>
@@ -91,7 +91,7 @@
                         <div class="rounded img-box position-relative">
                             <img src="template/assets/images/genre/01.webp" alt="geners-img" class="object-cover rounded img-fluid w-100">
                             <div class="blog-description">
-                                <h6 class="mb-0 iq-title"><a href="view-all-movie.html" class="p-2 text-decoration-none text-capitalize line-count-2">Action</a></h6>
+                                <h6 class="mb-0 iq-title"><a href="view-all-{{ route('movie') }}" class="p-2 text-decoration-none text-capitalize line-count-2">Action</a></h6>
                             </div>
                         </div>
                     </div>
@@ -103,7 +103,7 @@
                         <div class="rounded img-box position-relative">
                             <img src="template/assets/images/genre/02.webp" alt="geners-img" class="object-cover rounded img-fluid w-100">
                             <div class="blog-description">
-                                <h6 class="mb-0 iq-title"><a href="view-all-movie.html" class="p-2 text-decoration-none text-capitalize line-count-2">Adventure</a></h6>
+                                <h6 class="mb-0 iq-title"><a href="view-all-{{ route('movie') }}" class="p-2 text-decoration-none text-capitalize line-count-2">Adventure</a></h6>
                             </div>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
                         <div class="rounded img-box position-relative">
                             <img src="template/assets/images/genre/03.webp" alt="geners-img" class="object-cover rounded img-fluid w-100">
                             <div class="blog-description">
-                                <h6 class="mb-0 iq-title"><a href="view-all-movie.html" class="p-2 text-decoration-none text-capitalize line-count-2">Animation</a></h6>
+                                <h6 class="mb-0 iq-title"><a href="view-all-{{ route('movie') }}" class="p-2 text-decoration-none text-capitalize line-count-2">Animation</a></h6>
                             </div>
                         </div>
                     </div>
@@ -127,7 +127,7 @@
                         <div class="rounded img-box position-relative">
                             <img src="template/assets/images/genre/04.webp" alt="geners-img" class="object-cover rounded img-fluid w-100">
                             <div class="blog-description">
-                                <h6 class="mb-0 iq-title"><a href="view-all-movie.html" class="p-2 text-decoration-none text-capitalize line-count-2">Crime</a></h6>
+                                <h6 class="mb-0 iq-title"><a href="view-all-{{ route('movie') }}" class="p-2 text-decoration-none text-capitalize line-count-2">Crime</a></h6>
                             </div>
                         </div>
                     </div>
@@ -139,7 +139,7 @@
                         <div class="rounded img-box position-relative">
                             <img src="template/assets/images/genre/05.webp" alt="geners-img" class="object-cover rounded img-fluid w-100">
                             <div class="blog-description">
-                                <h6 class="mb-0 iq-title"><a href="view-all-movie.html" class="p-2 text-decoration-none text-capitalize line-count-2">Horror</a></h6>
+                                <h6 class="mb-0 iq-title"><a href="view-all-{{ route('movie') }}" class="p-2 text-decoration-none text-capitalize line-count-2">Horror</a></h6>
                             </div>
                         </div>
                     </div>
@@ -151,7 +151,7 @@
                         <div class="rounded img-box position-relative">
                             <img src="template/assets/images/genre/06.webp" alt="geners-img" class="object-cover rounded img-fluid w-100">
                             <div class="blog-description">
-                                <h6 class="mb-0 iq-title"><a href="view-all-movie.html" class="p-2 text-decoration-none text-capitalize line-count-2">Mystery</a></h6>
+                                <h6 class="mb-0 iq-title"><a href="view-all-{{ route('movie') }}" class="p-2 text-decoration-none text-capitalize line-count-2">Mystery</a></h6>
                             </div>
                         </div>
                     </div>
@@ -163,7 +163,7 @@
                         <div class="rounded img-box position-relative">
                             <img src="template/assets/images/genre/07.webp" alt="geners-img" class="object-cover rounded img-fluid w-100">
                             <div class="blog-description">
-                                <h6 class="mb-0 iq-title"><a href="view-all-movie.html" class="p-2 text-decoration-none text-capitalize line-count-2">Romance</a></h6>
+                                <h6 class="mb-0 iq-title"><a href="view-all-{{ route('movie') }}" class="p-2 text-decoration-none text-capitalize line-count-2">Romance</a></h6>
                             </div>
                         </div>
                     </div>

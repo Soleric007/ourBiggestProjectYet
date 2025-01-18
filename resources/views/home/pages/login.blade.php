@@ -71,22 +71,22 @@
                     <div class="text-center">
                         <!--Logo -->
                         <div class="logo-default">
-                            <a class="navbar-brand text-primary" href="./index.html">
+                            <a class="navbar-brand text-primary" href="./{{ route('index') }}">
                                 <img class="img-fluid logo" src="template/assets/images/logo.webp" loading="lazy" alt="streamit" />
                             </a>
                         </div>
                         <div class="logo-hotstar">
-                            <a class="navbar-brand text-primary" href="./index.html">
+                            <a class="navbar-brand text-primary" href="./{{ route('index') }}">
                                 <img class="img-fluid logo" src="template/assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
                             </a>
                         </div>
                         <div class="logo-prime">
-                            <a class="navbar-brand text-primary" href="./index.html">
+                            <a class="navbar-brand text-primary" href="./{{ route('index') }}">
                                 <img class="img-fluid logo" src="template/assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
                             </a>
                         </div>
                         <div class="logo-hulu">
-                            <a class="navbar-brand text-primary" href="./index.html">
+                            <a class="navbar-brand text-primary" href="./{{ route('index') }}">
                                 <img class="img-fluid logo" src="template/assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
                             </a>
                         </div>
@@ -101,7 +101,7 @@
                             <input type="password" class="form-control rounded-0" required="">
                         </div>
                         <div class="text-end mb-3">
-                            <a href="reset-password.html" class="text-primary fw-semibold fst-italic">Forgot
+                            <a href="{{ route('resetpassword') }}" class="text-primary fw-semibold fst-italic">Forgot
                                 Password?</a>
                         </div>
                         <label
@@ -116,7 +116,7 @@
                         </div>
                         </div>
                     </form>
-                    <p class="my-4 text-center fw-500 text-white">New to Streamit? <a href="register.html"
+                    <p class="my-4 text-center fw-500 text-white">New to Streamit? <a href="{{ route('register') }}"
                             class="text-primary ms-1">Register</a></p>
                     <div class="seperator d-flex justify-content-center align-items-center">
                         <span class="line"></span>

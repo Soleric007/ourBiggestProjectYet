@@ -70,7 +70,7 @@
                       <nav aria-label="breadcrumb" class="text-center">
                           <h2 class="title">FAQ</h2>
                           <ol class="breadcrumb justify-content-center">
-                              <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                              <li class="breadcrumb-item"><a href="./{{ route('index') }}">Home</a></li>
                               <li class="breadcrumb-item active">FAQ</li>
                           </ol>
                       </nav>

@@ -118,21 +118,21 @@
                      </p>
                      <div class="trending-list RightAnimate-three">
                         <div class="text-primary genres fw-500"> Genres:
-                           <a href="view-all-movie.html" class="text-white fw-normal text-decoration-none ms-2"> Action
+                           <a href="view-all-{{ route('movie') }}" class="text-white fw-normal text-decoration-none ms-2"> Action
                            </a>
                         </div>
                         <div class="text-primary tag fw-500"> Tag:
-                           <a href="view-all-movie.html" class="text-white fw-normal text-decoration-none ms-2"> Action,
+                           <a href="view-all-{{ route('movie') }}" class="text-white fw-normal text-decoration-none ms-2"> Action,
                            </a>
-                           <a href="view-all-movie.html" class="text-white fw-normal text-decoration-none ms-2">
+                           <a href="view-all-{{ route('movie') }}" class="text-white fw-normal text-decoration-none ms-2">
                               Adventure, </a>
-                           <a href="view-all-movie.html" class="text-white fw-normal text-decoration-none ms-2"> Horror
+                           <a href="view-all-{{ route('movie') }}" class="text-white fw-normal text-decoration-none ms-2"> Horror
                            </a>
                         </div>
                      </div>
                      <div class="RightAnimate-four">
                         <div class="iq-button">
-                            <a href="movie-detail.html" class="btn text-uppercase position-relative">
+                            <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative">
                                 <span class="button-text">play now</span>
                                 <i class="fa-solid fa-play"></i>
                             </a>
@@ -202,21 +202,21 @@
                      </p>
                      <div class="trending-list RightAnimate-three">
                         <div class="text-primary genres fw-500"> Genres:
-                           <a href="view-all-movie.html" class="text-white fw-normal text-decoration-none ms-2"> Action
+                           <a href="view-all-{{ route('movie') }}" class="text-white fw-normal text-decoration-none ms-2"> Action
                            </a>
                         </div>
                         <div class="text-primary tag fw-500"> Tag:
-                           <a href="view-all-movie.html" class="text-white fw-normal text-decoration-none ms-2"> Action,
+                           <a href="view-all-{{ route('movie') }}" class="text-white fw-normal text-decoration-none ms-2"> Action,
                            </a>
-                           <a href="view-all-movie.html" class="text-white fw-normal text-decoration-none ms-2">
+                           <a href="view-all-{{ route('movie') }}" class="text-white fw-normal text-decoration-none ms-2">
                               Adventure, </a>
-                           <a href="view-all-movie.html" class="text-white fw-normal text-decoration-none ms-2"> Horror
+                           <a href="view-all-{{ route('movie') }}" class="text-white fw-normal text-decoration-none ms-2"> Horror
                            </a>
                         </div>
                      </div>
                      <div class="RightAnimate-four">
                         <div class="iq-button">
-                            <a href="movie-detail.html" class="btn text-uppercase position-relative">
+                            <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative">
                                 <span class="button-text">play now</span>
                                 <i class="fa-solid fa-play"></i>
                             </a>
@@ -290,21 +290,21 @@
                      </p>
                      <div class="trending-list RightAnimate-three">
                         <div class="text-primary genres fw-500"> Genres:
-                           <a href="view-all-movie.html" class="text-white fw-normal text-decoration-none ms-2"> Action
+                           <a href="view-all-{{ route('movie') }}" class="text-white fw-normal text-decoration-none ms-2"> Action
                            </a>
                         </div>
                         <div class="text-primary tag fw-500"> Tag:
-                           <a href="view-all-movie.html" class="text-white fw-normal text-decoration-none ms-2"> Action,
+                           <a href="view-all-{{ route('movie') }}" class="text-white fw-normal text-decoration-none ms-2"> Action,
                            </a>
-                           <a href="view-all-movie.html" class="text-white fw-normal text-decoration-none ms-2">
+                           <a href="view-all-{{ route('movie') }}" class="text-white fw-normal text-decoration-none ms-2">
                               Adventure, </a>
-                           <a href="view-all-movie.html" class="text-white fw-normal text-decoration-none ms-2"> Horror
+                           <a href="view-all-{{ route('movie') }}" class="text-white fw-normal text-decoration-none ms-2"> Horror
                            </a>
                         </div>
                      </div>
                      <div class="RightAnimate-four">
                         <div class="iq-button">
-                            <a href="movie-detail.html" class="btn text-uppercase position-relative">
+                            <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative">
                                 <span class="button-text">play now</span>
                                 <i class="fa-solid fa-play"></i>
                             </a>
@@ -367,7 +367,7 @@
                   <div class="iq-watching-block">
                       <div class="block-images position-relative">
                           <div class="iq-image-box overly-images">
-                              <a href="movie-detail.html" class="d-block">
+                              <a href="{{ route('moviedetail') }}" class="d-block">
                                   <img src="template/assets/images/continue-watch/01.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                               </a>
                           </div>
@@ -383,7 +383,7 @@
                   <div class="iq-watching-block">
                       <div class="block-images position-relative">
                           <div class="iq-image-box overly-images">
-                              <a href="movie-detail.html" class="d-block">
+                              <a href="{{ route('moviedetail') }}" class="d-block">
                                   <img src="template/assets/images/continue-watch/02.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                               </a>
                           </div>
@@ -399,7 +399,7 @@
                   <div class="iq-watching-block">
                       <div class="block-images position-relative">
                           <div class="iq-image-box overly-images">
-                              <a href="movie-detail.html" class="d-block">
+                              <a href="{{ route('moviedetail') }}" class="d-block">
                                   <img src="template/assets/images/continue-watch/03.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                               </a>
                           </div>
@@ -415,7 +415,7 @@
                   <div class="iq-watching-block">
                       <div class="block-images position-relative">
                           <div class="iq-image-box overly-images">
-                              <a href="movie-detail.html" class="d-block">
+                              <a href="{{ route('moviedetail') }}" class="d-block">
                                   <img src="template/assets/images/continue-watch/04.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                               </a>
                           </div>
@@ -431,7 +431,7 @@
                   <div class="iq-watching-block">
                       <div class="block-images position-relative">
                           <div class="iq-image-box overly-images">
-                              <a href="movie-detail.html" class="d-block">
+                              <a href="{{ route('moviedetail') }}" class="d-block">
                                   <img src="template/assets/images/continue-watch/05.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                               </a>
                           </div>
@@ -447,7 +447,7 @@
                   <div class="iq-watching-block">
                       <div class="block-images position-relative">
                           <div class="iq-image-box overly-images">
-                              <a href="movie-detail.html" class="d-block">
+                              <a href="{{ route('moviedetail') }}" class="d-block">
                                   <img src="template/assets/images/continue-watch/06.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                               </a>
                           </div>
@@ -472,7 +472,7 @@
       <section class="overflow-hidden">
          <div class="px-3 my-4 d-flex align-items-center justify-content-between">
             <h5 class="mb-0 main-title text-capitalize">Upcoming Movies</h5>
-            <a href="view-all-movie.html" class="flex-none text-primary iq-view-all text-decoration-none">View All</a>
+            <a href="view-all-{{ route('movie') }}" class="flex-none text-primary iq-view-all text-decoration-none">View All</a>
          </div>
          <div class="card-style-slider">
             <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="6" data-tab="3"
@@ -483,21 +483,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/upcoming/01.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">dinoosaur</a>
+                                   <a href="{{ route('moviedetail') }}">dinoosaur</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">2hr : 12mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -548,7 +548,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -562,21 +562,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/upcoming/02.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">godilla</a>
+                                   <a href="{{ route('moviedetail') }}">godilla</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">1hr : 22mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -627,7 +627,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -641,21 +641,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/upcoming/03.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">batter caill</a>
+                                   <a href="{{ route('moviedetail') }}">batter caill</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">1hr : 55mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -706,7 +706,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -720,21 +720,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/upcoming/04.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">the co nouerllng</a>
+                                   <a href="{{ route('moviedetail') }}">the co nouerllng</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">1hr : 30mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -785,7 +785,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -799,21 +799,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/upcoming/05.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">fast furious</a>
+                                   <a href="{{ route('moviedetail') }}">fast furious</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">2hr : 45mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -864,7 +864,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -878,21 +878,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/upcoming/06.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">spiderman</a>
+                                   <a href="{{ route('moviedetail') }}">spiderman</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">1hr : 45mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -943,7 +943,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -957,21 +957,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/upcoming/07.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">onepeoc</a>
+                                   <a href="{{ route('moviedetail') }}">onepeoc</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">2hr : 30mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -1022,7 +1022,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -1046,7 +1046,7 @@
       <section class="overflow-hidden">
          <div class="px-3 my-4 d-flex align-items-center justify-content-between">
             <h5 class="mb-0 main-title text-capitalize">latest Movies</h5>
-            <a href="view-all-movie.html" class="flex-none text-primary iq-view-all text-decoration-none">View All</a>
+            <a href="view-all-{{ route('movie') }}" class="flex-none text-primary iq-view-all text-decoration-none">View All</a>
          </div>
          <div class="card-style-slider">
             <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="6" data-tab="3"
@@ -1057,21 +1057,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/latest/01.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">mortal nories</a>
+                                   <a href="{{ route('moviedetail') }}">mortal nories</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">2hr : 12mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -1122,7 +1122,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -1136,21 +1136,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/latest/02.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">advetre</a>
+                                   <a href="{{ route('moviedetail') }}">advetre</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">1hr : 30mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -1201,7 +1201,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -1215,21 +1215,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/latest/03.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">net ailo</a>
+                                   <a href="{{ route('moviedetail') }}">net ailo</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">2hr : 30mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -1280,7 +1280,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -1294,21 +1294,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/latest/04.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">ariivaal</a>
+                                   <a href="{{ route('moviedetail') }}">ariivaal</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">2hr : 45mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -1359,7 +1359,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -1373,21 +1373,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/latest/05.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">dramma</a>
+                                   <a href="{{ route('moviedetail') }}">dramma</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">1hr : 55mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -1438,7 +1438,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -1452,21 +1452,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/latest/06.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">aune</a>
+                                   <a href="{{ route('moviedetail') }}">aune</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">1hr : 25mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -1517,7 +1517,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -1531,21 +1531,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/latest/07.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">everest</a>
+                                   <a href="{{ route('moviedetail') }}">everest</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">1hr : 45mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -1596,7 +1596,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -1709,16 +1709,16 @@
                            <div class="block-description">
                               <ul class="flex-wrap pb-1 mb-0 mb-1 ps-0 list-inline d-flex align-items-center movie-tag">
                                  <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                    <a href="view-all-movie.html" class="text-white text-decoration-none">Comedy</a>
+                                    <a href="view-all-{{ route('movie') }}" class="text-white text-decoration-none">Comedy</a>
                                  </li>
                                  <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                    <a href="view-all-movie.html" class="text-white text-decoration-none">Romance</a>
+                                    <a href="view-all-{{ route('movie') }}" class="text-white text-decoration-none">Romance</a>
                                  </li>
                                  <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                    <a href="view-all-movie.html" class="text-white text-decoration-none">Action</a>
+                                    <a href="view-all-{{ route('movie') }}" class="text-white text-decoration-none">Action</a>
                                  </li>
                               </ul>
-                              <h2 class="mb-3 iq-title"><a href="tv-show-detail.html">wars of dragons</a></h2>
+                              <h2 class="mb-3 iq-title"><a href="{{ route('tvshowdetail') }}">wars of dragons</a></h2>
                               <div class="gap-3 mb-3 d-flex align-items-center">
                                  <div class="slider-ratting d-flex align-items-center">
                                     <ul
@@ -1735,7 +1735,7 @@
                                  more-or-less normal
                                  distribution of letters, as opposed to using 'Content here.</p>
                               <div class="iq-button">
-                                  <a href="movie-detail.html" class="btn text-uppercase position-relative">
+                                  <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative">
                                       <span class="button-text">play
                                                             now</span>
                                       <i class="fa-solid fa-play"></i>
@@ -1751,16 +1751,16 @@
                            <div class="block-description">
                               <ul class="flex-wrap pb-1 mb-0 mb-1 ps-0 list-inline d-flex align-items-center movie-tag">
                                  <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                    <a href="view-all-movie.html" class="text-white text-decoration-none">Comedy</a>
+                                    <a href="view-all-{{ route('movie') }}" class="text-white text-decoration-none">Comedy</a>
                                  </li>
                                  <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                    <a href="view-all-movie.html" class="text-white text-decoration-none">Romance</a>
+                                    <a href="view-all-{{ route('movie') }}" class="text-white text-decoration-none">Romance</a>
                                  </li>
                                  <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                    <a href="view-all-movie.html" class="text-white text-decoration-none">Action</a>
+                                    <a href="view-all-{{ route('movie') }}" class="text-white text-decoration-none">Action</a>
                                  </li>
                               </ul>
-                              <h2 class="mb-3 iq-title"><a href="tv-show-detail.html">the Escape</a></h2>
+                              <h2 class="mb-3 iq-title"><a href="{{ route('tvshowdetail') }}">the Escape</a></h2>
                               <div class="gap-3 mb-3 d-flex align-items-center">
                                  <div class="slider-ratting d-flex align-items-center">
                                     <ul
@@ -1777,7 +1777,7 @@
                                  more-or-less normal
                                  distribution of letters, as opposed to using 'Content here.</p>
                               <div class="iq-button">
-                                  <a href="movie-detail.html" class="btn text-uppercase position-relative">
+                                  <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative">
                                       <span class="button-text">play
                                                             now</span>
                                       <i class="fa-solid fa-play"></i>
@@ -1793,16 +1793,16 @@
                            <div class="block-description">
                               <ul class="flex-wrap pb-1 mb-0 mb-1 ps-0 list-inline d-flex align-items-center movie-tag">
                                  <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                    <a href="view-all-movie.html" class="text-white text-decoration-none">Comedy</a>
+                                    <a href="view-all-{{ route('movie') }}" class="text-white text-decoration-none">Comedy</a>
                                  </li>
                                  <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                    <a href="view-all-movie.html" class="text-white text-decoration-none">Romance</a>
+                                    <a href="view-all-{{ route('movie') }}" class="text-white text-decoration-none">Romance</a>
                                  </li>
                                  <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                    <a href="view-all-movie.html" class="text-white text-decoration-none">Action</a>
+                                    <a href="view-all-{{ route('movie') }}" class="text-white text-decoration-none">Action</a>
                                  </li>
                               </ul>
-                              <h2 class="mb-3 iq-title"><a href="tv-show-detail.html">X-Men</a></h2>
+                              <h2 class="mb-3 iq-title"><a href="{{ route('tvshowdetail') }}">X-Men</a></h2>
                               <div class="gap-3 mb-3 d-flex align-items-center">
                                  <div class="slider-ratting d-flex align-items-center">
                                     <ul
@@ -1819,7 +1819,7 @@
                                  more-or-less normal
                                  distribution of letters, as opposed to using 'Content here.</p>
                               <div class="iq-button">
-                                  <a href="movie-detail.html" class="btn text-uppercase position-relative">
+                                  <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative">
                                       <span class="button-text">play
                                                             now</span>
                                       <i class="fa-solid fa-play"></i>
@@ -1835,16 +1835,16 @@
                            <div class="block-description">
                               <ul class="flex-wrap pb-1 mb-0 mb-1 ps-0 list-inline d-flex align-items-center movie-tag">
                                  <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                    <a href="view-all-movie.html" class="text-white text-decoration-none">Comedy</a>
+                                    <a href="view-all-{{ route('movie') }}" class="text-white text-decoration-none">Comedy</a>
                                  </li>
                                  <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                    <a href="view-all-movie.html" class="text-white text-decoration-none">Romance</a>
+                                    <a href="view-all-{{ route('movie') }}" class="text-white text-decoration-none">Romance</a>
                                  </li>
                                  <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                    <a href="view-all-movie.html" class="text-white text-decoration-none">Action</a>
+                                    <a href="view-all-{{ route('movie') }}" class="text-white text-decoration-none">Action</a>
                                  </li>
                               </ul>
-                              <h2 class="mb-3 iq-title"><a href="tv-show-detail.html">Logan</a></h2>
+                              <h2 class="mb-3 iq-title"><a href="{{ route('tvshowdetail') }}">Logan</a></h2>
                               <div class="gap-3 mb-3 d-flex align-items-center">
                                  <div class="slider-ratting d-flex align-items-center">
                                     <ul
@@ -1861,7 +1861,7 @@
                                  more-or-less normal
                                  distribution of letters, as opposed to using 'Content here.</p>
                               <div class="iq-button">
-                                  <a href="movie-detail.html" class="btn text-uppercase position-relative">
+                                  <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative">
                                       <span class="button-text">play
                                                             now</span>
                                       <i class="fa-solid fa-play"></i>
@@ -1877,16 +1877,16 @@
                            <div class="block-description">
                               <ul class="flex-wrap pb-1 mb-0 mb-1 ps-0 list-inline d-flex align-items-center movie-tag">
                                  <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                    <a href="view-all-movie.html" class="text-white text-decoration-none">Comedy</a>
+                                    <a href="view-all-{{ route('movie') }}" class="text-white text-decoration-none">Comedy</a>
                                  </li>
                                  <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                    <a href="view-all-movie.html" class="text-white text-decoration-none">Romance</a>
+                                    <a href="view-all-{{ route('movie') }}" class="text-white text-decoration-none">Romance</a>
                                  </li>
                                  <li class="position-relative text-capitalize font-size-14 letter-spacing-1">
-                                    <a href="view-all-movie.html" class="text-white text-decoration-none">Action</a>
+                                    <a href="view-all-{{ route('movie') }}" class="text-white text-decoration-none">Action</a>
                                  </li>
                               </ul>
-                              <h2 class="mb-3 iq-title"><a href="tv-show-detail.html">Black Queen</a></h2>
+                              <h2 class="mb-3 iq-title"><a href="{{ route('tvshowdetail') }}">Black Queen</a></h2>
                               <div class="gap-3 mb-3 d-flex align-items-center">
                                  <div class="slider-ratting d-flex align-items-center">
                                     <ul
@@ -1903,7 +1903,7 @@
                                  more-or-less normal
                                  distribution of letters, as opposed to using 'Content here.</p>
                               <div class="iq-button">
-                                  <a href="movie-detail.html" class="btn text-uppercase position-relative">
+                                  <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative">
                                       <span class="button-text">play
                                                             now</span>
                                       <i class="fa-solid fa-play"></i>
@@ -1925,7 +1925,7 @@
       <section class="overflow-hidden">
          <div class="px-3 my-4 d-flex align-items-center justify-content-between">
             <h5 class="mb-0 main-title text-capitalize">suggested-block</h5>
-            <a href="view-all-movie.html" class="flex-none text-primary iq-view-all text-decoration-none">View All</a>
+            <a href="view-all-{{ route('movie') }}" class="flex-none text-primary iq-view-all text-decoration-none">View All</a>
          </div>
          <div class="card-style-slider">
             <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="6" data-tab="3"
@@ -1936,21 +1936,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/suggested/01.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">choflief</a>
+                                   <a href="{{ route('moviedetail') }}">choflief</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">2hr : 30mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -2001,7 +2001,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -2015,21 +2015,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/suggested/02.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">lost</a>
+                                   <a href="{{ route('moviedetail') }}">lost</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">3hr : 0min</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -2080,7 +2080,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -2094,21 +2094,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/suggested/03.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">red hamald</a>
+                                   <a href="{{ route('moviedetail') }}">red hamald</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">1hr : 45mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -2159,7 +2159,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -2173,21 +2173,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/suggested/04.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">pandap</a>
+                                   <a href="{{ route('moviedetail') }}">pandap</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">2hr : 45mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -2238,7 +2238,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -2252,21 +2252,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/suggested/05.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">femllaeemll</a>
+                                   <a href="{{ route('moviedetail') }}">femllaeemll</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">1hr : 55mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -2317,7 +2317,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -2331,21 +2331,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/suggested/06.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">ragnarorr</a>
+                                   <a href="{{ route('moviedetail') }}">ragnarorr</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">2hr : 30mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -2396,7 +2396,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -2410,21 +2410,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/suggested/07.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">sonil</a>
+                                   <a href="{{ route('moviedetail') }}">sonil</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">2hr : 15mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -2475,7 +2475,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -2538,7 +2538,7 @@
                </p>
                <div class="parallax-buttons">
                   <div class="iq-button">
-                      <a href="movie-detail.html" class="btn text-uppercase position-relative">
+                      <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative">
                           <span class="button-text">play now</span>
                           <i class="fa-solid fa-play"></i>
                       </a>
@@ -2548,7 +2548,7 @@
          </div>
          <div class="mt-5 col-xl-7 col-lg-12 col-md-12 mt-xl-0">
             <div class="parallax-img">
-               <a href="movie-detail.html">
+               <a href="{{ route('moviedetail') }}">
                   <img src="template/assets/images/parallax/parallex.webp" class="img-fluid w-100" loading="lazy"
                      alt="bailey">
                </a>
@@ -2670,7 +2670,7 @@
                                           'Content here.</p>
                                        <div class="p-btns">
                                           <div class="iq-button">
-                                             <a href="tv-show-detail.html"
+                                             <a href="{{ route('tvshowdetail') }}"
                                                 class="btn text-uppercase position-relative">
                                                 <span class="button-text">Play Now</span>
                                                 <i class="fa-solid fa-play"></i>
@@ -2718,12 +2718,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/episodes/01.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E01</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -2731,7 +2731,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 1, 2022</span>
                                                             <span class="text-primary run-time">45min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 1 </h5>
                                                         </a>
                                                     </div>
@@ -2740,12 +2740,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/episodes/02.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E02</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -2753,7 +2753,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 8, 2022</span>
                                                             <span class="text-primary run-time">35min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 2 </h5>
                                                         </a>
                                                     </div>
@@ -2762,12 +2762,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/episodes/03.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E03</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -2775,7 +2775,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 15, 2022</span>
                                                             <span class="text-primary run-time">36min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 3 </h5>
                                                         </a>
                                                     </div>
@@ -2784,12 +2784,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/episodes/04.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E04</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -2797,7 +2797,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 4 </h5>
                                                         </a>
                                                     </div>
@@ -2806,12 +2806,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/episodes/05.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E05</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -2819,7 +2819,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 5 </h5>
                                                         </a>
                                                     </div>
@@ -2878,12 +2878,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/02.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-2</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -2891,7 +2891,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 1, 2022</span>
                                                             <span class="text-primary run-time">45min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 1 </h5>
                                                         </a>
                                                     </div>
@@ -2900,12 +2900,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/03.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-3</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -2913,7 +2913,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 8, 2022</span>
                                                             <span class="text-primary run-time">35min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 2 </h5>
                                                         </a>
                                                     </div>
@@ -2922,12 +2922,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/04.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-4</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -2935,7 +2935,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 15, 2022</span>
                                                             <span class="text-primary run-time">36min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 3 </h5>
                                                         </a>
                                                     </div>
@@ -2944,12 +2944,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/05.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-5</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -2957,7 +2957,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 4 </h5>
                                                         </a>
                                                     </div>
@@ -2966,12 +2966,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/06.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-6</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -2979,7 +2979,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 5 </h5>
                                                         </a>
                                                     </div>
@@ -3049,7 +3049,7 @@
                                           'Content here.</p>
                                        <div class="p-btns">
                                           <div class="iq-button">
-                                             <a href="tv-show-detail.html"
+                                             <a href="{{ route('tvshowdetail') }}"
                                                 class="btn text-uppercase position-relative">
                                                 <span class="button-text">Play Now</span>
                                                 <i class="fa-solid fa-play"></i>
@@ -3097,12 +3097,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/01.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E01</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3110,7 +3110,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 1, 2022</span>
                                                             <span class="text-primary run-time">45min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 1 </h5>
                                                         </a>
                                                     </div>
@@ -3119,12 +3119,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/02.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E02</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3132,7 +3132,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 8, 2022</span>
                                                             <span class="text-primary run-time">35min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 2 </h5>
                                                         </a>
                                                     </div>
@@ -3141,12 +3141,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/03.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E03</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3154,7 +3154,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 15, 2022</span>
                                                             <span class="text-primary run-time">36min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 3 </h5>
                                                         </a>
                                                     </div>
@@ -3163,12 +3163,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/04.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E04</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3176,7 +3176,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 4 </h5>
                                                         </a>
                                                     </div>
@@ -3185,12 +3185,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/05.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E05</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3198,7 +3198,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 5 </h5>
                                                         </a>
                                                     </div>
@@ -3257,12 +3257,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/movies/ott2.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-2</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3270,7 +3270,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 1, 2022</span>
                                                             <span class="text-primary run-time">45min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 1 </h5>
                                                         </a>
                                                     </div>
@@ -3279,12 +3279,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/movies/ott3.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-3</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3292,7 +3292,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 8, 2022</span>
                                                             <span class="text-primary run-time">35min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 2 </h5>
                                                         </a>
                                                     </div>
@@ -3301,12 +3301,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/movies/banner1.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-4</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3314,7 +3314,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 15, 2022</span>
                                                             <span class="text-primary run-time">36min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 3 </h5>
                                                         </a>
                                                     </div>
@@ -3323,12 +3323,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/movies/banner2.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-5</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3336,7 +3336,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 4 </h5>
                                                         </a>
                                                     </div>
@@ -3345,12 +3345,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/movies/banner3.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-6</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3358,7 +3358,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 5 </h5>
                                                         </a>
                                                     </div>
@@ -3428,7 +3428,7 @@
                                           'Content here.</p>
                                        <div class="p-btns">
                                           <div class="iq-button">
-                                             <a href="tv-show-detail.html"
+                                             <a href="{{ route('tvshowdetail') }}"
                                                 class="btn text-uppercase position-relative">
                                                 <span class="button-text">Play Now</span>
                                                 <i class="fa-solid fa-play"></i>
@@ -3476,12 +3476,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/25.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E01</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3489,7 +3489,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 1, 2022</span>
                                                             <span class="text-primary run-time">45min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 1 </h5>
                                                         </a>
                                                     </div>
@@ -3498,12 +3498,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/26.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E02</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3511,7 +3511,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 8, 2022</span>
                                                             <span class="text-primary run-time">35min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 2 </h5>
                                                         </a>
                                                     </div>
@@ -3520,12 +3520,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/27.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E03</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3533,7 +3533,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 15, 2022</span>
                                                             <span class="text-primary run-time">36min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 3 </h5>
                                                         </a>
                                                     </div>
@@ -3542,12 +3542,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/28.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E04</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3555,7 +3555,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 4 </h5>
                                                         </a>
                                                     </div>
@@ -3564,12 +3564,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/29.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E05</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3577,7 +3577,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 5 </h5>
                                                         </a>
                                                     </div>
@@ -3636,12 +3636,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/30.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-2</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3649,7 +3649,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 1, 2022</span>
                                                             <span class="text-primary run-time">45min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 1 </h5>
                                                         </a>
                                                     </div>
@@ -3658,12 +3658,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/31.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-3</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3671,7 +3671,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 8, 2022</span>
                                                             <span class="text-primary run-time">35min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 2 </h5>
                                                         </a>
                                                     </div>
@@ -3680,12 +3680,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/32.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-4</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3693,7 +3693,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 15, 2022</span>
                                                             <span class="text-primary run-time">36min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 3 </h5>
                                                         </a>
                                                     </div>
@@ -3702,12 +3702,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/33.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-5</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3715,7 +3715,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 4 </h5>
                                                         </a>
                                                     </div>
@@ -3724,12 +3724,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/34.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-6</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3737,7 +3737,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 5 </h5>
                                                         </a>
                                                     </div>
@@ -3807,7 +3807,7 @@
                                           'Content here.</p>
                                        <div class="p-btns">
                                           <div class="iq-button">
-                                             <a href="tv-show-detail.html"
+                                             <a href="{{ route('tvshowdetail') }}"
                                                 class="btn text-uppercase position-relative">
                                                 <span class="button-text">Play Now</span>
                                                 <i class="fa-solid fa-play"></i>
@@ -3855,12 +3855,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/11.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E01</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3868,7 +3868,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 1, 2022</span>
                                                             <span class="text-primary run-time">45min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 1 </h5>
                                                         </a>
                                                     </div>
@@ -3877,12 +3877,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/12.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E02</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3890,7 +3890,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 8, 2022</span>
                                                             <span class="text-primary run-time">35min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 2 </h5>
                                                         </a>
                                                     </div>
@@ -3899,12 +3899,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/13.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E03</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3912,7 +3912,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 15, 2022</span>
                                                             <span class="text-primary run-time">36min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 3 </h5>
                                                         </a>
                                                     </div>
@@ -3921,12 +3921,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/14.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E04</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3934,7 +3934,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 4 </h5>
                                                         </a>
                                                     </div>
@@ -3943,12 +3943,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/15.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E05</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -3956,7 +3956,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 5 </h5>
                                                         </a>
                                                     </div>
@@ -4015,12 +4015,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/movies/ott2.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-2</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4028,7 +4028,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 1, 2022</span>
                                                             <span class="text-primary run-time">45min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 1 </h5>
                                                         </a>
                                                     </div>
@@ -4037,12 +4037,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/movies/ott3.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-3</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4050,7 +4050,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 8, 2022</span>
                                                             <span class="text-primary run-time">35min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 2 </h5>
                                                         </a>
                                                     </div>
@@ -4059,12 +4059,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/movies/banner1.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-4</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4072,7 +4072,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 15, 2022</span>
                                                             <span class="text-primary run-time">36min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 3 </h5>
                                                         </a>
                                                     </div>
@@ -4081,12 +4081,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/movies/banner2.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-5</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4094,7 +4094,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 4 </h5>
                                                         </a>
                                                     </div>
@@ -4103,12 +4103,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/movies/banner3.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-6</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4116,7 +4116,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 5 </h5>
                                                         </a>
                                                     </div>
@@ -4186,7 +4186,7 @@
                                           'Content here.</p>
                                        <div class="p-btns">
                                           <div class="iq-button">
-                                             <a href="tv-show-detail.html"
+                                             <a href="{{ route('tvshowdetail') }}"
                                                 class="btn text-uppercase position-relative">
                                                 <span class="button-text">Play Now</span>
                                                 <i class="fa-solid fa-play"></i>
@@ -4234,12 +4234,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/16.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E01</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4247,7 +4247,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 1, 2022</span>
                                                             <span class="text-primary run-time">45min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 1 </h5>
                                                         </a>
                                                     </div>
@@ -4256,12 +4256,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/17.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E02</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4269,7 +4269,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 8, 2022</span>
                                                             <span class="text-primary run-time">35min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 2 </h5>
                                                         </a>
                                                     </div>
@@ -4278,12 +4278,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/18.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E03</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4291,7 +4291,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 15, 2022</span>
                                                             <span class="text-primary run-time">36min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 3 </h5>
                                                         </a>
                                                     </div>
@@ -4300,12 +4300,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/19.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E04</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4313,7 +4313,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 4 </h5>
                                                         </a>
                                                     </div>
@@ -4322,12 +4322,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/20.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E05</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4335,7 +4335,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 5 </h5>
                                                         </a>
                                                     </div>
@@ -4394,12 +4394,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/movies/ott2.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-2</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4407,7 +4407,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 1, 2022</span>
                                                             <span class="text-primary run-time">45min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 1 </h5>
                                                         </a>
                                                     </div>
@@ -4416,12 +4416,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/movies/ott3.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-3</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4429,7 +4429,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 8, 2022</span>
                                                             <span class="text-primary run-time">35min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 2 </h5>
                                                         </a>
                                                     </div>
@@ -4438,12 +4438,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/movies/banner1.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-4</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4451,7 +4451,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 15, 2022</span>
                                                             <span class="text-primary run-time">36min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 3 </h5>
                                                         </a>
                                                     </div>
@@ -4460,12 +4460,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/movies/banner2.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-5</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4473,7 +4473,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 4 </h5>
                                                         </a>
                                                     </div>
@@ -4482,12 +4482,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/movies/banner3.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-6</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4495,7 +4495,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 5 </h5>
                                                         </a>
                                                     </div>
@@ -4565,7 +4565,7 @@
                                           'Content here.</p>
                                        <div class="p-btns">
                                           <div class="iq-button">
-                                             <a href="tv-show-detail.html"
+                                             <a href="{{ route('tvshowdetail') }}"
                                                 class="btn text-uppercase position-relative">
                                                 <span class="button-text">Play Now</span>
                                                 <i class="fa-solid fa-play"></i>
@@ -4613,12 +4613,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/21.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E01</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4626,7 +4626,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 1, 2022</span>
                                                             <span class="text-primary run-time">45min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 1 </h5>
                                                         </a>
                                                     </div>
@@ -4635,12 +4635,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/22.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E02</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4648,7 +4648,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 8, 2022</span>
                                                             <span class="text-primary run-time">35min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 2 </h5>
                                                         </a>
                                                     </div>
@@ -4657,12 +4657,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/23.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E03</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4670,7 +4670,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 15, 2022</span>
                                                             <span class="text-primary run-time">36min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 3 </h5>
                                                         </a>
                                                     </div>
@@ -4679,12 +4679,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/24.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E04</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4692,7 +4692,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 4 </h5>
                                                         </a>
                                                     </div>
@@ -4701,12 +4701,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/tv-show/season/25.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">S01E05</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4714,7 +4714,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 5 </h5>
                                                         </a>
                                                     </div>
@@ -4773,12 +4773,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/movies/ott2.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-2</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4786,7 +4786,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 1, 2022</span>
                                                             <span class="text-primary run-time">45min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 1 </h5>
                                                         </a>
                                                     </div>
@@ -4795,12 +4795,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/movies/ott3.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-3</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4808,7 +4808,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 8, 2022</span>
                                                             <span class="text-primary run-time">35min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 2 </h5>
                                                         </a>
                                                     </div>
@@ -4817,12 +4817,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/movies/banner1.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-4</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4830,7 +4830,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 15, 2022</span>
                                                             <span class="text-primary run-time">36min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 3 </h5>
                                                         </a>
                                                     </div>
@@ -4839,12 +4839,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/movies/banner2.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-5</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4852,7 +4852,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 4 </h5>
                                                         </a>
                                                     </div>
@@ -4861,12 +4861,12 @@
                                              <li class="swiper-slide">
                                                 <div class="episode-block">
                                                     <div class="block-image position-relative">
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <img src="template/assets/images/movies/banner3.webp" class="img-fluid img-zoom" alt="showImg-" loading="lazy">
                                                         </a>
                                                         <div class="episode-number">Seasons 1-6</div>
                                                         <div class="episode-play">
-                                                            <a href="episode.html" tabindex="0"><i class="fa-solid fa-play"></i></a>
+                                                            <a href="{{ route('episode') }}" tabindex="0"><i class="fa-solid fa-play"></i></a>
                                                         </div>
                                                     </div>
                                                     <div class="p-3 epi-desc">
@@ -4874,7 +4874,7 @@
                                                             <span class="text-white border-gredient-left rel-date">October 22, 2022</span>
                                                             <span class="text-primary run-time">41min</span>
                                                         </div>
-                                                        <a href="episode.html">
+                                                        <a href="{{ route('episode') }}">
                                                             <h5 class="mb-0 text-white epi-name"> Episode 5 </h5>
                                                         </a>
                                                     </div>
@@ -4909,7 +4909,7 @@
       <section class="overflow-hidden">
          <div class="px-3 my-4 d-flex align-items-center justify-content-between">
             <h5 class="mb-0 main-title text-capitalize">Recommended TV Show</h5>
-            <a href="view-all-movie.html" class="flex-none text-primary iq-view-all text-decoration-none">View All</a>
+            <a href="view-all-{{ route('movie') }}" class="flex-none text-primary iq-view-all text-decoration-none">View All</a>
          </div>
          <div class="card-style-slider">
             <div class="position-relative swiper swiper-card" data-slide="6" data-laptop="6" data-tab="3"
@@ -4920,21 +4920,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/recommended/01.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">Giikre</a>
+                                   <a href="{{ route('moviedetail') }}">Giikre</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">2hr : 12mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -4985,7 +4985,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -4999,21 +4999,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/recommended/02.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">Arrival</a>
+                                   <a href="{{ route('moviedetail') }}">Arrival</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">1hr : 22mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -5064,7 +5064,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -5078,21 +5078,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/recommended/03.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">Pricess</a>
+                                   <a href="{{ route('moviedetail') }}">Pricess</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">1hr : 30mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -5143,7 +5143,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -5157,21 +5157,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/recommended/04.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">Soull Meate</a>
+                                   <a href="{{ route('moviedetail') }}">Soull Meate</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">2hr : 30mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -5222,7 +5222,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -5236,21 +5236,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/recommended/05.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">Dangacg</a>
+                                   <a href="{{ route('moviedetail') }}">Dangacg</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">1hr : 45mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -5301,7 +5301,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -5315,21 +5315,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/recommended/06.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">crcikeft</a>
+                                   <a href="{{ route('moviedetail') }}">crcikeft</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">2hr : 25mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -5380,7 +5380,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>
@@ -5394,21 +5394,21 @@
                        <div class="iq-card card-hover">
                          <div class="block-images position-relative w-100">
                            <div class="img-box w-100">
-                             <a href="movie-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                             <a href="{{ route('moviedetail') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                              <img src="template/assets/images/movies/recommended/07.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                            </div>
                            <div class="card-description with-transition">
                              <div class="cart-content">
                                <div class="content-left">
                                  <h5 class="iq-title text-capitalize">
-                                   <a href="movie-detail.html">Avengrs</a>
+                                   <a href="{{ route('moviedetail') }}">Avengrs</a>
                                  </h5>
                                  <div class="my-2 movie-time d-flex align-items-center">
                                    <span class="font-normal movie-time-text">1hr : 45mins</span>
                                  </div>
                                </div>
                                <div class="watchlist">
-                                 <a class="watch-list-not" href="playlist.html">
+                                 <a class="watch-list-not" href="{{ route('playlist') }}">
                                    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-10">
                                      <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                    </svg>
@@ -5459,7 +5459,7 @@
                                </li>
                              </ul>
                              <div class="iq-button">
-                               <a href="movie-detail.html" class="btn text-uppercase position-relative rounded-circle">
+                               <a href="{{ route('moviedetail') }}" class="btn text-uppercase position-relative rounded-circle">
                                  <i class="fa-solid fa-play ms-0"></i>
                                </a>
                            </div>

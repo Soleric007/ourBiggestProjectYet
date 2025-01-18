@@ -80,7 +80,7 @@
                     </div>
                 </div>
                 <div class="iq-button">
-                    <a href="pricing-plan.html" class="btn text-uppercase position-relative">
+                    <a href="{{ route('pricingplan') }}" class="btn text-uppercase position-relative">
                         <span class="button-text">Subscription</span>
                         <i class="fa-solid fa-play"></i>
                     </a>
@@ -113,7 +113,7 @@
                                     <div class="watchlist-warpper card-hover-style-two">
                                         <div class="block-images position-relative w-100">
                                             <div class="img-box">
-                                                <a href="watchlist-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                                <a href="{{ route('watchlist') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                                 <img src="template/assets/images/movies/playlist/01.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                                             </div>
                                             <div class="card-description">
@@ -137,7 +137,7 @@
                                     <div class="watchlist-warpper card-hover-style-two">
                                         <div class="block-images position-relative w-100">
                                             <div class="img-box">
-                                                <a href="watchlist-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                                <a href="{{ route('watchlist') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                                 <img src="template/assets/images/movies/playlist/02.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                                             </div>
                                             <div class="card-description">
@@ -161,7 +161,7 @@
                                     <div class="watchlist-warpper card-hover-style-two">
                                         <div class="block-images position-relative w-100">
                                             <div class="img-box">
-                                                <a href="watchlist-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                                <a href="{{ route('watchlist') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                                 <img src="template/assets/images/movies/playlist/03.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                                             </div>
                                             <div class="card-description">
@@ -185,7 +185,7 @@
                                     <div class="watchlist-warpper card-hover-style-two">
                                         <div class="block-images position-relative w-100">
                                             <div class="img-box">
-                                                <a href="watchlist-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                                <a href="{{ route('watchlist') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                                 <img src="template/assets/images/movies/playlist/04.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                                             </div>
                                             <div class="card-description">
@@ -209,7 +209,7 @@
                                     <div class="watchlist-warpper card-hover-style-two">
                                         <div class="block-images position-relative w-100">
                                             <div class="img-box">
-                                                <a href="watchlist-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                                <a href="{{ route('watchlist') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                                 <img src="template/assets/images/movies/playlist/05.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                                             </div>
                                             <div class="card-description">
@@ -233,7 +233,7 @@
                                     <div class="watchlist-warpper card-hover-style-two">
                                         <div class="block-images position-relative w-100">
                                             <div class="img-box">
-                                                <a href="watchlist-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                                <a href="{{ route('watchlist') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                                 <img src="template/assets/images/movies/playlist/06.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                                             </div>
                                             <div class="card-description">
@@ -257,7 +257,7 @@
                                     <div class="watchlist-warpper card-hover-style-two">
                                         <div class="block-images position-relative w-100">
                                             <div class="img-box">
-                                                <a href="watchlist-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                                <a href="{{ route('watchlist') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                                 <img src="template/assets/images/movies/playlist/07.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                                             </div>
                                             <div class="card-description">
@@ -298,7 +298,7 @@
                                     <div class="watchlist-warpper card-hover-style-two">
                                         <div class="block-images position-relative w-100">
                                             <div class="img-box">
-                                                <a href="watchlist-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                                <a href="{{ route('watchlist') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                                 <img src="template/assets/images/movies/playlist/01.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                                             </div>
                                             <div class="card-description">
@@ -322,7 +322,7 @@
                                     <div class="watchlist-warpper card-hover-style-two">
                                         <div class="block-images position-relative w-100">
                                             <div class="img-box">
-                                                <a href="watchlist-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                                <a href="{{ route('watchlist') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                                 <img src="template/assets/images/movies/playlist/02.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                                             </div>
                                             <div class="card-description">
@@ -346,7 +346,7 @@
                                     <div class="watchlist-warpper card-hover-style-two">
                                         <div class="block-images position-relative w-100">
                                             <div class="img-box">
-                                                <a href="watchlist-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                                <a href="{{ route('watchlist') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                                 <img src="template/assets/images/movies/playlist/03.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                                             </div>
                                             <div class="card-description">
@@ -370,7 +370,7 @@
                                     <div class="watchlist-warpper card-hover-style-two">
                                         <div class="block-images position-relative w-100">
                                             <div class="img-box">
-                                                <a href="watchlist-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                                <a href="{{ route('watchlist') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                                 <img src="template/assets/images/movies/playlist/04.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                                             </div>
                                             <div class="card-description">
@@ -411,7 +411,7 @@
                                     <div class="watchlist-warpper card-hover-style-two">
                                         <div class="block-images position-relative w-100">
                                             <div class="img-box">
-                                                <a href="watchlist-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                                <a href="{{ route('watchlist') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                                 <img src="template/assets/images/movies/playlist/01.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                                             </div>
                                             <div class="card-description">
@@ -435,7 +435,7 @@
                                     <div class="watchlist-warpper card-hover-style-two">
                                         <div class="block-images position-relative w-100">
                                             <div class="img-box">
-                                                <a href="watchlist-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                                <a href="{{ route('watchlist') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                                 <img src="template/assets/images/movies/playlist/02.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                                             </div>
                                             <div class="card-description">
@@ -459,7 +459,7 @@
                                     <div class="watchlist-warpper card-hover-style-two">
                                         <div class="block-images position-relative w-100">
                                             <div class="img-box">
-                                                <a href="watchlist-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                                <a href="{{ route('watchlist') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                                 <img src="template/assets/images/movies/playlist/03.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                                             </div>
                                             <div class="card-description">
@@ -483,7 +483,7 @@
                                     <div class="watchlist-warpper card-hover-style-two">
                                         <div class="block-images position-relative w-100">
                                             <div class="img-box">
-                                                <a href="watchlist-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                                <a href="{{ route('watchlist') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                                 <img src="template/assets/images/movies/playlist/04.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                                             </div>
                                             <div class="card-description">
@@ -507,7 +507,7 @@
                                     <div class="watchlist-warpper card-hover-style-two">
                                         <div class="block-images position-relative w-100">
                                             <div class="img-box">
-                                                <a href="watchlist-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                                <a href="{{ route('watchlist') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                                 <img src="template/assets/images/movies/playlist/05.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                                             </div>
                                             <div class="card-description">
@@ -531,7 +531,7 @@
                                     <div class="watchlist-warpper card-hover-style-two">
                                         <div class="block-images position-relative w-100">
                                             <div class="img-box">
-                                                <a href="watchlist-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                                <a href="{{ route('watchlist') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                                 <img src="template/assets/images/movies/playlist/06.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                                             </div>
                                             <div class="card-description">
@@ -555,7 +555,7 @@
                                     <div class="watchlist-warpper card-hover-style-two">
                                         <div class="block-images position-relative w-100">
                                             <div class="img-box">
-                                                <a href="watchlist-detail.html" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
+                                                <a href="{{ route('watchlist') }}" class="top-0 bottom-0 position-absolute start-0 end-0"></a>
                                                 <img src="template/assets/images/movies/playlist/07.webp" alt="movie-card" class="object-cover border-0 img-fluid w-100 d-block">
                                             </div>
                                             <div class="card-description">

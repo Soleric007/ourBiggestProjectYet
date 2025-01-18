@@ -70,7 +70,7 @@
                       <nav aria-label="breadcrumb" class="text-center">
                           <h2 class="title">Tags</h2>
                           <ol class="breadcrumb justify-content-center">
-                              <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                              <li class="breadcrumb-item"><a href="./{{ route('index') }}">Home</a></li>
                               <li class="breadcrumb-item active">Tags</li>
                           </ol>
                       </nav>
@@ -86,84 +86,84 @@
             </div>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 row-cols-xl-6">
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Action
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Adventure
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Animation
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Comedy
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Drama
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Family
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Fantasy
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             History
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Horror
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Mystery
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Recommended
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Sci-Fi
                         </span>
@@ -188,56 +188,56 @@
             </div>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 row-cols-xl-6">
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             4K Ultra
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Brother
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Brother Relationship
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Kings
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             music
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Mythology
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Premieres
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Vikings
                         </span>
@@ -263,77 +263,77 @@
             </div>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 row-cols-xl-6">
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Action
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Adventure
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Animation
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Comedy
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Crime
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Drama
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Family
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Fantasy
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             horror
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Romance
                         </span>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="view-all-movie.html" class="iq-tag-box">
+                    <a href="view-all-{{ route('movie') }}" class="iq-tag-box">
                         <span class="iq-tag">
                             Thriller
                         </span>

@@ -67,22 +67,22 @@
                       <div class="col-md-3">
                           <!--Logo -->
                           <div class="logo-default">
-                              <a class="navbar-brand text-primary" href="../index.html">
+                              <a class="navbar-brand text-primary" href="{{ route('index') }}">
                                   <img class="img-fluid logo" src="../template/assets/images/logo.webp" loading="lazy" alt="streamit" />
                               </a>
                           </div>
                           <div class="logo-hotstar">
-                              <a class="navbar-brand text-primary" href="../index.html">
+                              <a class="navbar-brand text-primary" href="{{ route('index') }}">
                                   <img class="img-fluid logo" src="../template/assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
                               </a>
                           </div>
                           <div class="logo-prime">
-                              <a class="navbar-brand text-primary" href="../index.html">
+                              <a class="navbar-brand text-primary" href="{{ route('index') }}">
                                   <img class="img-fluid logo" src="../template/assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
                               </a>
                           </div>
                           <div class="logo-hulu">
-                              <a class="navbar-brand text-primary" href="../index.html">
+                              <a class="navbar-brand text-primary" href="{{ route('index') }}">
                                   <img class="img-fluid logo" src="../template/assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
                               </a>
                           </div>
@@ -159,7 +159,7 @@
                                           <span class="font-size-14 fw-500 text-capitalize text-white">Jenny</span>
                                       </li>
                                       <li>
-                                          <a href="../playlist.html" class="iq-sub-card d-flex align-items-center gap-3">
+                                          <a href="{{ route('playlist') }}" class="iq-sub-card d-flex align-items-center gap-3">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 22" fill="none">
                                                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.84455 20.6621C4.15273 20.6621 1 20.0876 1 17.7868C1 15.486 4.13273 13.3621 7.84455 13.3621C11.5364 13.3621 14.6891 15.4654 14.6891 17.7662C14.6891 20.066 11.5564 20.6621 7.84455 20.6621Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.83725 10.1738C10.26 10.1738 12.2236 8.21015 12.2236 5.78742C12.2236 3.36469 10.26 1.40015 7.83725 1.40015C5.41452 1.40015 3.44998 3.36469 3.44998 5.78742C3.4418 8.20196 5.3918 10.1656 7.80634 10.1738C7.81725 10.1738 7.82725 10.1738 7.83725 10.1738Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -168,7 +168,7 @@
                                           </a>
                                       </li>
                                       <li>
-                                          <a href="https://templates.iqonic.design/streamit-dist/frontend/html/shop/view-all-movie.html" class="iq-sub-card d-flex align-items-center gap-3">
+                                          <a href="https://templates.iqonic.design/streamit-dist/frontend/html/shop/view-all-{{ route('movie') }}" class="iq-sub-card d-flex align-items-center gap-3">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
                                                   fill="none">
                                                   <path
@@ -179,13 +179,13 @@
                                           </a>
                                       </li>
                                       <li>
-                                          <a href="https://templates.iqonic.design/streamit-dist/frontend/html/shop/pricing-plan.html" class="iq-sub-card d-flex align-items-center gap-3">
+                                          <a href="https://templates.iqonic.design/streamit-dist/frontend/html/shop/{{ route('pricingplan') }}" class="iq-sub-card d-flex align-items-center gap-3">
                                               <i class="fa-regular fa-star"></i>
                                               <h6 class="mb-0 font-size-14 fw-normal">Subscription</h6>
                                           </a>
                                       </li>
                                       <li>
-                                          <a href="../login.html" class="iq-sub-card iq-logout-2 mt-1 d-flex justify-content-center gap-2">
+                                          <a href="{{ route('login') }}" class="iq-sub-card iq-logout-2 mt-1 d-flex justify-content-center gap-2">
                                               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
                                                   fill="none">
                                                   <path
@@ -220,22 +220,22 @@
                               </div>
                              <!--Logo -->
                               <div class="logo-default">
-                                  <a class="navbar-brand text-primary" href="../index.html">
+                                  <a class="navbar-brand text-primary" href="{{ route('index') }}">
                                       <img class="img-fluid logo" src="../template/assets/images/logo.webp" loading="lazy" alt="streamit" />
                                   </a>
                               </div>
                               <div class="logo-hotstar">
-                                  <a class="navbar-brand text-primary" href="../index.html">
+                                  <a class="navbar-brand text-primary" href="{{ route('index') }}">
                                       <img class="img-fluid logo" src="../template/assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
                                   </a>
                               </div>
                               <div class="logo-prime">
-                                  <a class="navbar-brand text-primary" href="../index.html">
+                                  <a class="navbar-brand text-primary" href="{{ route('index') }}">
                                       <img class="img-fluid logo" src="../template/assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
                                   </a>
                               </div>
                               <div class="logo-hulu">
-                                  <a class="navbar-brand text-primary" href="../index.html">
+                                  <a class="navbar-brand text-primary" href="{{ route('index') }}">
                                       <img class="img-fluid logo" src="../template/assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
                                   </a>
                               </div>
@@ -247,22 +247,22 @@
                                 <div class="navbar-brand ms-3">
                                   <!--Logo -->
                                   <div class="logo-default">
-                                      <a class="navbar-brand text-primary" href="../index.html">
+                                      <a class="navbar-brand text-primary" href="{{ route('index') }}">
                                           <img class="img-fluid logo" src="../template/assets/images/logo.webp" loading="lazy" alt="streamit" />
                                       </a>
                                   </div>
                                   <div class="logo-hotstar">
-                                      <a class="navbar-brand text-primary" href="../index.html">
+                                      <a class="navbar-brand text-primary" href="{{ route('index') }}">
                                           <img class="img-fluid logo" src="../template/assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
                                       </a>
                                   </div>
                                   <div class="logo-prime">
-                                      <a class="navbar-brand text-primary" href="../index.html">
+                                      <a class="navbar-brand text-primary" href="{{ route('index') }}">
                                           <img class="img-fluid logo" src="../template/assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
                                       </a>
                                   </div>
                                   <div class="logo-hulu">
-                                      <a class="navbar-brand text-primary" href="../index.html">
+                                      <a class="navbar-brand text-primary" href="{{ route('index') }}">
                                           <img class="img-fluid logo" src="../template/assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
                                       </a>
                                   </div>
@@ -283,22 +283,22 @@
                                   </a>
                                   <ul class="sub-nav collapse  list-unstyled" id="homePages">
                                     <li class="nav-item">
-                                      <a class="nav-link " href="../index.html"> OTT Home </a>
+                                      <a class="nav-link " href="{{ route('index') }}"> OTT Home </a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link " href="../home.html"> Home </a>
+                                      <a class="nav-link " href="{{ route('home') }}"> Home </a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link " href="../movie.html"> Movie </a>
+                                      <a class="nav-link " href="{{ route('movie') }}"> Movie </a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link " href="../tv-show.html"> TV Show </a>
+                                      <a class="nav-link " href="{{ route('tvshow') }}"> TV Show </a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link " href="../video.html"> Video </a>
+                                      <a class="nav-link " href="{{ route('video') }}"> Video </a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link " href="../merchandise-store.html"> Merchandise Store </a>
+                                      <a class="nav-link " href="{{ route('merchandisestore') }}"> Merchandise Store </a>
                                     </li>
                                   </ul>
                                 </li>
@@ -315,22 +315,22 @@
                                   </a>
                                   <ul class="sub-nav collapse  list-unstyled" id="features">
                                     <li class="nav-item">
-                                      <a class="nav-link " href="../restricted-content.html"> Restricted Content </a>
+                                      <a class="nav-link " href="{{ route('restrictedcontent') }}"> Restricted Content </a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link " href="../related-merchandise.html"> Related Merchandise </a>
+                                      <a class="nav-link " href="{{ route('relatedmerchandise') }}"> Related Merchandise </a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link " href="../playlist.html"> Playlist </a>
+                                      <a class="nav-link " href="{{ route('playlist') }}"> Playlist </a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link " href="../geners.html"> Genres </a>
+                                      <a class="nav-link " href="{{ route('genre') }}"> Genres </a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link " href="../cast.html"> Cast </a>
+                                      <a class="nav-link " href="{{ route('cast') }}"> Cast </a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link " href="../tags.html"> Tags </a>
+                                      <a class="nav-link " href="{{ route('tags') }}"> Tags </a>
                                     </li>
                                   </ul>
                                 </li>
@@ -347,22 +347,22 @@
                                   </a>
                                   <ul class="sub-nav collapse  list-unstyled" id="pages">
                                     <li class="nav-item">
-                                      <a class="nav-link " href="../about-us.html"> About Us </a>
+                                      <a class="nav-link " href="{{ route('about') }}"> About Us </a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link " href="../contact-us.html"> Contact Us </a>
+                                      <a class="nav-link " href="{{ route('comingsoon') }}"> Contact Us </a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link " href="../faq.html"> FAQ </a>
+                                      <a class="nav-link " href="{{ route('faq') }}"> FAQ </a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link " href="../privacy-policy.html"> Privacy Policy </a>
+                                      <a class="nav-link " href="{{ route('privacypolicy') }}"> Privacy Policy </a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link " href="../pricing-plan.html"> Pricing Plan </a>
+                                      <a class="nav-link " href="{{ route('pricingplan') }}"> Pricing Plan </a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link " href="../coming-soon.html"> Coming Soon </a>
+                                      <a class="nav-link " href="{{ route('comingsoon') }}"> Coming Soon </a>
                                     </li>
                                     <li class="nav-item">
                                       <a class="nav-link" data-bs-toggle="collapse" href="#error-page" role="button" aria-expanded="false" aria-controls="error-page">
@@ -377,10 +377,10 @@
                                       </a>
                                       <ul class="sub-nav collapse  list-unstyled" id="error-page">
                                         <li class="nav-item">
-                                          <a class="nav-link " href="../error-page-one.html"> Error Page 1 </a>
+                                          <a class="nav-link " href="{{ route('error') }}"> Error Page 1 </a>
                                         </li>
                                         <li class="nav-item">
-                                          <a class="nav-link " href="../error-page-two.html"> Error Page 2 </a>
+                                          <a class="nav-link " href="{{ route('error') }}"> Error Page 2 </a>
                                         </li>
                                       </ul>
                                     </li>
@@ -469,7 +469,7 @@
                                           <a class="nav-link " href="../blog/blog-audio.html"> Audio </a>
                                         </li>
                                         <li class="nav-item">
-                                          <a class="nav-link " href="../blog/blog-video.html"> Video </a>
+                                          <a class="nav-link " href="../blog/blog-{{ route('video') }}"> Video </a>
                                         </li>
                                         <li class="nav-item">
                                           <a class="nav-link " href="../blog/blog-link.html"> Link </a>
@@ -497,22 +497,22 @@
                                   </a>
                                   <ul class="sub-nav collapse  list-unstyled" id="shop">
                                     <li class="nav-item">
-                                      <a class="nav-link active" href="shop.html"> Shop </a>
+                                      <a class="nav-link active" href="{{ route('shop') }}"> Shop </a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link " href="my-account.html"> My Account Page </a>
+                                      <a class="nav-link " href="{{ route('myaccount') }}"> My Account Page </a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link " href="cart.html"> Cart Page </a>
+                                      <a class="nav-link " href="{{ route('cart') }}"> Cart Page </a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link " href="wishlist.html"> Wishlist Page </a>
+                                      <a class="nav-link " href="{{ route('wishlist') }}"> Wishlist Page </a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link " href="checkout.html"> Checkout Page </a>
+                                      <a class="nav-link " href="{{ route('checkout') }}"> Checkout Page </a>
                                     </li>
                                     <li class="nav-item">
-                                      <a class="nav-link " href="order-tracking.html"> Order Tracking </a>
+                                      <a class="nav-link " href="{{ route('ordertracking') }}"> Order Tracking </a>
                                     </li>
                                   </ul>
                                 </li>
@@ -532,13 +532,13 @@
                                   <div class="iq-meta-menu-container d-xl-block d-none">
                                       <ul class="d-flex align-items-center m-0 list-inline iq-meta-menu">
                                           <li>
-                                              <a href="my-account.html">My Account</a>
+                                              <a href="{{ route('myaccount') }}">My Account</a>
                                           </li>
                                           <li>
                                               <a href="https://iqonic.desky.support/">Customer Support</a>
                                           </li>
                                           <li>
-                                              <a href="../contact-us.html">Help?</a>
+                                              <a href="{{ route('comingsoon') }}">Help?</a>
                                           </li>
                                       </ul>
                                   </div>
@@ -618,14 +618,14 @@
                                                       <span
                                                           class="font-size-14 fw-500 text-capitalize text-white">Jenny</span>
                                                   </div>
-                                                  <a href="../playlist.html" class="iq-sub-card d-flex align-items-center gap-3">
+                                                  <a href="{{ route('playlist') }}" class="iq-sub-card d-flex align-items-center gap-3">
                                                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 22" fill="none">
                                                           <path fill-rule="evenodd" clip-rule="evenodd" d="M7.84455 20.6621C4.15273 20.6621 1 20.0876 1 17.7868C1 15.486 4.13273 13.3621 7.84455 13.3621C11.5364 13.3621 14.6891 15.4654 14.6891 17.7662C14.6891 20.066 11.5564 20.6621 7.84455 20.6621Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                                           <path fill-rule="evenodd" clip-rule="evenodd" d="M7.83725 10.1738C10.26 10.1738 12.2236 8.21015 12.2236 5.78742C12.2236 3.36469 10.26 1.40015 7.83725 1.40015C5.41452 1.40015 3.44998 3.36469 3.44998 5.78742C3.4418 8.20196 5.3918 10.1656 7.80634 10.1738C7.81725 10.1738 7.82725 10.1738 7.83725 10.1738Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                                       </svg>
                                                       <h6 class="mb-0 font-size-14 fw-normal">My Account</h6>
                                                   </a>
-                                                  <a href="https://templates.iqonic.design/streamit-dist/frontend/html/shop/view-all-movie.html"
+                                                  <a href="https://templates.iqonic.design/streamit-dist/frontend/html/shop/view-all-{{ route('movie') }}"
                                                       class="iq-sub-card d-flex align-items-center gap-3">
                                                       <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
                                                           viewBox="0 0 14 14" fill="none">
@@ -635,7 +635,7 @@
                                                       </svg>
                                                       <h6 class="mb-0 font-size-14 fw-normal">Watchlist</h6>
                                                   </a>
-                                                  <a href="https://templates.iqonic.design/streamit-dist/frontend/html/shop/pricing-plan.html"
+                                                  <a href="https://templates.iqonic.design/streamit-dist/frontend/html/shop/{{ route('pricingplan') }}"
                                                       class="iq-sub-card d-flex align-items-center gap-3">
                                                       <i class="fa-regular fa-star"></i>
                                                       <h6 class="mb-0 font-size-14 fw-normal">Subscription</h6>
@@ -802,11 +802,11 @@
                           <h5 class="m-0 fw-bold">$49.00</h5>
                       </div>
                       <div class="d-grid gap-3 mt-4">
-                          <a href="checkout.html" class="btn bg-primary text-uppercase fw-medium w-100 text-white">
+                          <a href="{{ route('checkout') }}" class="btn bg-primary text-uppercase fw-medium w-100 text-white">
                               <span class="button-text small">checkout</span>
                           </a>
 
-                          <a href="cart.html" class="btn bg-light text-uppercase fw-medium w-100 text-dark">
+                          <a href="{{ route('cart') }}" class="btn bg-light text-uppercase fw-medium w-100 text-dark">
                               <span class="button-text small">view cart</span>
                           </a>
                       </div>
@@ -823,7 +823,7 @@
                       <nav aria-label="breadcrumb" class="text-center">
                           <h2 class="title">Shop</h2>
                           <ol class="breadcrumb justify-content-center">
-                              <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                              <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
                               <li class="breadcrumb-item active">Shop</li>
                           </ol>
                       </nav>
@@ -926,7 +926,7 @@
                                     <img src="../template/assets/images/shop/product/01.webp" class="img-fluid" alt="img">
                                 </div>
                                 <div>
-                                    <a href="product-detail.html">Bag Pack</a>
+                                    <a href="{{ route('productdetail') }}">Bag Pack</a>
                                     <p>$10.00</p>
                                 </div>
                             </li>
@@ -934,7 +934,7 @@
                                 <div class="top-product-img pe-3">
                                     <img src="../template/assets/images/shop/product/30.webp" class="img-fluid" alt="img">
                                 </div>
-                                <div class="product-detail.html">
+                                <div class="{{ route('productdetail') }}">
                                     <a href="">Green Specs</a>
                                     <div>
                                         <del>$22.00</del> $18.00
@@ -945,7 +945,7 @@
                                 <div class="top-product-img pe-3">
                                     <img src="../template/assets/images/shop/product/07.webp" class="img-fluid" alt="img">
                                 </div>
-                                <div class="product-detail.html">
+                                <div class="{{ route('productdetail') }}">
                                     <a href="">Cartoon Character</a>
                                     <p class="mb-0">
                                         $25.00
@@ -1093,7 +1093,7 @@
                                           Sale!
                                         </span>
                                       <div class="image-wrap">
-                                        <a href="product-detail.html">
+                                        <a href="{{ route('productdetail') }}">
                                           <div class="product-image">
                                             <img src="../template/assets/images/shop/product/01.webp" class="img-fluid w-100" alt="productImg-"
                                               loading="lazy" />
@@ -1113,7 +1113,7 @@
                                     <div class="col-md-8">
                                         <div class="product-caption">
                                           <h5 class="product__title">
-                                            <a href="https://templates.iqonic.design/streamit-dist/frontend/html/shop/shop/product-detail.html" class="title-link">
+                                            <a href="https://templates.iqonic.design/streamit-dist/frontend/html/shop/{{ route('productdetail') }}" class="title-link">
                                               Bag Pack</a>
                                           </h5>
                                           <div class="price-detail">
@@ -1167,7 +1167,7 @@
                                   <div class="row">
                                     <div class="col-md-4 ps-0">
                                       <div class="image-wrap">
-                                        <a href="product-detail.html">
+                                        <a href="{{ route('productdetail') }}">
                                           <div class="product-image">
                                             <img src="../template/assets/images/shop/product/02.webp" class="img-fluid w-100" alt="productImg-"
                                               loading="lazy" />
@@ -1187,7 +1187,7 @@
                                     <div class="col-md-8">
                                         <div class="product-caption">
                                           <h5 class="product__title">
-                                            <a href="https://templates.iqonic.design/streamit-dist/frontend/html/shop/shop/product-detail.html" class="title-link">
+                                            <a href="https://templates.iqonic.design/streamit-dist/frontend/html/shop/{{ route('productdetail') }}" class="title-link">
                                               Believe Mask</a>
                                           </h5>
                                           <div class="price-detail">
@@ -1243,7 +1243,7 @@
                                           Sale!
                                         </span>
                                       <div class="image-wrap">
-                                        <a href="product-detail.html">
+                                        <a href="{{ route('productdetail') }}">
                                           <div class="product-image">
                                             <img src="../template/assets/images/shop/product/03.webp" class="img-fluid w-100" alt="productImg-"
                                               loading="lazy" />
@@ -1263,7 +1263,7 @@
                                     <div class="col-md-8">
                                         <div class="product-caption">
                                           <h5 class="product__title">
-                                            <a href="https://templates.iqonic.design/streamit-dist/frontend/html/shop/shop/product-detail.html" class="title-link">
+                                            <a href="https://templates.iqonic.design/streamit-dist/frontend/html/shop/{{ route('productdetail') }}" class="title-link">
                                               Black Bow</a>
                                           </h5>
                                           <div class="price-detail">
@@ -1320,7 +1320,7 @@
                                           New!
                                         </span>
                                       <div class="image-wrap">
-                                        <a href="product-detail.html">
+                                        <a href="{{ route('productdetail') }}">
                                           <div class="product-image">
                                             <img src="../template/assets/images/shop/product/04.webp" class="img-fluid w-100" alt="productImg-"
                                               loading="lazy" />
@@ -1340,7 +1340,7 @@
                                     <div class="col-md-8">
                                         <div class="product-caption">
                                           <h5 class="product__title">
-                                            <a href="https://templates.iqonic.design/streamit-dist/frontend/html/shop/shop/product-detail.html" class="title-link">
+                                            <a href="https://templates.iqonic.design/streamit-dist/frontend/html/shop/{{ route('productdetail') }}" class="title-link">
                                               Black Cap</a>
                                           </h5>
                                           <div class="price-detail">
@@ -1394,7 +1394,7 @@
                                   <div class="row">
                                     <div class="col-md-4 ps-0">
                                       <div class="image-wrap">
-                                        <a href="product-detail.html">
+                                        <a href="{{ route('productdetail') }}">
                                           <div class="product-image">
                                             <img src="../template/assets/images/shop/product/05.webp" class="img-fluid w-100" alt="productImg-"
                                               loading="lazy" />
@@ -1414,7 +1414,7 @@
                                     <div class="col-md-8">
                                         <div class="product-caption">
                                           <h5 class="product__title">
-                                            <a href="https://templates.iqonic.design/streamit-dist/frontend/html/shop/shop/product-detail.html" class="title-link">
+                                            <a href="https://templates.iqonic.design/streamit-dist/frontend/html/shop/{{ route('productdetail') }}" class="title-link">
                                               Boxing Gloves</a>
                                           </h5>
                                           <div class="price-detail">
@@ -1473,7 +1473,7 @@
                                     Sale!
                                   </span>
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/01.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -1499,7 +1499,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Bag Pack</a>
                                     </h5>
                                     <div class="price-detail">
@@ -1532,7 +1532,7 @@
                             <div class="col">
                                 <div class="product-block">
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/02.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -1558,7 +1558,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Believe Mask</a>
                                     </h5>
                                     <div class="price-detail">
@@ -1594,7 +1594,7 @@
                                     Sale!
                                   </span>
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/03.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -1620,7 +1620,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Black Bow</a>
                                     </h5>
                                     <div class="price-detail">
@@ -1656,7 +1656,7 @@
                                     New!
                                   </span>
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/04.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -1682,7 +1682,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Black Cap</a>
                                     </h5>
                                     <div class="price-detail">
@@ -1715,7 +1715,7 @@
                             <div class="col">
                                 <div class="product-block">
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/05.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -1741,7 +1741,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Boxing Gloves</a>
                                     </h5>
                                     <div class="price-detail">
@@ -1774,7 +1774,7 @@
                             <div class="col">
                                 <div class="product-block">
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/06.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -1800,7 +1800,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Carry Bag</a>
                                     </h5>
                                     <div class="price-detail">
@@ -1841,7 +1841,7 @@
                                     Sale!
                                   </span>
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/01.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -1867,7 +1867,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Bag Pack</a>
                                     </h5>
                                     <div class="price-detail">
@@ -1900,7 +1900,7 @@
                             <div class="col">
                                 <div class="product-block">
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/02.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -1926,7 +1926,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Believe Mask</a>
                                     </h5>
                                     <div class="price-detail">
@@ -1962,7 +1962,7 @@
                                     Sale!
                                   </span>
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/03.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -1988,7 +1988,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Black Bow</a>
                                     </h5>
                                     <div class="price-detail">
@@ -2024,7 +2024,7 @@
                                     New!
                                   </span>
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/04.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -2050,7 +2050,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Black Cap</a>
                                     </h5>
                                     <div class="price-detail">
@@ -2083,7 +2083,7 @@
                             <div class="col">
                                 <div class="product-block">
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/05.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -2109,7 +2109,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Boxing Gloves</a>
                                     </h5>
                                     <div class="price-detail">
@@ -2142,7 +2142,7 @@
                             <div class="col">
                                 <div class="product-block">
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/06.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -2168,7 +2168,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Carry Bag</a>
                                     </h5>
                                     <div class="price-detail">
@@ -2201,7 +2201,7 @@
                             <div class="col">
                                 <div class="product-block">
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/07.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -2227,7 +2227,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Cartoon Character</a>
                                     </h5>
                                     <div class="price-detail">
@@ -2260,7 +2260,7 @@
                             <div class="col">
                                 <div class="product-block">
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/08.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -2286,7 +2286,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Coffee Cup</a>
                                     </h5>
                                     <div class="price-detail">
@@ -2319,7 +2319,7 @@
                             <div class="col">
                                 <div class="product-block">
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/09.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -2345,7 +2345,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Crown</a>
                                     </h5>
                                     <div class="price-detail">
@@ -2385,7 +2385,7 @@
                                     Sale!
                                   </span>
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/01.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -2411,7 +2411,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Bag Pack</a>
                                     </h5>
                                     <div class="price-detail">
@@ -2444,7 +2444,7 @@
                             <div class="col">
                                 <div class="product-block">
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/02.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -2470,7 +2470,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Believe Mask</a>
                                     </h5>
                                     <div class="price-detail">
@@ -2506,7 +2506,7 @@
                                     Sale!
                                   </span>
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/03.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -2532,7 +2532,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Black Bow</a>
                                     </h5>
                                     <div class="price-detail">
@@ -2568,7 +2568,7 @@
                                     New!
                                   </span>
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/04.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -2594,7 +2594,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Black Cap</a>
                                     </h5>
                                     <div class="price-detail">
@@ -2627,7 +2627,7 @@
                             <div class="col">
                                 <div class="product-block">
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/05.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -2653,7 +2653,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Boxing Gloves</a>
                                     </h5>
                                     <div class="price-detail">
@@ -2686,7 +2686,7 @@
                             <div class="col">
                                 <div class="product-block">
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/06.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -2712,7 +2712,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Carry Bag</a>
                                     </h5>
                                     <div class="price-detail">
@@ -2745,7 +2745,7 @@
                             <div class="col">
                                 <div class="product-block">
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/07.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -2771,7 +2771,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Cartoon Character</a>
                                     </h5>
                                     <div class="price-detail">
@@ -2804,7 +2804,7 @@
                             <div class="col">
                                 <div class="product-block">
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/08.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -2830,7 +2830,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Coffee Cup</a>
                                     </h5>
                                     <div class="price-detail">
@@ -2863,7 +2863,7 @@
                             <div class="col">
                                 <div class="product-block">
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/09.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -2889,7 +2889,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Crown</a>
                                     </h5>
                                     <div class="price-detail">
@@ -2925,7 +2925,7 @@
                                     Sale!
                                   </span>
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/10.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -2951,7 +2951,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Daily Diary</a>
                                     </h5>
                                     <div class="price-detail">
@@ -2984,7 +2984,7 @@
                             <div class="col">
                                 <div class="product-block">
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/11.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -3010,7 +3010,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Floral Badges</a>
                                     </h5>
                                     <div class="price-detail">
@@ -3046,7 +3046,7 @@
                                     Sale!
                                   </span>
                                   <div class="image-wrap">
-                                    <a href="product-detail.html">
+                                    <a href="{{ route('productdetail') }}">
                                       <div class="product-image">
                                         <img src="../template/assets/images/shop/product/12.webp" class="img-fluid w-100" alt="productImg-"
                                           loading="lazy" />
@@ -3072,7 +3072,7 @@
                                   </div>
                                   <div class="product-caption">
                                     <h5 class="product__title">
-                                      <a href="product-detail.html" class="title-link">
+                                      <a href="{{ route('productdetail') }}" class="title-link">
                                         Ghost Cap</a>
                                     </h5>
                                     <div class="price-detail">
@@ -3199,22 +3199,22 @@
             <div class="footer-logo">
                 <!--Logo -->
                  <div class="logo-default">
-                     <a class="navbar-brand text-primary" href="../index.html">
+                     <a class="navbar-brand text-primary" href="{{ route('index') }}">
                          <img class="img-fluid logo" src="../template/assets/images/logo.webp" loading="lazy" alt="streamit" />
                      </a>
                  </div>
                  <div class="logo-hotstar">
-                     <a class="navbar-brand text-primary" href="../index.html">
+                     <a class="navbar-brand text-primary" href="{{ route('index') }}">
                          <img class="img-fluid logo" src="../template/assets/images/logo-hotstar.webp" loading="lazy" alt="streamit" />
                      </a>
                  </div>
                  <div class="logo-prime">
-                     <a class="navbar-brand text-primary" href="../index.html">
+                     <a class="navbar-brand text-primary" href="{{ route('index') }}">
                          <img class="img-fluid logo" src="../template/assets/images/logo-prime.webp" loading="lazy" alt="streamit" />
                      </a>
                  </div>
                  <div class="logo-hulu">
-                     <a class="navbar-brand text-primary" href="../index.html">
+                     <a class="navbar-brand text-primary" href="{{ route('index') }}">
                          <img class="img-fluid logo" src="../template/assets/images/logo-hulu.webp" loading="lazy" alt="streamit" />
                      </a>
                  </div>
@@ -3228,16 +3228,16 @@
             <h4 class="footer-link-title">Quick Links</h4>
             <ul class="list-unstyled footer-menu">
               <li class="mb-3">
-                <a href="../about-us.html" class="ms-3">about us</a>
+                <a href="{{ route('about') }}" class="ms-3">about us</a>
               </li>
               <li class="mb-3">
                 <a href="../blog/blog-listing.html" class="ms-3">Blog</a>
               </li>
               <li class="mb-3">
-                <a href="../pricing-plan.html" class="ms-3">Pricing Plan</a>
+                <a href="{{ route('pricingplan') }}" class="ms-3">Pricing Plan</a>
               </li>
               <li>
-                <a href="../faq.html" class="ms-3">FAQ</a>
+                <a href="{{ route('faq') }}" class="ms-3">FAQ</a>
               </li>
             </ul>
           </div>
@@ -3245,13 +3245,13 @@
             <h4 class="footer-link-title">Movies to watch</h4>
             <ul class="list-unstyled footer-menu">
               <li class="mb-3">
-                <a href="../view-all-movie.html" class="ms-3">Top trending</a>
+                <a href="../view-all-{{ route('movie') }}" class="ms-3">Top trending</a>
               </li>
               <li class="mb-3">
-                <a href="../view-all-movie.html" class="ms-3">Recommended</a>
+                <a href="../view-all-{{ route('movie') }}" class="ms-3">Recommended</a>
               </li>
               <li>
-                <a href="../view-all-movie.html" class="ms-3">Popular</a>
+                <a href="../view-all-{{ route('movie') }}" class="ms-3">Popular</a>
               </li>
             </ul>
           </div>
@@ -3259,13 +3259,13 @@
             <h4 class="footer-link-title">About company</h4>
             <ul class="list-unstyled footer-menu">
               <li class="mb-3">
-                <a href="../contact-us.html" class="ms-3">contact us</a>
+                <a href="{{ route('contact') }}" class="ms-3">contact us</a>
               </li>
               <li class="mb-3">
-                <a href="../privacy-policy.html" class="ms-3">privacy policy</a>
+                <a href="{{ route('privacypolicy') }}" class="ms-3">privacy policy</a>
               </li>
               <li>
-                <a href="../terms-of-use.html" class="ms-3">Terms of use</a>
+                <a href="{{ route('termsofuse') }}" class="ms-3">Terms of use</a>
               </li>
             </ul>
           </div>
@@ -3315,13 +3315,13 @@
                 <a href="#"> Terms Of Use </a>
               </li>
               <li id="menu-item-7316" class="menu-item">
-                <a href="../privacy-policy.html"> Privacy-Policy </a>
+                <a href="{{ route('privacypolicy') }}"> Privacy-Policy </a>
               </li>
               <li class="menu-item">
-                <a href="../faq.html"> FAQ </a>
+                <a href="{{ route('faq') }}"> FAQ </a>
               </li>
               <li class="menu-item">
-                <a href="../playlist.html"> Watch List </a>
+                <a href="{{ route('playlist') }}"> Watch List </a>
               </li>
             </ul>
             <p class="font-size-14">© <span class="currentYear"></span> <span class="text-primary">STREAMIT</span>. All Rights Reserved. All videos and shows on this platform are trademarks of, and all related images and content are the property of, Streamit Inc. Duplication and copy of this is strictly prohibited.</p>

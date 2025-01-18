@@ -85,7 +85,7 @@
                         <span class="line"></span>
                     </div>
                     <div class="iq-button">
-                        <a href="login.html" class="btn text-uppercase position-relative">
+                        <a href="{{ route('login') }}" class="btn text-uppercase position-relative">
                             <span class="button-text">log in</span>
                             <i class="fa-solid fa-play"></i>
                         </a>

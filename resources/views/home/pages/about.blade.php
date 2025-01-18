@@ -56,11 +56,11 @@
   <!-- loader END -->  <!-- loader END -->
   <main class="main-content">
       <!--Nav Start-->
-      <!-- Start Header Section -->
+      <!-- Start Footer Section -->
 
     @include('home.sections.header')
 
-    <!-- End Header Section -->
+    <!-- End Footer Section -->
        <!--Nav End-->
 
       <!--bread-crumb-->
@@ -71,7 +71,7 @@
                       <nav aria-label="breadcrumb" class="text-center">
                           <h2 class="title">About Us</h2>
                           <ol class="breadcrumb justify-content-center">
-                              <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                              <li class="breadcrumb-item"><a href="./{{ route('index') }}">Home</a></li>
                               <li class="breadcrumb-item active">About Us</li>
                           </ol>
                       </nav>
@@ -310,11 +310,11 @@
 
   </main>
 
-  <!-- Start Footer Section -->
+ <!-- Start Footer Section -->
 
-  @include('home.sections.footer')
+ @include('home.sections.footer')
 
-  <!-- End Footer Section -->
+ <!-- End Footer Section -->
 
   <div class="rtl-box">
       <a class="btn btn-icon btn-setting" id="settingbutton" data-bs-toggle="offcanvas"
