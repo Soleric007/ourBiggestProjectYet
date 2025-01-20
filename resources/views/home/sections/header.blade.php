@@ -2,11 +2,11 @@
     <nav class="nav navbar navbar-expand-xl navbar-light iq-navbar header-hover-menu py-xl-0">
        <div class="container-fluid navbar-inner">
           <div class="d-flex align-items-center justify-content-between w-100 landing-header">
-             <div class="d-flex gap-3 gap-xl-0 align-items-center">
+             <div class="gap-3 d-flex gap-xl-0 align-items-center">
                 <div>
                    <button type="button" data-bs-toggle="offcanvas" data-bs-target="#navbar_main"
                       aria-controls="navbar_main"
-                      class="d-xl-none btn btn-primary rounded-pill p-1 pt-0 toggle-rounded-btn">
+                      class="p-1 pt-0 d-xl-none btn btn-primary rounded-pill toggle-rounded-btn">
                       <svg width="20px" class="icon-20" viewBox="0 0 24 24">
                          <path fill="currentColor"
                             d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
@@ -38,7 +38,7 @@
              </div>
              <nav id="navbar_main" class="offcanvas mobile-offcanvas nav navbar navbar-expand-xl hover-nav horizontal-nav mega-menu-content py-xl-0">
                <div class="container-fluid p-lg-0">
-                 <div class="offcanvas-header px-0">
+                 <div class="px-0 offcanvas-header">
                    <div class="navbar-brand ms-3">
                      <!--Logo -->
                      <div class="logo-default">
@@ -62,53 +62,53 @@
                          </a>
                      </div>
                    </div>
-                   <button type="button" class="btn-close float-end px-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                   <button type="button" class="px-3 btn-close float-end" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                  </div>
-                 <ul class="navbar-nav iq-nav-menu  list-unstyled" id="header-menu">
+                 <ul class="navbar-nav iq-nav-menu list-unstyled" id="header-menu">
                    <li class="nav-item">
                      <a class="nav-link" data-bs-toggle="collapse" href="#homePages" role="button" aria-expanded="false" aria-controls="homePages">
                        <span class="item-name">Home</span>
                        <span class="menu-icon">
                          <i class="fa fa-caret-down toggledrop-desktop right-icon" aria-hidden="true"></i>
                          <span class="toggle-menu">
-                           <i class="fa fa-plus  arrow-active text-white" aria-hidden="true"></i>
-                           <i class="fa fa-minus  arrow-hover text-white" aria-hidden="true"></i>
+                           <i class="text-white fa fa-plus arrow-active" aria-hidden="true"></i>
+                           <i class="text-white fa fa-minus arrow-hover" aria-hidden="true"></i>
                          </span>
                        </span>
                      </a>
                      <ul class="sub-nav mega-menu-item collapse justify-content-center list-unstyled" id="homePages">
                        <li class="nav-item">
-                         <a class="nav-link p-0 active" href="./{{ route('index') }}">
+                         <a class="p-0 nav-link active" href="./{{ route('index') }}">
                            <img src="template/assets/images/mega-menu/new-home.webp" alt="img" class="img-fluid d-xl-block d-none">
                            <span class="d-inline-block ">OTT Home</span>
                          </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link p-0 " href="{{ route('home') }}">
+                         <a class="p-0 nav-link " href="{{ route('home') }}">
                            <img src="template/assets/images/mega-menu/home.webp" alt="img" class="img-fluid d-xl-block d-none">
                            <span class="d-inline-block ">Home</span>
                          </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link p-0 " href="{{ route('movie') }}">
+                         <a class="p-0 nav-link " href="{{ route('movie') }}">
                            <img src="template/assets/images/mega-menu/movie.webp" alt="img" class="img-fluid d-xl-block d-none">
                            <span class="d-inline-block ">Movie</span>
                          </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link p-0 " href="{{ route('tvshow') }}">
+                         <a class="p-0 nav-link " href="{{ route('tvshow') }}">
                            <img src="template/assets/images/mega-menu/tv-show.webp" alt="img" class="img-fluid d-xl-block d-none">
                            <span class="d-inline-block ">TV Show</span>
                          </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link p-0 " href="{{ route('video') }}">
+                         <a class="p-0 nav-link " href="{{ route('video') }}">
                            <img src="template/assets/images/mega-menu/video.webp" alt="img" class="img-fluid d-xl-block d-none">
                            <span class="d-inline-block ">Video</span>
                          </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link p-0 " href="{{ route('merchandisestore') }}">
+                         <a class="p-0 nav-link " href="{{ route('merchandisestore') }}">
                            <img src="template/assets/images/mega-menu/shop-home.webp" alt="img" class="img-fluid d-xl-block d-none">
                            <span class="d-inline-block ">Merchandise Store</span>
                          </a>
@@ -121,12 +121,12 @@
                        <span class="menu-icon">
                          <i class="fa fa-caret-down toggledrop-desktop right-icon" aria-hidden="true"></i>
                          <span class="toggle-menu">
-                           <i class="fa fa-plus  arrow-active text-white" aria-hidden="true"></i>
-                           <i class="fa fa-minus  arrow-hover text-white" aria-hidden="true"></i>
+                           <i class="text-white fa fa-plus arrow-active" aria-hidden="true"></i>
+                           <i class="text-white fa fa-minus arrow-hover" aria-hidden="true"></i>
                          </span>
                        </span>
                      </a>
-                     <ul class="sub-nav collapse  list-unstyled" id="features">
+                     <ul class="sub-nav collapse list-unstyled" id="features">
                        <li class="nav-item">
                          <a class="nav-link " href="{{ route('restrictedcontent') }}"> Restricted Content </a>
                        </li>
@@ -153,17 +153,17 @@
                        <span class="menu-icon">
                          <i class="fa fa-caret-down toggledrop-desktop right-icon" aria-hidden="true"></i>
                          <span class="toggle-menu">
-                           <i class="fa fa-plus  arrow-active text-white" aria-hidden="true"></i>
-                           <i class="fa fa-minus  arrow-hover text-white" aria-hidden="true"></i>
+                           <i class="text-white fa fa-plus arrow-active" aria-hidden="true"></i>
+                           <i class="text-white fa fa-minus arrow-hover" aria-hidden="true"></i>
                          </span>
                        </span>
                      </a>
-                     <ul class="sub-nav collapse  list-unstyled" id="pages">
+                     <ul class="sub-nav collapse list-unstyled" id="pages">
                        <li class="nav-item">
                          <a class="nav-link " href="{{ route('about') }}"> About Us </a>
                        </li>
                        <li class="nav-item">
-                         <a class="nav-link " href="{{ route('comingsoon') }}"> Contact Us </a>
+                         <a class="nav-link " href="{{ route('contact') }}"> Contact Us </a>
                        </li>
                        <li class="nav-item">
                          <a class="nav-link " href="{{ route('faq') }}"> FAQ </a>
@@ -183,12 +183,12 @@
                            <span class="menu-icon">
                              <i class="fa fa-caret-right toggledrop-desktop right-icon" aria-hidden="true"></i>
                              <span class="toggle-menu">
-                               <i class="fa fa-plus  arrow-active text-white" aria-hidden="true"></i>
-                               <i class="fa fa-minus  arrow-hover text-white" aria-hidden="true"></i>
+                               <i class="text-white fa fa-plus arrow-active" aria-hidden="true"></i>
+                               <i class="text-white fa fa-minus arrow-hover" aria-hidden="true"></i>
                              </span>
                            </span>
                          </a>
-                         <ul class="sub-nav collapse  list-unstyled" id="error-page">
+                         <ul class="sub-nav collapse list-unstyled" id="error-page">
                            <li class="nav-item">
                              <a class="nav-link " href="{{ route('error') }}"> Error Page 1 </a>
                            </li>
@@ -205,12 +205,12 @@
                        <span class="menu-icon">
                          <i class="fa fa-caret-down toggledrop-desktop right-icon" aria-hidden="true"></i>
                          <span class="toggle-menu">
-                           <i class="fa fa-plus  arrow-active text-white" aria-hidden="true"></i>
-                           <i class="fa fa-minus  arrow-hover text-white" aria-hidden="true"></i>
+                           <i class="text-white fa fa-plus arrow-active" aria-hidden="true"></i>
+                           <i class="text-white fa fa-minus arrow-hover" aria-hidden="true"></i>
                          </span>
                        </span>
                      </a>
-                     <ul class="sub-nav collapse  list-unstyled" id="blog">
+                     <ul class="sub-nav collapse list-unstyled" id="blog">
                        <li class="nav-item">
                          <a class="nav-link " href="blog/blog-listing.html"> Listing </a>
                        </li>
@@ -220,12 +220,12 @@
                            <span class="menu-icon">
                              <i class="fa fa-caret-right toggledrop-desktop right-icon" aria-hidden="true"></i>
                              <span class="toggle-menu">
-                               <i class="fa fa-plus  arrow-active text-white" aria-hidden="true"></i>
-                               <i class="fa fa-minus  arrow-hover text-white" aria-hidden="true"></i>
+                               <i class="text-white fa fa-plus arrow-active" aria-hidden="true"></i>
+                               <i class="text-white fa fa-minus arrow-hover" aria-hidden="true"></i>
                              </span>
                            </span>
                          </a>
-                         <ul class="sub-nav collapse  list-unstyled" id="blog-grid">
+                         <ul class="sub-nav collapse list-unstyled" id="blog-grid">
                            <li class="nav-item">
                              <a class="nav-link " href="blog/one-column.html"> 1 Column </a>
                            </li>
@@ -246,12 +246,12 @@
                            <span class="menu-icon">
                              <i class="fa fa-caret-right toggledrop-desktop right-icon" aria-hidden="true"></i>
                              <span class="toggle-menu">
-                               <i class="fa fa-plus  arrow-active text-white" aria-hidden="true"></i>
-                               <i class="fa fa-minus  arrow-hover text-white" aria-hidden="true"></i>
+                               <i class="text-white fa fa-plus arrow-active" aria-hidden="true"></i>
+                               <i class="text-white fa fa-minus arrow-hover" aria-hidden="true"></i>
                              </span>
                            </span>
                          </a>
-                         <ul class="sub-nav collapse  list-unstyled" id="blog-sidebar">
+                         <ul class="sub-nav collapse list-unstyled" id="blog-sidebar">
                            <li class="nav-item">
                              <a class="nav-link " href="blog/left-sidebar.html"> Left Sidebar </a>
                            </li>
@@ -266,12 +266,12 @@
                            <span class="menu-icon">
                              <i class="fa fa-caret-right toggledrop-desktop right-icon" aria-hidden="true"></i>
                              <span class="toggle-menu">
-                               <i class="fa fa-plus  arrow-active text-white" aria-hidden="true"></i>
-                               <i class="fa fa-minus  arrow-hover text-white" aria-hidden="true"></i>
+                               <i class="text-white fa fa-plus arrow-active" aria-hidden="true"></i>
+                               <i class="text-white fa fa-minus arrow-hover" aria-hidden="true"></i>
                              </span>
                            </span>
                          </a>
-                         <ul class="sub-nav collapse  list-unstyled" id="blog-single">
+                         <ul class="sub-nav collapse list-unstyled" id="blog-single">
                            <li class="nav-item">
                              <a class="nav-link " href="blog/blog-template.html"> Blog Template </a>
                            </li>
@@ -303,12 +303,12 @@
                        <span class="menu-icon">
                          <i class="fa fa-caret-down toggledrop-desktop right-icon" aria-hidden="true"></i>
                          <span class="toggle-menu">
-                           <i class="fa fa-plus  arrow-active text-white" aria-hidden="true"></i>
-                           <i class="fa fa-minus  arrow-hover text-white" aria-hidden="true"></i>
+                           <i class="text-white fa fa-plus arrow-active" aria-hidden="true"></i>
+                           <i class="text-white fa fa-minus arrow-hover" aria-hidden="true"></i>
                          </span>
                        </span>
                      </a>
-                     <ul class="sub-nav collapse  list-unstyled" id="shop">
+                     <ul class="sub-nav collapse list-unstyled" id="shop">
                        <li class="nav-item">
                          <a class="nav-link " href="{{ route('shop') }}"> Shop </a>
                        </li>
@@ -341,10 +341,10 @@
                    </span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                   <ul class="navbar-nav align-items-center ms-auto mb-2 mb-xl-0">
+                   <ul class="mb-2 navbar-nav align-items-center ms-auto mb-xl-0">
                       <li class="nav-item dropdown iq-responsive-menu">
                          <div class="search-box">
-                            <a href="#" class="nav-link p-0" id="search-drop" data-bs-toggle="dropdown">
+                            <a href="#" class="p-0 nav-link" id="search-drop" data-bs-toggle="dropdown">
                                <div class="btn-icon btn-sm rounded-pill btn-action">
                                   <span class="btn-inner">
                                      <svg class="icon-20" width="20" viewBox="0 0 24 24" fill="none"
@@ -359,10 +359,10 @@
                                   </span>
                                </div>
                             </a>
-                            <ul class="dropdown-menu p-0 dropdown-search m-0 iq-search-bar" style="width: 20rem;">
+                            <ul class="p-0 m-0 dropdown-menu dropdown-search iq-search-bar" style="width: 20rem;">
                                <li class="p-0">
-                                  <div class="form-group input-group mb-0">
-                                     <input type="text" class="form-control border-0" placeholder="Search...">
+                                  <div class="mb-0 form-group input-group">
+                                     <input type="text" class="border-0 form-control" placeholder="Search...">
                                      <button type="submit" class="search-submit">
                                         <svg class="icon-15" width="15" viewBox="0 0 24 24" fill="none"
                                            xmlns="http://www.w3.org/2000/svg">
@@ -402,14 +402,14 @@
                                </span>
                             </div>
                          </a>
-                         <ul class="dropdown-menu dropdown-menu-end dropdown-user border-0 p-0 m-0"
+                         <ul class="p-0 m-0 border-0 dropdown-menu dropdown-menu-end dropdown-user"
                             aria-labelledby="navbarDropdown">
-                            <li class="user-info d-flex align-items-center gap-3 mb-3">
+                            <li class="gap-3 mb-3 user-info d-flex align-items-center">
                                <img src="template/assets/images/user/user1.webp" class="img-fluid" alt="" loading="lazy">
-                               <span class="font-size-14 fw-500 text-capitalize text-white">Jenny</span>
+                               <span class="text-white font-size-14 fw-500 text-capitalize">Jenny</span>
                             </li>
                             <li>
-                               <a href="{{ route('playlist') }}" class="iq-sub-card d-flex align-items-center gap-3">
+                               <a href="{{ route('playlist') }}" class="gap-3 iq-sub-card d-flex align-items-center">
                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 22" fill="none">
                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M7.84455 20.6621C4.15273 20.6621 1 20.0876 1 17.7868C1 15.486 4.13273 13.3621 7.84455 13.3621C11.5364 13.3621 14.6891 15.4654 14.6891 17.7662C14.6891 20.066 11.5564 20.6621 7.84455 20.6621Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                      <path fill-rule="evenodd" clip-rule="evenodd" d="M7.83725 10.1738C10.26 10.1738 12.2236 8.21015 12.2236 5.78742C12.2236 3.36469 10.26 1.40015 7.83725 1.40015C5.41452 1.40015 3.44998 3.36469 3.44998 5.78742C3.4418 8.20196 5.3918 10.1656 7.80634 10.1738C7.81725 10.1738 7.82725 10.1738 7.83725 10.1738Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -418,7 +418,7 @@
                                </a>
                             </li>
                             <li>
-                               <a href="{{ route('playlist') }}" class="iq-sub-card d-flex align-items-center gap-3">
+                               <a href="{{ route('playlist') }}" class="gap-3 iq-sub-card d-flex align-items-center">
                                   <svg width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                      <path d="m0 0h24v24h-24z" fill="#fff" opacity="0"
                                         transform="matrix(-1 0 0 -1 24 24)" />
@@ -430,7 +430,7 @@
                                </a>
                             </li>
                             <li>
-                               <a href="{{ route('pricingplan') }}" class="iq-sub-card d-flex align-items-center gap-3">
+                               <a href="{{ route('pricingplan') }}" class="gap-3 iq-sub-card d-flex align-items-center">
                                   <svg width="16" height="16" stroke-width="1.5" viewBox="0 0 24 24" fill="none"
                                      xmlns="http://www.w3.org/2000/svg">
                                      <path
@@ -442,7 +442,7 @@
                             </li>
                             <li>
                                <a href="{{ route('login') }}"
-                                  class="iq-sub-card iq-logout-2 mt-1 d-flex justify-content-center gap-2">
+                                  class="gap-2 mt-1 iq-sub-card iq-logout-2 d-flex justify-content-center">
                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
                                      fill="none">
                                      <path

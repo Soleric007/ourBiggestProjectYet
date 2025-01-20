@@ -25,6 +25,8 @@
 
 
 
+  <!-- Sweetlaert2 css -->
+  <link rel="stylesheet" href="../template/assets/vendor/sweetalert2/sweetalert2.min.css"/>
 
 
 
@@ -204,7 +206,7 @@
                               <a class="nav-link " href="{{ route('about') }}"> About Us </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link " href="{{ route('comingsoon') }}"> Contact Us </a>
+                              <a class="nav-link " href="{{ route('contact') }}"> Contact Us </a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link " href="{{ route('faq') }}"> FAQ </a>
@@ -357,7 +359,7 @@
                               <a class="nav-link " href="{{ route('myaccount') }}"> My Account Page </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link " href="{{ route('cart') }}"> Cart Page </a>
+                              <a class="nav-link active" href="{{ route('cart') }}"> Cart Page </a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link " href="{{ route('wishlist') }}"> Wishlist Page </a>
@@ -366,7 +368,7 @@
                               <a class="nav-link " href="{{ route('checkout') }}"> Checkout Page </a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link active" href="{{ route('ordertracking') }}"> Order Tracking </a>
+                              <a class="nav-link " href="{{ route('ordertracking') }}"> Order Tracking </a>
                             </li>
                           </ul>
                         </li>
@@ -510,10 +512,10 @@
             <div class="row align-items-center">
                   <div class="col-sm-12">
                       <nav aria-label="breadcrumb" class="text-center">
-                          <h2 class="title">Order Tracking</h2>
+                          <h2 class="title">Cart</h2>
                           <ol class="breadcrumb justify-content-center">
                               <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
-                              <li class="breadcrumb-item active">Order Tracking</li>
+                              <li class="breadcrumb-item active">Cart</li>
                           </ol>
                       </nav>
                   </div>
@@ -521,17 +523,18 @@
          </div>
       </div>      <!--bread-crumb-->
 
-<section class="section-padding">
+<div class="cart-page section-padding">
     <div class="container">
         <div class="pb-0 mb-3 main-cart mb-md-5 pb-md-5">
             <ul
                 class="flex-wrap gap-3 cart-page-items d-flex justify-content-center list-inline align-items-center gap-md-5">
-                <li class="cart-page-item">
-                    <span class=" cart-pre-number border-radius rounded-circle me-1"> 1 </span>
+                <li class="cart-page-item active">
+                    <span class="cart-pre-heading badge cart-pre-number bg-primary border-radius rounded-circle me-1"> 1
+                    </span>
                     <span class="cart-page-link ">
                         Shopping Cart </span>
                 </li>
-                <li class="cart-page-item">
+                <li>
                     <svg width="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M12 21.2498C17.108 21.2498 21.25 17.1088 21.25 11.9998C21.25 6.89176 17.108 2.74976 12 2.74976C6.892 2.74976 2.75 6.89176 2.75 11.9998C2.75 17.1088 6.892 21.2498 12 21.2498Z"
@@ -541,12 +544,13 @@
                             stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg>
                 </li>
-                <li class="cart-page-item">
-                    <span class=" cart-pre-number border-radius rounded-circle me-1"> 2 </span>
+                <li>
+                    <span class=" cart-pre-number border-radius rounded-circle me-1">
+                        2 </span>
                     <span class="cart-page-link ">
                         Checkout </span>
                 </li>
-                <li class="cart-page-item">
+                <li>
                     <svg width="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                             d="M12 21.2498C17.108 21.2498 21.25 17.1088 21.25 11.9998C21.25 6.89176 17.108 2.74976 12 2.74976C6.892 2.74976 2.75 6.89176 2.75 11.9998C2.75 17.1088 6.892 21.2498 12 21.2498Z"
@@ -556,112 +560,213 @@
                             stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg>
                 </li>
-                <li class="cart-page-item active">
-                    <span class="cart-pre-heading badge bg-primary cart-pre-number border-radius rounded-circle me-1"> 3 </span>
+                <li>
+                    <span class=" cart-pre-number border-radius rounded-circle me-1"> 3 </span>
                     <span class="cart-page-link ">
                         Order Summary </span>
                 </li>
             </ul>
         </div>
-        <div class="order">
-            <p class="thank">Thank you. Your order has been received.</p>
-            <ul class="details list-inline">
-                <li class="detail">ORDER NUMBER:<strong>15823</strong></li>
-                <li class="detail">DATE:<strong>June 22, 2022</strong></li>
-                <li class="detail">EMAIL:<strong>jondoe@gmail.com</strong></li>
-                <li class="detail">TOTAL:<strong>$25.00</strong></li>
-                <li class="detail">PAYMENT METHOD:<strong>Direct bank transfer</strong></li>
-            </ul>
-        </div>
-        <h5 class="order_details">Order Details</h5>
         <div class="row">
             <div class="col-lg-8">
-                <section class="maintable">
-                    <table class="table table-border">
-                        <thead>
+                <div class="table-responsive">
+                    <table class="table cart-table">
+                        <thead class="border-bottom">
                             <tr>
-                                <th>Product</th>
-                                <th class="text-end">Total</th>
+                                <th scope="col" class="font-size-18 fw-500">Product</th>
+                                <th scope="col" class="font-size-18 fw-500">Price</th>
+                                <th scope="col" class="font-size-18 fw-500">Quantity</th>
+                                <th scope="col" class="font-size-18 fw-500">Subtotal</th>
+                                <th scope="col" class="font-size-18 fw-500"></th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr class="order_item">
+                            <tr data-item="list">
                                 <td>
-                                    Bag Pack <strong class="product-quantity">×&nbsp;1</strong>
+                                    <div class="gap-3 product-thumbnail d-flex align-items-center">
+                                        <a class="mb-2 d-block" href="">
+                                            <img class="avatar-80" src="../template/assets/images/shop/product/08.webp"
+                                                alt="">
+                                        </a>
+                                        <span class="text-white">Coffee Cup</span>
+                                    </div>
                                 </td>
-                                <td class="text-end">
-                                    <span class="amount"><bdi><span>$</span>25.00</bdi></span>
+                                <td>
+                                    <span class="fw-500">$15.00</span>
+                                </td>
+                                <td>
+                                    <div class="border border-white btn-group iq-qty-btn rounded-0" data-qty="btn" role="group">
+                                        <button type="button" class="text-white border-0 btn btn-sm btn-outline-light iq-quantity-minus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="3" viewBox="0 0 6 3" fill="none">
+                                            <path d="M5.22727 0.886364H0.136364V2.13636H5.22727V0.886364Z" fill="currentColor"></path>
+                                            </svg>
+                                        </button>
+                                        <input type="text" class="border-0 btn btn-sm btn-outline-light input-display" data-qty="input" pattern="^(0|[1-9][0-9]*)$" minlength="1" maxlength="2" value="2" title="Qty">
+                                        <button type="button" class="text-white border-0 btn btn-sm btn-outline-light iq-quantity-plus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8" viewBox="0 0 9 8" fill="none">
+                                            <path d="M3.63636 7.70455H4.90909V4.59091H8.02273V3.31818H4.90909V0.204545H3.63636V3.31818H0.522727V4.59091H3.63636V7.70455Z" fill="currentColor"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </td>
+                                <td>
+                                    <span class="fw-500">$123.00</span>
+                                </td>
+                                <td>
+                                    <button
+                                        class="bg-transparent border-0 btn btn-icon btn-danger delete-btn text-end text-body">
+                                        <span class="btn-inner">
+                                            <i class="far fa-trash-alt"></i>
+                                        </span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr data-item="list">
+                                <td>
+                                    <div class="gap-3 product-thumbnail d-flex align-items-center">
+                                        <a class="mb-2 d-block" href="">
+                                            <img class="avatar-80" src="../template/assets/images/shop/product/09.webp"
+                                                alt="">
+                                        </a>
+                                        <span class="text-white">Medical Box</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <span class="fw-500">$92.00</span>
+                                </td>
+                                <td>
+                                    <div class="border border-white btn-group iq-qty-btn rounded-0" data-qty="btn" role="group">
+                                        <button type="button" class="text-white border-0 btn btn-sm btn-outline-light iq-quantity-minus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="3" viewBox="0 0 6 3" fill="none">
+                                            <path d="M5.22727 0.886364H0.136364V2.13636H5.22727V0.886364Z" fill="currentColor"></path>
+                                            </svg>
+                                        </button>
+                                        <input type="text" class="border-0 btn btn-sm btn-outline-light input-display" data-qty="input" pattern="^(0|[1-9][0-9]*)$" minlength="1" maxlength="2" value="2" title="Qty">
+                                        <button type="button" class="text-white border-0 btn btn-sm btn-outline-light iq-quantity-plus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8" viewBox="0 0 9 8" fill="none">
+                                            <path d="M3.63636 7.70455H4.90909V4.59091H8.02273V3.31818H4.90909V0.204545H3.63636V3.31818H0.522727V4.59091H3.63636V7.70455Z" fill="currentColor"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </td>
+                                <td>
+                                    <span class="fw-500">$92.00</span>
+                                </td>
+                                <td>
+                                    <button
+                                        class="bg-transparent border-0 btn btn-icon btn-danger delete-btn text-end text-body">
+                                        <span class="btn-inner">
+                                            <i class="far fa-trash-alt"></i>
+                                        </span>
+                                    </button>
+
+                                </td>
+                            </tr>
+                            <tr data-item="list">
+                                <td>
+                                    <div class="gap-3 product-thumbnail d-flex align-items-center">
+                                        <a class="mb-2 d-block" href="">
+                                            <img class="avatar-80" src="../template/assets/images/shop/product/10.webp"
+                                                alt="">
+                                        </a>
+                                        <span class="text-white">Hand Sanitizer Bottle</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <span class="fw-500">$90.00</span>
+                                </td>
+                                <td>
+                                    <div class="border border-white btn-group iq-qty-btn rounded-0" data-qty="btn" role="group">
+                                        <button type="button" class="text-white border-0 btn btn-sm btn-outline-light iq-quantity-minus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="6" height="3" viewBox="0 0 6 3" fill="none">
+                                            <path d="M5.22727 0.886364H0.136364V2.13636H5.22727V0.886364Z" fill="currentColor"></path>
+                                            </svg>
+                                        </button>
+                                        <input type="text" class="border-0 btn btn-sm btn-outline-light input-display" data-qty="input" pattern="^(0|[1-9][0-9]*)$" minlength="1" maxlength="2" value="2" title="Qty">
+                                        <button type="button" class="text-white border-0 btn btn-sm btn-outline-light iq-quantity-plus">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8" viewBox="0 0 9 8" fill="none">
+                                            <path d="M3.63636 7.70455H4.90909V4.59091H8.02273V3.31818H4.90909V0.204545H3.63636V3.31818H0.522727V4.59091H3.63636V7.70455Z" fill="currentColor"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </td>
+                                <td>
+                                    <span class="fw-500">$90.00</span>
+                                </td>
+                                <td>
+                                    <button
+                                        class="bg-transparent border-0 btn btn-icon btn-danger delete-btn text-end text-body">
+                                        <span class="btn-inner">
+                                            <i class="far fa-trash-alt"></i>
+                                        </span>
+                                    </button>
+
                                 </td>
                             </tr>
                         </tbody>
-                        <tfoot>
-                            <tr class="order_item">
-                                <th>Subtotal:</th>
-                                <td class="text-end"><span class="amount text-primary"><span>$</span>25.00</span></td>
-                            </tr>
-                            <tr class="order_item">
-                                <th>Payment method:</th>
-                                <td class="text-end">Direct bank transfer</td>
-                            </tr>
-                            <tr>
-                                <th>Total:</th>
-                                <td class="text-end"><span class="amount text-primary"><span>$</span>25.00</span></td>
-                            </tr>
-                        </tfoot>
                     </table>
-                </section>
+                </div>
+                <div
+                    class="flex-wrap gap-5 pt-4 pb-5 coupon-main d-flex justify-content-between align-items-center border-bottom">
+                    <div class="flex-wrap gap-3 wrap-coupon d-flex align-items-center">
+                        <label>Coupon :</label>
+                        <input class="w-auto form-control d-inline-block me-2" name="coupon_code" type="text"
+                            placeholder="Coupon code">
+                        <div class=" d-inline-block">
+                            <div class="iq-button">
+                                <a href="#" class="btn text-uppercase position-relative">
+                                    <span class="button-text">Apply Coupon</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-primary">
+                        <div class="iq-button">
+                            <a href="#" class="btn text-uppercase position-relative">
+                                <span class="button-text">Update Cart</span>
+                                <i class="fa-solid fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-4">
-                <div class="bill_section">
-                    <address>
-                        <div class="table-responsive bill_table">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <td>Billing address </td>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="label-name">Name</td>
-                                        <td class="seprator"><span>:</span></td>
-                                        <td class="last-name">test</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="label-name">Company</td>
-                                        <td class="seprator"><span>:</span></td>
-                                        <td class="last-name">test</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="label-name">Country</td>
-                                        <td class="seprator"><span>:</span></td>
-                                        <td class="last-name">US</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="label-name">Address</td>
-                                        <td class="seprator"><span>:</span></td>
-                                        <td class="last-name">dccc</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="label-name">E-mail</td>
-                                        <td class="seprator"><span>:</span></td>
-                                        <td class="last-name">jondoe@gmail.com</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="label-name">Phone</td>
-                                        <td class="seprator"><span>:</span></td>
-                                        <td class="last-name">96465216515</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                <div class="p-4 cart_totals">
+                    <h5 class="mb-3 font-size-18 fw-500">Cart Totals</h5>
+                    <div class="css_prefix-woocommerce-cart-box table-responsive">
+                        <table class="table">
+                            <tbody>
+                                <tr class="cart-subtotal">
+                                    <th class="border-0"><span class="fw-500">Subtotal</span></th>
+                                    <td class="border-0">
+                                        <span>$305.00</span>
+                                    </td>
+                                </tr>
+                                <tr class="order-total">
+                                    <th class="border-0">
+                                            <span class="fw-500"> Total </span>
+                                             </th>
+                                    <td class="border-0">
+                                        <span class="fw-500 text-primary">$305.00</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="button-primary">
+                            <div class="iq-button">
+                                <a href="{{ route('checkout') }}" class="btn text-uppercase position-relative">
+                                    <span class="button-text">Proceed to checkout</span>
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
                         </div>
-                    </address>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
-
+</div>
   </main>
 
   <footer class="footer footer-default">
@@ -920,6 +1025,9 @@
   <script src="../template/assets/js/core/libs.min.js"></script>
   <!-- Plugin Scripts -->
 
+  <!-- Sweet-alert Script -->
+  <script src="../template/assets/vendor/sweetalert2/sweetalert2.min.js" async></script>
+  <script src="../template/assets/js/plugins/sweet-alert.js" defer></script>
 
 
 
