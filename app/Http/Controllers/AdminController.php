@@ -14,5 +14,8 @@ use RealRashid\SweetAlert\Facades\Alert;
 
 class AdminController extends Controller
 {
-    
+    public function dashboard()
+    {
+        return view('admin.index');
+    }
 }

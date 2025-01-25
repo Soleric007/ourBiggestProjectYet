@@ -1,14 +1,24 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
-use App\Http\Controllers\AgentController;
-use App\Http\Controllers\ProductController;
-use App\Http\Controllers\OrderController;
-use App\Http\Controllers\StripePaymentController;
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\MailController;
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// })->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+});
+
 
 Route::get('/', [HomeController::class, 'index'])->name('index');
 
@@ -16,9 +26,9 @@ Route::get('/', [HomeController::class, 'index'])->name('index');
 //     return view('dashboard');
 // })->middleware(['auth', 'verified'])->name('dashboard');
 
-
-
-
+Route::middleware(['auth', 'role:admin'])->group(function(){
+    Route::get('/admin/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
+});
 
 
 Route::get('/termsofuse', [HomeController::class, 'showTermsofuse'])->name('termsofuse');
@@ -60,3 +70,6 @@ Route::get('/faq', [HomeController::class, 'showFaq'])->name('faq');
 Route::get('/contact', [HomeController::class, 'showContact'])->name('contact');
 Route::get('/watchlist', [HomeController::class, 'showWatchlist'])->name('watchlist');
 
+
+
+require __DIR__.'/auth.php';
