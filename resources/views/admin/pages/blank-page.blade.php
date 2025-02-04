@@ -53,7 +53,8 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300&amp;display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="../../../../public/admin/assets/vendor/select2/dist/css/select2.min.css"></head>
+    <link rel="stylesheet" href="../../../../public/admin/assets/vendor/select2/dist/css/select2.min.css">@vite('resources/css/app.css')
+  </head>
 
 <body class="">
     <!-- loader Start -->

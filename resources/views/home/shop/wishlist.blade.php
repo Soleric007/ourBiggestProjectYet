@@ -44,7 +44,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&amp;display=swap" rel="stylesheet">
 
-</head>
+@vite('resources/css/app.css')
+  </head>
 
 <body class="  ">
   <span class="screen-darken"></span>

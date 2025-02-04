@@ -460,6 +460,9 @@
                                         </span>
                                     </div>
                                 </a>
+                                
+
+
                                 <ul class="p-0 m-0 border-0 dropdown-menu dropdown-menu-end dropdown-user"
                                     aria-labelledby="navbarDropdown">
                                     @if (Route::has('login'))
@@ -467,7 +470,7 @@
                                             <li class="gap-3 mb-3 user-info d-flex align-items-center">
                                                 <img src="template/assets/images/user/user1.webp" class="img-fluid"
                                                     alt="" loading="lazy">
-                                                <span class="text-white font-size-14 fw-500 text-capitalize">Jenny</span>
+                                                <span class="text-white font-size-14 fw-500 text-capitalize">{{$user->first_name . " " . $user->last_name}}</span>
                                             </li>
                                             <li>
                                                 <a href="{{ route('playlist') }}"
@@ -516,6 +519,7 @@
                                             </li>
                                             <li>
                                                 <form method="POST" action="{{ route('logout') }}">
+                                                    @csrf
                                                     <button type="submit"
                                                         class="gap-2 mt-1 iq-sub-card iq-logout-2 d-flex justify-content-center">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="16"

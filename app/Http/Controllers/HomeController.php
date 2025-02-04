@@ -13,8 +13,9 @@ class HomeController extends Controller
     //
     public function index()
 {
+    $user = Auth::user();
 
-    return view('home.pages.index');
+    return view('home.pages.index', compact('user'));
 }
 
     public function showAboutUs()

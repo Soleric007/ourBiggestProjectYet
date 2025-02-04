@@ -44,7 +44,8 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&amp;display=swap"
         rel="stylesheet">
 
-</head>
+@vite('resources/css/app.css')
+  </head>
 
 <body class="  ">
     <span class="screen-darken"></span>
@@ -71,46 +72,46 @@
                     <div class="col-lg-8 col-md-12 align-self-center">
                         <div class="user-login-card bg-body">
                             <h4 class="text-center mb-5">Create Your Account</h4>
-                            <form method="POST" action="{{ route('register') }}">
+                            <form method="POST" action="{{ route('register.store') }}">
                                 @csrf
                                 <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-5">
                                     <div class="col">
                                         <label class="text-white fw-500 mb-2">First Name</label>
                                         <input type="text" class="form-control rounded-0" name="first_name"
-                                            :value="old('first_name')" required autofocus autocomplete="name">
+                                            :value="old('first_name')" required autofocus autocomplete="first_name">
                                         <x-input-error :messages="$errors->get('first_name')" class="mt-2" />
 
                                     </div>
                                     <div class="col">
                                         <label class="text-white fw-500 mb-2">Last Name</label>
                                         <input type="text" class="form-control rounded-0" name="last_name"
-                                            :value="old('last_name')" required autofocus autocomplete="name">
+                                            :value="old('last_name')" required autofocus autocomplete="last_name">
                                         <x-input-error :messages="$errors->get('last_name')" class="mt-2" />
                                     </div>
                                     <div class="col">
                                         <label class="text-white fw-500 mb-2">Username *</label>
                                         <input type="text" class="form-control rounded-0" name="username"
-                                            :value="old('username')" required autofocus autocomplete="name">
+                                            :value="old('username')" required autofocus autocomplete="username">
                                         <x-input-error :messages="$errors->get('username')" class="mt-2" />
 
                                     </div>
                                     <div class="col">
                                         <label class="text-white fw-500 mb-2">Email *</label>
                                         <input type="email" class="form-control rounded-0" name="email"
-                                            :value="old('email')" required autofocus autocomplete="name">
+                                            :value="old('email')" required autofocus autocomplete="email">
                                         <x-input-error :messages="$errors->get('email')" class="mt-2" />
                                     </div>
                                     <div class="col">
                                         <label class="text-white fw-500 mb-2">Password *</label>
                                         <input type="password" class="form-control rounded-0" name="password" required
-                                            autofocus autocomplete="name">
+                                            autofocus autocomplete="password">
                                         <x-input-error :messages="$errors->get('password')" class="mt-2" />
 
                                     </div>
                                     <div class="col">
                                         <label class="text-white fw-500 mb-2">Confirm Password *</label>
                                         <input type="password" class="form-control rounded-0"
-                                            name="password_confirmation" required autofocus autocomplete="name">
+                                            name="password_confirmation" required autofocus autocomplete="password">
                                         <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
 
                                     </div>
@@ -123,7 +124,7 @@
                                     <div class="col-lg-6">
                                         <div class="full-button">
                                             <div class="iq-button">
-                                                <button class="btn text-uppercase position-relative">
+                                                <button type="submit" class="btn text-uppercase position-relative">
                                                     <span class="button-text">Sign Up</span>
                                                     <i class="fa-solid fa-play"></i>
                                                 </button>
